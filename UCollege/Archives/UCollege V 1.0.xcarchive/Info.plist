@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/College4U.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.moappsco.college4u</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.00</string>
+		<key>CFBundleVersion</key>
+		<string>1.0</string>
+		<key>IconPaths</key>
+		<array>
+			<string>Applications/College4U.app/College4U App Icon.png</string>
+		</array>
+		<key>SigningIdentity</key>
+		<string>iPhone Distribution: Aparna Sriram</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2013-03-30T02:27:24Z</date>
+	<key>Name</key>
+	<string>College4U</string>
+	<key>SchemeName</key>
+	<string>College4U</string>
+</dict>
+</plist>

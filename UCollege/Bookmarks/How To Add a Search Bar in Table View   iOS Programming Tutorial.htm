@@ -1,0 +1,695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0057)http://www.appcoda.com/how-to-add-search-bar-uitableview/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>How To Add a Search Bar in Table View | iOS Programming Tutorial</title>
+<link rel="Shortcut Icon" href="http://www.appcoda.com/wp-content/themes/eleven40/images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/style.css" type="text/css" media="screen">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.3.4.4 - http://yoast.com/wordpress/seo/ -->
+<meta name="description" content="This tutorial shows you how to add a search bar in table view using UISearchDisplayController. In addition, we&#39;ll show you how to handle row selection in the search result.">
+<meta name="keywords" content="uisearchdisplaycontroller,searchbar,iphone,ios,ios programming,uitableview,ios programming tutorial">
+<link rel="canonical" href="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/How To Add a Search Bar in Table View   iOS Programming Tutorial.htm">
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="AppCoda » Feed" href="http://feeds.feedburner.com/appcoda">
+<link rel="alternate" type="application/rss+xml" title="AppCoda » Comments Feed" href="http://www.appcoda.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="AppCoda » How To Add Search Bar in Table View Comments Feed" href="http://www.appcoda.com/how-to-add-search-bar-uitableview/feed/">
+<link rel="stylesheet" id="o3-ss-styles-css" href="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/o3-social-share-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="codecolorer-css" href="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/codecolorer.css" type="text/css" media="screen">
+<script async="" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/saved_resource"></script><script src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/plusone.js" gapi_processed="true"></script><script type="text/javascript" async="" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/plusone.js" gapi_processed="true"></script><script id="facebook-jssdk" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/all.js"></script><script id="twitter-wjs" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/widgets.js"></script><script type="text/javascript" async="" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/ga.js"></script><script type="text/javascript" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/jquery.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/fluidimage.js"></script>
+<script type="text/javascript" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/comment-reply.min.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.appcoda.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.appcoda.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 3.5.1">
+<link rel="shortlink" href="http://www.appcoda.com/?p=587">
+<link rel="pingback" href="http://www.appcoda.com/xmlrpc.php">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-223304-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/nonSecureAnonymousFramework"></script><script type="text/javascript" async="" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/embed.js"></script><script type="text/javascript" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/count.js"></script><style type="text/css">* html #li_ui_li_gen_1362571908847_0 a#li_ui_li_gen_1362571908847_0-link{height:1% !important;}#li_ui_li_gen_1362571908847_0{position:relative !important;overflow:visible !important;display:block !important;}#li_ui_li_gen_1362571908847_0 a#li_ui_li_gen_1362571908847_0-link{border:0 !important;height:20px !important;text-decoration:none !important;padding:0 !important;margin:0 !important;display:inline-block !important;}#li_ui_li_gen_1362571908847_0 a#li_ui_li_gen_1362571908847_0-link:link, #li_ui_li_gen_1362571908847_0 a#li_ui_li_gen_1362571908847_0-link:visited, #li_ui_li_gen_1362571908847_0 a#li_ui_li_gen_1362571908847_0-link:hover, #li_ui_li_gen_1362571908847_0 a#li_ui_li_gen_1362571908847_0-link:active{border:0 !important;text-decoration:none !important;}#li_ui_li_gen_1362571908847_0 a#li_ui_li_gen_1362571908847_0-link:after{content:"." !important;display:block !important;clear:both !important;visibility:hidden !important;line-height:0 !important;height:0 !important;}#li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-logo{background:url(http://static.licdn.com/scds/common/u/img/sprite/sprite_connect_v13.png) 0px -276px no-repeat !important;cursor:pointer !important;border:0 !important;text-indent:-9999em !important;overflow:hidden !important;padding:0 !important;margin:0 !important;position:absolute !important;left:0px !important;top:0px !important;display:block !important;width:20px !important;height:20px !important;float:right !important;}#li_ui_li_gen_1362571908847_0.hovered #li_ui_li_gen_1362571908847_0-logo{background-position:-20px -276px !important;}#li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-logo, #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-logo{background-position:-40px -276px !important;}.IN-shadowed #li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-logo{}#li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title{color:#333 !important;cursor:pointer !important;display:block !important;white-space:nowrap !important;float:left !important;margin-left:1px !important;vertical-align:top !important;overflow:hidden !important;text-align:center !important;height:18px !important;padding:0 4px 0 23px !important;border:1px solid #000 !important;border-top-color:#E2E2E2 !important;border-right-color:#BFBFBF !important;border-bottom-color:#B9B9B9 !important;border-left-color:#E2E2E2 !important;border-left:0 !important;text-shadow:#FFFFFF -1px 1px 0 !important;line-height:20px !important;border-radius:0 !important;-webkit-border-radius:0 !important;border-top-right-radius:2px !important;border-bottom-right-radius:2px !important;-webkit-border-top-right-radius:2px !important;-webkit-border-bottom-right-radius:2px !important;background-color:#ECECEC !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEFEFE), color-stop(100%,#ECECEC)) !important; background-image: -webkit-linear-gradient(top, #FEFEFE 0%, #ECECEC 100%) !important;}#li_ui_li_gen_1362571908847_0.hovered #li_ui_li_gen_1362571908847_0-title{border:1px solid #000 !important;border-top-color:#ABABAB !important;border-right-color:#9A9A9A !important;border-bottom-color:#787878 !important;border-left-color:#04568B !important;border-left:0 !important;background-color:#EDEDED !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#EDEDED), color-stop(100%,#DEDEDE)) !important; background-image: -webkit-linear-gradient(top, #EDEDED 0%, #DEDEDE 100%) !important;}#li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-title, #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-title{color:#666 !important;border:1px solid #000 !important;border-top-color:#B6B6B6 !important;border-right-color:#B3B3B3 !important;border-bottom-color:#9D9D9D !important;border-left-color:#49627B !important;border-left:0 !important;background-color:#DEDEDE !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#E3E3E3), color-stop(100%,#EDEDED)) !important; background-image: -webkit-linear-gradient(top, #E3E3E3 0%, #EDEDED 100%) !important;}.IN-shadowed #li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title{}.IN-shadowed #li_ui_li_gen_1362571908847_0.hovered #li_ui_li_gen_1362571908847_0-title{}.IN-shadowed #li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-title, .IN-shadowed #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-title{}#li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title-text, #li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title-text *{color:#333 !important;font-size:11px !important;font-family:Arial, sans-serif !important;font-weight:bold !important;font-style:normal !important;display:inline-block !important;background:transparent none !important;vertical-align:baseline !important;height:18px !important;line-height:20px !important;float:none !important;}#li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title-text strong{font-weight:bold !important;}#li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title-text em{font-style:italic !important;}#li_ui_li_gen_1362571908847_0.hovered #li_ui_li_gen_1362571908847_0-title-text, #li_ui_li_gen_1362571908847_0.hovered #li_ui_li_gen_1362571908847_0-title-text *{color:#000 !important;}#li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-title-text, #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-title-text, #li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-title-text *, #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-title-text *{color:#666 !important;}#li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title #li_ui_li_gen_1362571908847_0-mark{display:inline-block !important;width:0px !important;overflow:hidden !important;}.success #li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title{color:#333 !important;border-top-color:#E2E2E2 !important;border-right-color:#BFBFBF !important;border-bottom-color:#B9B9B9 !important;border-left-color:#E2E2E2 !important;background-color:#ECECEC !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEFEFE), color-stop(100%,#ECECEC)) !important; background-image: -webkit-linear-gradient(top, #FEFEFE 0%, #ECECEC 100%) !important;}.success #li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title-text, .success #li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title-text *{color:#333 !important;}.IN-shadowed .success #li_ui_li_gen_1362571908847_0 #li_ui_li_gen_1362571908847_0-title{}.success #li_ui_li_gen_1362571908847_0.hovered #li_ui_li_gen_1362571908847_0-title{color:#000 !important;border-top-color:#ABABAB !important;border-right-color:#9A9A9A !important;border-bottom-color:#787878 !important;border-left-color:#04568B !important;background-color:#EDEDED !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#EDEDED), color-stop(100%,#DEDEDE)) !important; background-image: -webkit-linear-gradient(top, #EDEDED 0%, #DEDEDE 100%) !important;}.success #li_ui_li_gen_1362571908847_0.hovered #li_ui_li_gen_1362571908847_0-title-text, .success #li_ui_li_gen_1362571908847_0.hovered #li_ui_li_gen_1362571908847_0-title-text *{color:#000 !important;}.success #li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-title, .success #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-title{color:#666 !important;border-top-color:#B6B6B6 !important;border-right-color:#B3B3B3 !important;border-bottom-color:#9D9D9D !important;border-left-color:#49627B !important;background-color:#DEDEDE !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#E3E3E3), color-stop(100%,#EDEDED)) !important; background-image: -webkit-linear-gradient(top, #E3E3E3 0%, #EDEDED 100%) !important;}.success #li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-title-text, .success #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-title-text, .success #li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-title-text *, .success #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-title-text *{color:#666 !important;}.IN-shadowed .success #li_ui_li_gen_1362571908847_0.clicked #li_ui_li_gen_1362571908847_0-title, .IN-shadowed .success #li_ui_li_gen_1362571908847_0.down #li_ui_li_gen_1362571908847_0-title{}* html #li_ui_li_gen_1362571908894_1 a#li_ui_li_gen_1362571908894_1-link{height:1% !important;}#li_ui_li_gen_1362571908894_1{position:relative !important;overflow:visible !important;display:block !important;}#li_ui_li_gen_1362571908894_1 a#li_ui_li_gen_1362571908894_1-link{border:0 !important;height:20px !important;text-decoration:none !important;padding:0 !important;margin:0 !important;display:inline-block !important;}#li_ui_li_gen_1362571908894_1 a#li_ui_li_gen_1362571908894_1-link:link, #li_ui_li_gen_1362571908894_1 a#li_ui_li_gen_1362571908894_1-link:visited, #li_ui_li_gen_1362571908894_1 a#li_ui_li_gen_1362571908894_1-link:hover, #li_ui_li_gen_1362571908894_1 a#li_ui_li_gen_1362571908894_1-link:active{border:0 !important;text-decoration:none !important;}#li_ui_li_gen_1362571908894_1 a#li_ui_li_gen_1362571908894_1-link:after{content:"." !important;display:block !important;clear:both !important;visibility:hidden !important;line-height:0 !important;height:0 !important;}#li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-logo{background:url(http://static.licdn.com/scds/common/u/img/sprite/sprite_connect_v13.png) 0px -276px no-repeat !important;cursor:pointer !important;border:0 !important;text-indent:-9999em !important;overflow:hidden !important;padding:0 !important;margin:0 !important;position:absolute !important;left:0px !important;top:0px !important;display:block !important;width:20px !important;height:20px !important;float:right !important;}#li_ui_li_gen_1362571908894_1.hovered #li_ui_li_gen_1362571908894_1-logo{background-position:-20px -276px !important;}#li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-logo, #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-logo{background-position:-40px -276px !important;}.IN-shadowed #li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-logo{}#li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title{color:#333 !important;cursor:pointer !important;display:block !important;white-space:nowrap !important;float:left !important;margin-left:1px !important;vertical-align:top !important;overflow:hidden !important;text-align:center !important;height:18px !important;padding:0 4px 0 23px !important;border:1px solid #000 !important;border-top-color:#E2E2E2 !important;border-right-color:#BFBFBF !important;border-bottom-color:#B9B9B9 !important;border-left-color:#E2E2E2 !important;border-left:0 !important;text-shadow:#FFFFFF -1px 1px 0 !important;line-height:20px !important;border-radius:0 !important;-webkit-border-radius:0 !important;border-top-right-radius:2px !important;border-bottom-right-radius:2px !important;-webkit-border-top-right-radius:2px !important;-webkit-border-bottom-right-radius:2px !important;background-color:#ECECEC !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEFEFE), color-stop(100%,#ECECEC)) !important; background-image: -webkit-linear-gradient(top, #FEFEFE 0%, #ECECEC 100%) !important;}#li_ui_li_gen_1362571908894_1.hovered #li_ui_li_gen_1362571908894_1-title{border:1px solid #000 !important;border-top-color:#ABABAB !important;border-right-color:#9A9A9A !important;border-bottom-color:#787878 !important;border-left-color:#04568B !important;border-left:0 !important;background-color:#EDEDED !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#EDEDED), color-stop(100%,#DEDEDE)) !important; background-image: -webkit-linear-gradient(top, #EDEDED 0%, #DEDEDE 100%) !important;}#li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-title, #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-title{color:#666 !important;border:1px solid #000 !important;border-top-color:#B6B6B6 !important;border-right-color:#B3B3B3 !important;border-bottom-color:#9D9D9D !important;border-left-color:#49627B !important;border-left:0 !important;background-color:#DEDEDE !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#E3E3E3), color-stop(100%,#EDEDED)) !important; background-image: -webkit-linear-gradient(top, #E3E3E3 0%, #EDEDED 100%) !important;}.IN-shadowed #li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title{}.IN-shadowed #li_ui_li_gen_1362571908894_1.hovered #li_ui_li_gen_1362571908894_1-title{}.IN-shadowed #li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-title, .IN-shadowed #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-title{}#li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title-text, #li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title-text *{color:#333 !important;font-size:11px !important;font-family:Arial, sans-serif !important;font-weight:bold !important;font-style:normal !important;display:inline-block !important;background:transparent none !important;vertical-align:baseline !important;height:18px !important;line-height:20px !important;float:none !important;}#li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title-text strong{font-weight:bold !important;}#li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title-text em{font-style:italic !important;}#li_ui_li_gen_1362571908894_1.hovered #li_ui_li_gen_1362571908894_1-title-text, #li_ui_li_gen_1362571908894_1.hovered #li_ui_li_gen_1362571908894_1-title-text *{color:#000 !important;}#li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-title-text, #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-title-text, #li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-title-text *, #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-title-text *{color:#666 !important;}#li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title #li_ui_li_gen_1362571908894_1-mark{display:inline-block !important;width:0px !important;overflow:hidden !important;}.success #li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title{color:#333 !important;border-top-color:#E2E2E2 !important;border-right-color:#BFBFBF !important;border-bottom-color:#B9B9B9 !important;border-left-color:#E2E2E2 !important;background-color:#ECECEC !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEFEFE), color-stop(100%,#ECECEC)) !important; background-image: -webkit-linear-gradient(top, #FEFEFE 0%, #ECECEC 100%) !important;}.success #li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title-text, .success #li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title-text *{color:#333 !important;}.IN-shadowed .success #li_ui_li_gen_1362571908894_1 #li_ui_li_gen_1362571908894_1-title{}.success #li_ui_li_gen_1362571908894_1.hovered #li_ui_li_gen_1362571908894_1-title{color:#000 !important;border-top-color:#ABABAB !important;border-right-color:#9A9A9A !important;border-bottom-color:#787878 !important;border-left-color:#04568B !important;background-color:#EDEDED !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#EDEDED), color-stop(100%,#DEDEDE)) !important; background-image: -webkit-linear-gradient(top, #EDEDED 0%, #DEDEDE 100%) !important;}.success #li_ui_li_gen_1362571908894_1.hovered #li_ui_li_gen_1362571908894_1-title-text, .success #li_ui_li_gen_1362571908894_1.hovered #li_ui_li_gen_1362571908894_1-title-text *{color:#000 !important;}.success #li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-title, .success #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-title{color:#666 !important;border-top-color:#B6B6B6 !important;border-right-color:#B3B3B3 !important;border-bottom-color:#9D9D9D !important;border-left-color:#49627B !important;background-color:#DEDEDE !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#E3E3E3), color-stop(100%,#EDEDED)) !important; background-image: -webkit-linear-gradient(top, #E3E3E3 0%, #EDEDED 100%) !important;}.success #li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-title-text, .success #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-title-text, .success #li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-title-text *, .success #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-title-text *{color:#666 !important;}.IN-shadowed .success #li_ui_li_gen_1362571908894_1.clicked #li_ui_li_gen_1362571908894_1-title, .IN-shadowed .success #li_ui_li_gen_1362571908894_1.down #li_ui_li_gen_1362571908894_1-title{}</style><script src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/alfie.js" async="" charset="UTF-8"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border-spacing:0;border:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+/* @noflip */
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+/* @noflip */
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+/* @noflip */
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+/* @noflip */
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;left:-10000px;overflow:visible;position:absolute;top:-10000px;width:100%
+}
+.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0 0, 0 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0 0, 0 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{position:relative;display:-moz-inline-block;display:inline-block}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify;vertical-align:text-bottom}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_fluid span{width:100%}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_button_simple,
+.fb_button_simple_rtl{background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yH/r/eIpbnVKI9lR.png);background-repeat:no-repeat;cursor:pointer;outline:none;text-decoration:none}
+.fb_button_simple_rtl{background-position:right 0}
+.fb_button_simple .fb_button_text{margin:0 0 0 20px;padding-bottom:1px}
+.fb_button_simple_rtl .fb_button_text{margin:0 10px 0 0}
+a.fb_button_simple:hover .fb_button_text,
+a.fb_button_simple_rtl:hover .fb_button_text,
+.fb_button_simple:hover .fb_button_text,
+.fb_button_simple_rtl:hover .fb_button_text{text-decoration:underline}
+.fb_button,
+.fb_button_rtl{background:#29447e url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/FGFbc80dUKj.png);background-repeat:no-repeat;cursor:pointer;display:inline-block;padding:0 0 0 1px;text-decoration:none;outline:none}
+.fb_button .fb_button_text,
+.fb_button_rtl .fb_button_text{background:#5f78ab url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/FGFbc80dUKj.png);border-top:solid 1px #879ac0;border-bottom:solid 1px #1a356e;color:#fff;display:block;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-weight:bold;padding:2px 6px 3px 6px;margin:1px 1px 0 21px;text-shadow:none}
+a.fb_button,
+a.fb_button_rtl,
+.fb_button,
+.fb_button_rtl{text-decoration:none}
+a.fb_button:active .fb_button_text,
+a.fb_button_rtl:active .fb_button_text,
+.fb_button:active .fb_button_text,
+.fb_button_rtl:active .fb_button_text{border-bottom:solid 1px #29447e;border-top:solid 1px #45619d;background:#4f6aa3;text-shadow:none}
+.fb_button_xlarge,
+.fb_button_xlarge_rtl{background-position:left -60px;font-size:24px;line-height:30px}
+.fb_button_xlarge .fb_button_text{padding:3px 8px 3px 12px;margin-left:38px}
+a.fb_button_xlarge:active{background-position:left -99px}
+.fb_button_xlarge_rtl{background-position:right -268px}
+.fb_button_xlarge_rtl .fb_button_text{padding:3px 8px 3px 12px;margin-right:39px}
+a.fb_button_xlarge_rtl:active{background-position:right -307px}
+.fb_button_large,
+.fb_button_large_rtl{background-position:left -138px;font-size:13px;line-height:16px}
+.fb_button_large .fb_button_text{margin-left:24px;padding:2px 6px 4px 6px}
+a.fb_button_large:active{background-position:left -163px}
+.fb_button_large_rtl{background-position:right -346px}
+.fb_button_large_rtl .fb_button_text{margin-right:25px}
+a.fb_button_large_rtl:active{background-position:right -371px}
+.fb_button_medium,
+.fb_button_medium_rtl{background-position:left -188px;font-size:11px;line-height:14px}
+a.fb_button_medium:active{background-position:left -210px}
+.fb_button_medium_rtl{background-position:right -396px}
+.fb_button_text_rtl,
+.fb_button_medium_rtl .fb_button_text{padding:2px 6px 3px 6px;margin-right:22px}
+a.fb_button_medium_rtl:active{background-position:right -418px}
+.fb_button_small,
+.fb_button_small_rtl{background-position:left -232px;font-size:10px;line-height:10px}
+.fb_button_small .fb_button_text{padding:2px 6px 3px;margin-left:17px}
+a.fb_button_small:active,
+.fb_button_small:active{background-position:left -250px}
+.fb_button_small_rtl{background-position:right -440px}
+.fb_button_small_rtl .fb_button_text{padding:2px 6px;margin-right:18px}
+a.fb_button_small_rtl:active{background-position:right -458px}
+.fb_share_count_wrapper{position:relative;float:left}
+.fb_share_count{background:#b0b9ec none repeat scroll 0 0;color:#333;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;text-align:center}
+.fb_share_count_inner{background:#e8ebf2;display:block}
+.fb_share_count_right{margin-left:-1px;display:inline-block}
+.fb_share_count_right .fb_share_count_inner{border-top:solid 1px #e8ebf2;border-bottom:solid 1px #b0b9ec;margin:1px 1px 0 1px;font-size:10px;line-height:10px;padding:2px 6px 3px;font-weight:bold}
+.fb_share_count_top{display:block;letter-spacing:-1px;line-height:34px;margin-bottom:7px;font-size:22px;border:solid 1px #b0b9ec}
+.fb_share_count_nub_top{border:none;display:block;position:absolute;left:7px;top:35px;margin:0;padding:0;width:6px;height:7px;background-repeat:no-repeat;background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yU/r/bSOHtKbCGYI.png)}
+.fb_share_count_nub_right{border:none;display:inline-block;padding:0;width:5px;height:10px;background-repeat:no-repeat;background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yX/r/i_oIVTKMYsL.png);vertical-align:top;background-position:right 5px;z-index:10;left:2px;margin:0 2px 0 0;position:relative}
+.fb_share_no_count{display:none}
+.fb_share_size_Small .fb_share_count_right .fb_share_count_inner{font-size:10px}
+.fb_share_size_Medium .fb_share_count_right .fb_share_count_inner{font-size:11px;padding:2px 6px 3px;letter-spacing:-1px;line-height:14px}
+.fb_share_size_Large .fb_share_count_right .fb_share_count_inner{font-size:13px;line-height:16px;padding:2px 6px 4px;font-weight:normal;letter-spacing:-1px}
+.fb_share_count_hidden .fb_share_count_nub_top,
+.fb_share_count_hidden .fb_share_count_top,
+.fb_share_count_hidden .fb_share_count_nub_right,
+.fb_share_count_hidden .fb_share_count_right{visibility:hidden}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+/* @noflip */
+.fbpluginrecommendationsbarleft{left:10px}
+/* @noflip */
+.fbpluginrecommendationsbarright{right:10px}</style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script></head>
+<body class="single single-post postid-587 single-format-standard header-image content-sidebar" data-twttr-rendered="true">
+<div id="wrap">
+<div id="header"><div class="wrap"><div id="title-area"><p id="title"><a href="http://www.appcoda.com/" title="AppCoda">AppCoda</a></p><p id="description">Your iOS Programming Community</p></div><!-- end #title-area --><div class="widget-area"><div id="nav_menu-2" class="widget widget_nav_menu"><div class="widget-wrap"><div class="menu-default-container"><ul id="menu-default" class="menu sf-js-enabled"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://www.appcoda.com/about/">About</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-28"><a href="http://www.appcoda.com/tutorials/">Tutorials</a></li>
+<li id="menu-item-530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-530"><a href="http://www.appcoda.com/ios-programming-course/">Course</a></li>
+<li id="menu-item-710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-710"><a href="http://www.appcoda.com/marketplace/">Marketplace</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="http://www.appcoda.com/forums">Forum</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="http://www.appcoda.com/contact/">Contact</a></li>
+</ul></div></div></div>
+</div><!-- end .widget-area --></div><!-- end .wrap --></div><!--end #header--><div id="nav"><div class="wrap"></div><!-- end .wrap --></div><div id="inner"><div class="wrap"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-8501671653071605";
+/* Appcoda_728_90_Leaderboard */
+google_ad_slot = "4146455777";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>	<div id="content-sidebar-wrap">
+				<div id="content" class="hfeed">
+				<div class="post-587 post type-post status-publish format-standard hentry category-course category-tutorials tag-ios-programming tag-ios-sdk tag-search-bar tag-search-display-controller tag-uisearchdisplaycontroller tag-uitableview">
+
+				<h1 class="entry-title">How To Add Search Bar in Table View</h1>
+		
+		<div class="post-info"><span class="date published time" title="2012-07-08T13:51:59+00:00">July 8, 2012</span>  By <span class="author vcard"><span class="fn"><a href="http://www.appcoda.com/author/admin/" class="fn n" title="Simon Ng" rel="author">Simon Ng</a></span></span> <span class="post-comments"><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/#comments"><span vanilla-identifier="587"><span class="dsq-postid" rel="587 http://www.appcoda.com/?p=587">48 Comments</span></span></a></span> </div>		<div class="entry-content">
+			<div id="o3-social-share">
+				<div class="twitter">
+					<iframe allowtransparency="true" frameborder="0" scrolling="no" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/tweet_button.1362525567.htm" class="twitter-share-button twitter-count-horizontal" style="width: 110px; height: 20px;" title="Twitter Tweet Button" data-twttr-rendered="true"></iframe>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			
+			<div class="facebook">
+				<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: none;" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/xd_arbiter.htm"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: none;" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/xd_arbiter(1).htm"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="f338d4f6d8" frameborder="0" allowtransparency="true" scrolling="no" style="display: none;" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/oauth.htm"></iframe></div></div></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=126445887469807";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, "script", "facebook-jssdk"));</script>	
+				<div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-href="http://www.appcoda.com/how-to-add-search-bar-uitableview/" data-send="false" data-layout="button_count" data-show-faces="false" fb-xfbml-state="rendered"><span style="height: 20px; width: 71px;"><iframe id="f32a136cec" name="f36fb05c4" scrolling="no" style="border: none; overflow: hidden; height: 20px; width: 71px;" title="Like this content on Facebook." class="fb_ltr" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/like(1).htm"></iframe></span></div>		
+			</div>
+			
+				<div class="googleplus">
+					<!-- Place this tag where you want the +1 button to render -->
+					<div style="height: 20px; width: 90px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial;" id="___plusone_0"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1362571907911" name="I0_1362571907911" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/fastbutton.htm" allowtransparency="true" data-gapiattached="true" title="+1"></iframe></div>
+					
+					<!-- Place this render call where appropriate -->
+					<script type="text/javascript">
+					  (function() {
+					    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+					    po.src = "https://apis.google.com/js/plusone.js";
+					    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script>
+				</div>
+			
+				<script src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/in.js" type="text/javascript"></script>
+				<span style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;" class="IN-widget"><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><span id="li_ui_li_gen_1362571908847_0"><a id="li_ui_li_gen_1362571908847_0-link" href="javascript:void(0);"><span id="li_ui_li_gen_1362571908847_0-logo">in</span><span id="li_ui_li_gen_1362571908847_0-title"><span id="li_ui_li_gen_1362571908847_0-mark"></span><span id="li_ui_li_gen_1362571908847_0-title-text">Share</span></span></a></span></span></span><script type="IN/Share+init" data-url="http://www.appcoda.com/how-to-add-search-bar-uitableview/"></script>
+			</div>
+<!-- Quick Adsense WordPress Plugin: http://techmilieu.com/quick-adsense -->
+<div style="float:right;margin:10px 0 10px 10px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8501671653071605";
+/* Appcoda_300x250_iPhone_Development */
+google_ad_slot = "8132041053";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<p>One common questions I got about UITableView is how to implement a search bar for data searching. This tutorial will show how to add a search bar to the <a href="http://www.appcoda.com/storyboard-tutorial-create-tab-bar-controller-and-web-view/">Tab Bar project</a>. With the search bar, the app lets users search through the recipe list by specifying a search term.</p>
+<p>Well, it’s not difficult to add a search bar but it takes a little bit of extra work. We’ll continue to work on the Xcode project we developed in the <a href="http://www.appcoda.com/storyboard-tutorial-create-tab-bar-controller-and-web-view/">previous tutorial</a>. If you haven’t gone through the tutorial, take some time to check it out or you can <a href="http://www.appcoda.com/wp-content/uploads/2012/07/RecipeBook_Tab_Bar.zip">download the project here</a>.</p>
+<p><img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/iOS-App-Search-Bar.jpg" alt="iOS App Search Bar" title="iOS App Search Bar" class="aligncenter size-full wp-image-609" style="width:NaN%;"><br>
+<span id="more-587"></span></p>
+<h3>Understanding Search Display Controller</h3>
+<p>You can use search display controller (i.e. UISearchDisplayController class) to manage search in your app. A search display controller manages display of a search bar and a table view that displays the results of a search of data. </p>
+<p>When a user starts a search, the search display controller will superimpose the search interface over the original view and display the search results. Interestingly, the results are displayed in a table view that’s created by the search display controller.</p>
+<div id="attachment_610" class="wp-caption aligncenter" style="width:80.26315789473685%;"><img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/Search-Results-Table-View-vs-Table-View.jpg" alt="Search Results Table View vs Table View" title="Search Results Table View vs Table View" class="size-full wp-image-610"><p class="wp-caption-text">Search Results Table View vs Table View</p></div>
+<p>Like other view controllers, you can either programmatically create the search display controller or simply add it into your app using Storyboard. In this tutorial, we’ll use the later approach.</p>
+<h3>Adding a Search Display Controller in Storyboard</h3>
+<p>In Storyboard, drag and add the “Search Bar and Search Display Controller” right below the navigation bar of Recipe Book View Controller. If you’ve done correctly, you should have a screen similar to the below:</p>
+<div id="attachment_590" class="wp-caption aligncenter" style="width:80.26315789473685%;"><img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/Adding-Search-Display-Controller.jpg" alt="Adding Search Display Controller" title="Adding Search Display Controller" class="size-full wp-image-590"><p class="wp-caption-text">Adding Search Display Controller</p></div>
+<p>Before proceeding, try to run the app and see how it looks. Without implementing any new code, you already have a search bar. Tapping the search bar will bring you to the search interface. Yet, the search won’t give you the correct search result. </p>
+<div id="attachment_593" class="wp-caption aligncenter" style="width:80.26315789473685%;"><img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/Search-Bar-Not-Working.jpg" alt="Search Bar in Table View App" title="Search Bar in Table View App" class="size-full wp-image-593"><p class="wp-caption-text">Search Bar in Table View App But Not Working Yet</p></div>
+<h3>We Did Nothing but Why Search Results Show All Recipes?</h3>
+<p>As mentioned earlier, the search results are displayed in a table view created by the search display controller. When developing the <a href="http://www.appcoda.com/ios-programming-tutorial-create-a-simple-table-view-app/">table view app</a>, we implement the UITableViewDataSource protocol to tell Table View how many rows to display and the data in each row.</p>
+<p>Like UITableView, the table view created by the search display controller adopts the same approach. By referring to <a href="http://developer.apple.com/library/ios/#DOCUMENTATION/UIKit/Reference/UISearchDisplayController_Class/Reference/Reference.html">the official documentation of UISearchDisplayController</a>, here are the available delegates that let you interact with the search result and search bar:</p>
+<blockquote><p><strong>The search results table view’s data source.</strong><br>
+This object is responsible for providing the data for the results table.</p>
+<p><strong>The search results table view’s delegate.</strong><br>
+This object is responsible for, amongst other things, responding to the user’s selection of an item in the results table.</p>
+<p><strong>The search display controller’s delegate.</strong><br>
+The delegate conforms to the UISearchDisplayDelegate protocol. It is notified of events such as when the search starts or ends, and when the search interface is displayed or hidden. As a convenience, it may also be told about changes to the search string or search scope, so that the results table view can be reloaded.</p>
+<p><strong>The search bar’s delegate.</strong><br>
+This object is responsible for responding to changes in the search criteria.</p></blockquote>
+<p>Typically, the original view controller is used as the source object for the search results data source and delegate. You do not need to manually link up the data source and delegate with the view controller. As you insert the search bar into the view of Recipe Book View Controller, the appropriate connections to the search display controller are automatically configured. You can press the “control” key and click on the “Search Display Controller” to reveal the connections.</p>
+<div id="attachment_595" class="wp-caption aligncenter" style="width:80.26315789473685%;"><img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/Search-Display-Controller-Connections.jpg" alt="Search Display Controller Connections" title="Search Display Controller Connections" class="size-full wp-image-595"><p class="wp-caption-text">Search Display Controller Connections</p></div>
+<p>Both table views (i.e. the table view in Recipe Book View Controller and the search result table view) shares the same view controller to handle data population. If you refer to the code, these are the two methods being invoked when displaying table data:</p>
+<div class="codecolorer-container objc geshi" style="overflow:auto;white-space:nowrap;width:750px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br></div></td><td><div class="objc codecolorer" style="white-space:nowrap"><span style="color: #002200;">-</span> <span style="color: #002200;">(</span>NSInteger<span style="color: #002200;">)</span>tableView<span style="color: #002200;">:</span><span style="color: #002200;">(</span>UITableView <span style="color: #002200;">*</span><span style="color: #002200;">)</span>tableView numberOfRowsInSection<span style="color: #002200;">:</span><span style="color: #002200;">(</span>NSInteger<span style="color: #002200;">)</span>section<br>
+<span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; <span style="color: #a61390;">return</span> <span style="color: #002200;">[</span>recipes count<span style="color: #002200;">]</span>;<br>
+<span style="color: #002200;">}</span><br>
+<br>
+<span style="color: #002200;">-</span> <span style="color: #002200;">(</span>UITableViewCell <span style="color: #002200;">*</span><span style="color: #002200;">)</span>tableView<span style="color: #002200;">:</span><span style="color: #002200;">(</span>UITableView <span style="color: #002200;">*</span><span style="color: #002200;">)</span>tableView cellForRowAtIndexPath<span style="color: #002200;">:</span><span style="color: #002200;">(</span><a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSIndexPath_Class/"><span style="color: #400080;">NSIndexPath</span></a> <span style="color: #002200;">*</span><span style="color: #002200;">)</span>indexPath<br>
+<span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; <span style="color: #a61390;">static</span> <a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/"><span style="color: #400080;">NSString</span></a> <span style="color: #002200;">*</span>simpleTableIdentifier <span style="color: #002200;">=</span> <span style="color: #bf1d1a;">@</span><span style="color: #bf1d1a;">"RecipeCell"</span>;<br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; UITableViewCell <span style="color: #002200;">*</span>cell <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>tableView dequeueReusableCellWithIdentifier<span style="color: #002200;">:</span>simpleTableIdentifier<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; <span style="color: #a61390;">if</span> <span style="color: #002200;">(</span>cell <span style="color: #002200;">==</span> <span style="color: #a61390;">nil</span><span style="color: #002200;">)</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; cell <span style="color: #002200;">=</span> <span style="color: #002200;">[</span><span style="color: #002200;">[</span>UITableViewCell alloc<span style="color: #002200;">]</span> initWithStyle<span style="color: #002200;">:</span>UITableViewCellStyleDefault reuseIdentifier<span style="color: #002200;">:</span>simpleTableIdentifier<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <span style="color: #002200;">}</span><br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; cell.textLabel.text <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>recipes objectAtIndex<span style="color: #002200;">:</span>indexPath.row<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <span style="color: #a61390;">return</span> cell;<br>
+<span style="color: #002200;">}</span></div></td></tr></tbody></table></div>
+<p>This explains why the search results show a full list of recipes regardless of your search term. </p>
+<h3>Implementing Search Filter</h3>
+<p>Obviously, to make the search works, there are a couple of things we have to implement/change:</p>
+<ol>
+<li>Implement methods to filter the recipe names and return the correct search results</li>
+<li>Change the data source methods to differentiate the table views. If the tableView being passed is the table view of Recipe Book View Controller, we show all recipes. On the other hand, if it’s a search result table view, only the search results are displayed.</li>
+</ol>
+<p>First, we’ll show you how to implement the filter. Here we have an array to store all recipes. We create another array to store the search results. Let’s name it as “searchResults”.</p>
+<div class="codecolorer-container objc geshi" style="overflow:auto;white-space:nowrap;width:750px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br>2<br>3<br>4<br></div></td><td><div class="objc codecolorer" style="white-space:nowrap"><span style="color: #a61390;">@implementation</span> RecipeBookViewController <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; <a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/"><span style="color: #400080;">NSArray</span></a> <span style="color: #002200;">*</span>recipes;<br>
+&nbsp; &nbsp; <a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/"><span style="color: #400080;">NSArray</span></a> <span style="color: #002200;">*</span>searchResults;<br>
+<span style="color: #002200;">}</span></div></td></tr></tbody></table></div>
+<p>Next, add a new method to handle the search filtering. Filtering is one of the common tasks in iOS app. The straightforward way to filter the list of recipes is to loop through all the names and filter the result with the <em>if-statement</em>. There is nothing wrong with such implementation. But iOS SDK offers a better way known as <em><a href="https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/Predicates/predicates.html#//apple_ref/doc/uid/TP40001798-SW1">Predicate</a></em> to handle search queries. By using NSPredicate (which is an object representation of a predicate), you write less code. With just two lines of code, it searches through all recipes and returns the matched results.</p>
+<div class="codecolorer-container objc geshi" style="overflow:auto;white-space:nowrap;width:750px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br></div></td><td><div class="objc codecolorer" style="white-space:nowrap"><span style="color: #002200;">-</span> <span style="color: #002200;">(</span><span style="color: #a61390;">void</span><span style="color: #002200;">)</span>filterContentForSearchText<span style="color: #002200;">:</span><span style="color: #002200;">(</span><a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/"><span style="color: #400080;">NSString</span></a><span style="color: #002200;">*</span><span style="color: #002200;">)</span>searchText scope<span style="color: #002200;">:</span><span style="color: #002200;">(</span><a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/"><span style="color: #400080;">NSString</span></a><span style="color: #002200;">*</span><span style="color: #002200;">)</span>scope<br>
+<span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; <a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSPredicate_Class/"><span style="color: #400080;">NSPredicate</span></a> <span style="color: #002200;">*</span>resultPredicate <span style="color: #002200;">=</span> <span style="color: #002200;">[</span><a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSPredicate_Class/"><span style="color: #400080;">NSPredicate</span></a> <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; predicateWithFormat<span style="color: #002200;">:</span><span style="color: #bf1d1a;">@</span><span style="color: #bf1d1a;">"SELF contains[cd] %@"</span>,<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; searchText<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; searchResults <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>recipes filteredArrayUsingPredicate<span style="color: #002200;">:</span>resultPredicate<span style="color: #002200;">]</span>;<br>
+<span style="color: #002200;">}</span></div></td></tr></tbody></table></div>
+<p>Basically, a predicate is an expression that returns a Boolean value (true or false). You specify the search criteria in the format of NSPredicate and use it to filter data in the array. NSArray provides filteredArrayUsingPredicate: method which returns a new array containing objects that match the specified predicate. The SELF keyword in the predicate “SELF contains[cd] %@” refers to the objects being evaluated (i.e. recipes). The operator “[cd]” means the comparison is case- and diacritic-insensitive.</p>
+<div class="note">
+If you want to learn more about Predicate, check out <a href="https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/Predicates/predicates.html">Apple’s official documentation</a> or <a href="http://www.peterfriese.de/using-nspredicate-to-filter-data/">the tutorial written by Peter Friese</a>.
+</div>
+<h3>Implementing Search Display Controller Delegate</h3>
+<p>Now we’ve created a method to handle the data filtering. But when should it be called? Apparently the filterContentForSearchText: method is invoked when user keys in the search term. The UISearchDisplayController class comes with a shouldReloadTableForSearchString: method which is automatically called every time the search string changes. So add the following method in the RecipeBookViewController.m:</p>
+<div class="codecolorer-container objc geshi" style="overflow:auto;white-space:nowrap;width:750px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br></div></td><td><div class="objc codecolorer" style="white-space:nowrap"><span style="color: #002200;">-</span><span style="color: #002200;">(</span><span style="color: #a61390;">BOOL</span><span style="color: #002200;">)</span>searchDisplayController<span style="color: #002200;">:</span><span style="color: #002200;">(</span>UISearchDisplayController <span style="color: #002200;">*</span><span style="color: #002200;">)</span>controller <br>
+shouldReloadTableForSearchString<span style="color: #002200;">:</span><span style="color: #002200;">(</span><a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/"><span style="color: #400080;">NSString</span></a> <span style="color: #002200;">*</span><span style="color: #002200;">)</span>searchString<br>
+<span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; <span style="color: #002200;">[</span>self filterContentForSearchText<span style="color: #002200;">:</span>searchString <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;scope<span style="color: #002200;">:</span><span style="color: #002200;">[</span><span style="color: #002200;">[</span>self.searchDisplayController.searchBar scopeButtonTitles<span style="color: #002200;">]</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; objectAtIndex<span style="color: #002200;">:</span><span style="color: #002200;">[</span>self.searchDisplayController.searchBar<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;selectedScopeButtonIndex<span style="color: #002200;">]</span><span style="color: #002200;">]</span><span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; <span style="color: #a61390;">return</span> <span style="color: #a61390;">YES</span>;<br>
+<span style="color: #002200;">}</span></div></td></tr></tbody></table></div>
+<h3>Display Search Results in searchResultsTableView</h3>
+<p>As explained earlier, we have to change the data source methods as to differentiate the table views (i.e. the table view in Recipe Book View Controller and the search result table view). It’s pretty easy to differentiate the table view. We simply compare the tableView object against the “searchResultsTableView” of the “searchDisplayController”. If the comparison is positive, we display the search results instead of all recipes. Here are the changes of the two methods:</p>
+<div class="codecolorer-container objc geshi" style="overflow:auto;white-space:nowrap;width:750px;height:300px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>23<br>24<br>25<br>26<br>27<br>28<br>29<br></div></td><td><div class="objc codecolorer" style="white-space:nowrap"><span style="color: #002200;">-</span> <span style="color: #002200;">(</span>NSInteger<span style="color: #002200;">)</span>tableView<span style="color: #002200;">:</span><span style="color: #002200;">(</span>UITableView <span style="color: #002200;">*</span><span style="color: #002200;">)</span>tableView numberOfRowsInSection<span style="color: #002200;">:</span><span style="color: #002200;">(</span>NSInteger<span style="color: #002200;">)</span>section<br>
+<span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; <span style="color: #a61390;">if</span> <span style="color: #002200;">(</span>tableView <span style="color: #002200;">==</span> self.searchDisplayController.searchResultsTableView<span style="color: #002200;">)</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #a61390;">return</span> <span style="color: #002200;">[</span>searchResults count<span style="color: #002200;">]</span>;<br>
+<br>
+&nbsp; &nbsp; <span style="color: #002200;">}</span> <span style="color: #a61390;">else</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #a61390;">return</span> <span style="color: #002200;">[</span>recipes count<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <br>
+&nbsp; &nbsp; <span style="color: #002200;">}</span><br>
+<span style="color: #002200;">}</span><br>
+<br>
+<span style="color: #002200;">-</span> <span style="color: #002200;">(</span>UITableViewCell <span style="color: #002200;">*</span><span style="color: #002200;">)</span>tableView<span style="color: #002200;">:</span><span style="color: #002200;">(</span>UITableView <span style="color: #002200;">*</span><span style="color: #002200;">)</span>tableView cellForRowAtIndexPath<span style="color: #002200;">:</span><span style="color: #002200;">(</span><a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSIndexPath_Class/"><span style="color: #400080;">NSIndexPath</span></a> <span style="color: #002200;">*</span><span style="color: #002200;">)</span>indexPath<br>
+<span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; <span style="color: #a61390;">static</span> <a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/"><span style="color: #400080;">NSString</span></a> <span style="color: #002200;">*</span>simpleTableIdentifier <span style="color: #002200;">=</span> <span style="color: #bf1d1a;">@</span><span style="color: #bf1d1a;">"RecipeCell"</span>;<br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; UITableViewCell <span style="color: #002200;">*</span>cell <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>tableView dequeueReusableCellWithIdentifier<span style="color: #002200;">:</span>simpleTableIdentifier<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; <span style="color: #a61390;">if</span> <span style="color: #002200;">(</span>cell <span style="color: #002200;">==</span> <span style="color: #a61390;">nil</span><span style="color: #002200;">)</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; cell <span style="color: #002200;">=</span> <span style="color: #002200;">[</span><span style="color: #002200;">[</span>UITableViewCell alloc<span style="color: #002200;">]</span> initWithStyle<span style="color: #002200;">:</span>UITableViewCellStyleDefault reuseIdentifier<span style="color: #002200;">:</span>simpleTableIdentifier<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <span style="color: #002200;">}</span><br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; <span style="color: #a61390;">if</span> <span style="color: #002200;">(</span>tableView <span style="color: #002200;">==</span> self.searchDisplayController.searchResultsTableView<span style="color: #002200;">)</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; cell.textLabel.text <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>searchResults objectAtIndex<span style="color: #002200;">:</span>indexPath.row<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <span style="color: #002200;">}</span> <span style="color: #a61390;">else</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; cell.textLabel.text <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>recipes objectAtIndex<span style="color: #002200;">:</span>indexPath.row<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; <span style="color: #002200;">}</span><br>
+&nbsp; &nbsp; <br>
+&nbsp; &nbsp; <span style="color: #a61390;">return</span> cell;<br>
+<span style="color: #002200;">}</span></div></td></tr></tbody></table></div>
+<h3>Test the App Again</h3>
+<p>Once you complete the above changes, test your app again. Now the search bar should work properly!</p>
+<p><img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/Search-Bar-Complete.jpg" alt="Search Bar Complete" title="Search Bar Complete" class="aligncenter size-full wp-image-601" style="width:NaN%;"></p>
+<h3>Handling Row Selection in Search Results</h3>
+<p>Despite the search works, it doesn’t respond to your row selection. We want to make it work like the recipe table view. When user taps on any of the search results, it’ll transit to the detail view displaying the name of selected recipe.</p>
+<p>Earlier, we use Segue to link up the recipe table cell and detail view. (If you forgot how it was done, revisit the <a href="http://www.appcoda.com/storyboards-ios-tutorial-pass-data-between-view-controller-with-segue/">Segue tutorial</a> to see how it works.)</p>
+<p>Obviously, we have to create another Segue in Storyboard to define the transition between the search result and detail view. The problem is we can’t do that. The search result table view is a private variable of search display controller. It’s impossible to handle the row selection of the search results using Storyboard.</p>
+<p>The search display table view, however, lets you interact with the user’s selection of the results table by using a delegate. When the user selects a row, the didSelectRowAtIndexPath: method will be called. Therefore, what we have to do is to implement the method:</p>
+<div class="codecolorer-container objc geshi" style="overflow:auto;white-space:nowrap;width:750px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br>2<br>3<br>4<br>5<br>6<br></div></td><td><div class="objc codecolorer" style="white-space:nowrap"><span style="color: #002200;">-</span> <span style="color: #002200;">(</span><span style="color: #a61390;">void</span><span style="color: #002200;">)</span>tableView<span style="color: #002200;">:</span><span style="color: #002200;">(</span>UITableView <span style="color: #002200;">*</span><span style="color: #002200;">)</span>tableView didSelectRowAtIndexPath<span style="color: #002200;">:</span><span style="color: #002200;">(</span><a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSIndexPath_Class/"><span style="color: #400080;">NSIndexPath</span></a> <span style="color: #002200;">*</span><span style="color: #002200;">)</span>indexPath<br>
+<span style="color: #002200;">{</span> &nbsp; &nbsp;<br>
+&nbsp; &nbsp; <span style="color: #a61390;">if</span> <span style="color: #002200;">(</span>tableView <span style="color: #002200;">==</span> self.searchDisplayController.searchResultsTableView<span style="color: #002200;">)</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #002200;">[</span>self performSegueWithIdentifier<span style="color: #002200;">:</span> <span style="color: #bf1d1a;">@</span><span style="color: #bf1d1a;">"showRecipeDetail"</span> sender<span style="color: #002200;">:</span> self<span style="color: #002200;">]</span>; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+&nbsp; &nbsp; <span style="color: #002200;">}</span><br>
+<span style="color: #002200;">}</span></div></td></tr></tbody></table></div>
+<p>We simply invoke the performSegueWithIdentifier: method to manually trigger the “showRecipeDetail” segue. Before proceeding, try to run the app again. When you select any of the search results, the app shows the detail view with a recipe name. But the name is not always correct. </p>
+<p>Referring to the prepareForSegue: method, we use the “indexPathForSelectedRow” method to retrieve the indexPath of the selected row. As mentioned earlier, the search results are displayed in a separate table view. But in our original prepareForSegue: method, we always retrieve the selected row from the table view of Recipe Book View Controller. That’s why we got the wrong recipe name in detail view. To make the selection of search results properly, we have to tweak the prepareForSegue: method:</p>
+<div class="codecolorer-container objc geshi" style="overflow:auto;white-space:nowrap;width:750px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br></div></td><td><div class="objc codecolorer" style="white-space:nowrap"><span style="color: #002200;">-</span> <span style="color: #002200;">(</span><span style="color: #a61390;">void</span><span style="color: #002200;">)</span>prepareForSegue<span style="color: #002200;">:</span><span style="color: #002200;">(</span>UIStoryboardSegue <span style="color: #002200;">*</span><span style="color: #002200;">)</span>segue sender<span style="color: #002200;">:</span><span style="color: #002200;">(</span><span style="color: #a61390;">id</span><span style="color: #002200;">)</span>sender <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; <span style="color: #a61390;">if</span> <span style="color: #002200;">(</span><span style="color: #002200;">[</span>segue.identifier isEqualToString<span style="color: #002200;">:</span><span style="color: #bf1d1a;">@</span><span style="color: #bf1d1a;">"showRecipeDetail"</span><span style="color: #002200;">]</span><span style="color: #002200;">)</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; RecipeDetailViewController <span style="color: #002200;">*</span>destViewController <span style="color: #002200;">=</span> segue.destinationViewController;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <br>
+&nbsp; &nbsp; &nbsp; &nbsp; <a href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSIndexPath_Class/"><span style="color: #400080;">NSIndexPath</span></a> <span style="color: #002200;">*</span>indexPath <span style="color: #002200;">=</span> <span style="color: #a61390;">nil</span>;<br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #a61390;">if</span> <span style="color: #002200;">(</span><span style="color: #002200;">[</span>self.searchDisplayController isActive<span style="color: #002200;">]</span><span style="color: #002200;">)</span> <span style="color: #002200;">{</span> <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; indexPath <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>self.searchDisplayController.searchResultsTableView indexPathForSelectedRow<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; destViewController.recipeName <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>searchResults objectAtIndex<span style="color: #002200;">:</span>indexPath.row<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #002200;">}</span> <span style="color: #a61390;">else</span> <span style="color: #002200;">{</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; indexPath <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>self.tableView indexPathForSelectedRow<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; destViewController.recipeName <span style="color: #002200;">=</span> <span style="color: #002200;">[</span>recipes objectAtIndex<span style="color: #002200;">:</span>indexPath.row<span style="color: #002200;">]</span>;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #002200;">}</span><br>
+&nbsp; &nbsp; <span style="color: #002200;">}</span><br>
+&nbsp; &nbsp; <br>
+<span style="color: #002200;">}</span></div></td></tr></tbody></table></div>
+<p>We first determine if the user is using search. When searching, we retrieve the indexPath from searchResultsTableView, which is the table view for search results. Otherwise, we just get the indexPath from the table view of Recipe Book View Controller. </p>
+<p>That’s it. Run the app again and the search selection should work as expected.</p>
+<p><img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/Search-Results-Selected.jpg" alt="Search Results Selected" title="Search Results Selected" class="aligncenter size-full wp-image-603" style="width:NaN%;"></p>
+<h3>Tell Us What You Think</h3>
+<p>Hope you find this tutorial useful. If you like the tutorial and have any ideas about future tutorial, leave us comment and tell us what you think. We need your support to keep publishing free tutorials <img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/icon_smile.gif" alt=":-)" class="wp-smiley" style="width:NaN%;"> </p>
+
+<!-- Quick Adsense WordPress Plugin: http://techmilieu.com/quick-adsense -->
+<div style="float:none;margin:10px 0 10px 0;text-align:center;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8501671653071605";
+/* Appcoda-Below-Post-Ads */
+google_ad_slot = "2577469730";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+<div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><h3>You May Like These:</h3><div style="clear: both"></div><div style="border: 0pt none ; margin: 0pt; padding: 0pt;"><a onmouseout="this.style.backgroundColor=&#39;#FFFFFF&#39;" onmouseover="this.style.backgroundColor=&#39;#EEEEEF&#39;" style="background-color: #FFFFFF; border-right: 1px solid #DDDDDD; border-bottom: medium none; margin: 0pt; padding: 6px; display: block; float: left; text-decoration: none; text-align: left; cursor: pointer;" href="http://www.appcoda.com/ios-programming-tutorial-create-a-simple-table-view-app/"><div style="border: 0pt none ; margin: 0pt; padding: 0pt; width: 150px; height: 225px;"><div style="border: 0pt none ; margin: 0pt; padding: 0pt; background: transparent url(http://www.appcoda.com/wp-content/uploads/2012/04/UITableView-Sample-App-150x150.jpg) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; width: 150px; height: 150px;"></div><div style="border: 0pt none; margin: 3px 0pt 0pt; padding: 0pt; font-family: ; font-style: normal; font-variant: normal; font-weight: normal; font-size: 16px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; color: #333333;">iOS Programming Tutorial: Create a Simple Table View App</div></div></a><a onmouseout="this.style.backgroundColor=&#39;#FFFFFF&#39;" onmouseover="this.style.backgroundColor=&#39;#EEEEEF&#39;" style="background-color: #FFFFFF; border-right: 1px solid #DDDDDD; border-bottom: medium none; margin: 0pt; padding: 6px; display: block; float: left; text-decoration: none; text-align: left; cursor: pointer;" href="http://www.appcoda.com/customize-table-view-cells-for-uitableview/"><div style="border: 0pt none ; margin: 0pt; padding: 0pt; width: 150px; height: 225px;"><div style="border: 0pt none ; margin: 0pt; padding: 0pt; background: transparent url(http://www.appcoda.com/wp-content/uploads/2012/04/SimpleTable-Image-Code-150x150.jpg) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; width: 150px; height: 150px;"></div><div style="border: 0pt none; margin: 3px 0pt 0pt; padding: 0pt; font-family: ; font-style: normal; font-variant: normal; font-weight: normal; font-size: 16px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; color: #333333;">Customize Table View Cells for UITableView</div></div></a><a onmouseout="this.style.backgroundColor=&#39;#FFFFFF&#39;" onmouseover="this.style.backgroundColor=&#39;#EEEEEF&#39;" style="background-color: #FFFFFF; border-right: 1px solid #DDDDDD; border-bottom: medium none; margin: 0pt; padding: 6px; display: block; float: left; text-decoration: none; text-align: left; cursor: pointer;" href="http://www.appcoda.com/storyboards-ios-tutorial-pass-data-between-view-controller-with-segue/"><div style="border: 0pt none ; margin: 0pt; padding: 0pt; width: 150px; height: 225px;"><div style="border: 0pt none ; margin: 0pt; padding: 0pt; background: transparent url(http://www.appcoda.com/wp-content/uploads/2012/06/Receipe-App-With-Detail-Controller-150x150.jpg) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; width: 150px; height: 150px;"></div><div style="border: 0pt none; margin: 3px 0pt 0pt; padding: 0pt; font-family: ; font-style: normal; font-variant: normal; font-weight: normal; font-size: 16px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; color: #333333;">Storyboards Segue Tutorial: Pass Data Between View Controllers</div></div></a><a onmouseout="this.style.backgroundColor=&#39;#FFFFFF&#39;" onmouseover="this.style.backgroundColor=&#39;#EEEEEF&#39;" style="background-color: #FFFFFF; border-right: 1px solid #DDDDDD; border-bottom: medium none; margin: 0pt; padding: 6px; display: block; float: left; text-decoration: none; text-align: left; cursor: pointer;" href="http://www.appcoda.com/ios-collection-view-tutorial/"><div style="border: 0pt none ; margin: 0pt; padding: 0pt; width: 150px; height: 225px;"><div style="border: 0pt none ; margin: 0pt; padding: 0pt; background: transparent url(http://www.appcoda.com/wp-content/uploads/2013/02/Recipe-App-Multiple-Selection-150x150.jpg) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; width: 150px; height: 150px;"></div><div style="border: 0pt none; margin: 3px 0pt 0pt; padding: 0pt; font-family: ; font-style: normal; font-variant: normal; font-weight: normal; font-size: 16px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; color: #333333;">Handling Single and Multiple Selection in Collection View</div></div></a></div><div style="clear: both"></div><div id="o3-social-share">
+				<div class="twitter">
+					<iframe allowtransparency="true" frameborder="0" scrolling="no" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/tweet_button.1362525567(1).htm" class="twitter-share-button twitter-count-horizontal" style="width: 110px; height: 20px;" title="Twitter Tweet Button" data-twttr-rendered="true"></iframe>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			
+			<div class="facebook">
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=126445887469807";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, "script", "facebook-jssdk"));</script>	
+				<div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-href="http://www.appcoda.com/how-to-add-search-bar-uitableview/" data-send="false" data-layout="button_count" data-show-faces="false" fb-xfbml-state="rendered"><span style="height: 20px; width: 71px;"><iframe id="f218c9512" name="f2d2cec054" scrolling="no" style="border: none; overflow: hidden; height: 20px; width: 71px;" title="Like this content on Facebook." class="fb_ltr" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/like.htm"></iframe></span></div>		
+			</div>
+			
+				<div class="googleplus">
+					<!-- Place this tag where you want the +1 button to render -->
+					<div style="height: 20px; width: 90px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial;" id="___plusone_1"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I1_1362571907919" name="I1_1362571907919" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/fastbutton(1).htm" allowtransparency="true" data-gapiattached="true" title="+1"></iframe></div>
+					
+					<!-- Place this render call where appropriate -->
+					<script type="text/javascript">
+					  (function() {
+					    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+					    po.src = "https://apis.google.com/js/plusone.js";
+					    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script>
+				</div>
+			
+				<script src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/in.js" type="text/javascript"></script>
+				<span style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;" class="IN-widget"><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><span id="li_ui_li_gen_1362571908894_1"><a id="li_ui_li_gen_1362571908894_1-link" href="javascript:void(0);"><span id="li_ui_li_gen_1362571908894_1-logo">in</span><span id="li_ui_li_gen_1362571908894_1-title"><span id="li_ui_li_gen_1362571908894_1-mark"></span><span id="li_ui_li_gen_1362571908894_1-title-text">Share</span></span></a></span></span></span><script type="IN/Share+init" data-url="http://www.appcoda.com/how-to-add-search-bar-uitableview/"></script>
+			</div><!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.appcoda.com/how-to-add-search-bar-uitableview/"
+    dc:identifier="http://www.appcoda.com/how-to-add-search-bar-uitableview/"
+    dc:title="How To Add Search Bar in Table View"
+    trackback:ping="http://www.appcoda.com/how-to-add-search-bar-uitableview/trackback/" />
+</rdf:RDF>-->
+		</div><!-- end .entry-content -->
+		<div class="post-meta"><span class="categories">Filed Under: <a href="http://www.appcoda.com/course/" title="View all posts in Course" rel="category tag">Course</a>, <a href="http://www.appcoda.com/tutorials/" title="View all posts in Tutorials" rel="category tag">Tutorials</a></span>  <span class="tags">Tagged With: <a href="http://www.appcoda.com/tag/ios-programming/" rel="tag">iOS Programming</a>, <a href="http://www.appcoda.com/tag/ios-sdk/" rel="tag">iOS SDK</a>, <a href="http://www.appcoda.com/tag/search-bar/" rel="tag">Search Bar</a>, <a href="http://www.appcoda.com/tag/search-display-controller/" rel="tag">Search Display Controller</a>, <a href="http://www.appcoda.com/tag/uisearchdisplaycontroller/" rel="tag">UISearchDisplayController</a>, <a href="http://www.appcoda.com/tag/uitableview/" rel="tag">UITableView</a></span> </div><div class="after-post widget-area"><div id="featured-page-2" class="widget featuredpage"><div class="widget-wrap"><h4 class="widgettitle">Sign Up for our Free Tutorials</h4>
+<div class="post-38 page type-page status-publish hentry"><ul>
+<li>Learn iOS Programming From Scratch</li>
+<li>Step by Step Guide to Build Your First iPhone App</li>
+<li>Complete Source Code for Your Reference</li>
+<li>More Programming Tips and Tutorials to Come</li>
+</ul>
+<div class="enews">
+<h4 class="widgettitle">Whatcha waiting for?</h4>
+<form action="http://appcoda.us4.list-manage.com/subscribe/post?u=0c7883c41955cf5d7817400a2&id=9a52e964eb" method="post" id="subscribe" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+	<input type="email" id="subbox" value="" name="EMAIL" class="email" placeholder="Enter your email address" required=""><input type="submit" value="Subscribe" name="subscribe" id="subbutton" class="button"><br>
+</form>
+</div>
+</div><!--end post_class()-->
+
+</div></div>
+</div>
+	</div><!-- end .postclass -->
+	
+<div id="disqus_thread"><iframe id="dsq1" data-disqus-uid="1" allowtransparency="true" frameborder="0" role="application" style="width: 100%; border: none; overflow: hidden; height: 5709px;" width="100%" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/saved_resource.htm" scrolling="no" horizontalscrolling="no" verticalscrolling="no"></iframe><iframe id="dsq3" data-disqus-uid="3" allowtransparency="true" frameborder="0" role="application" style="width: 100%; border: none; overflow: hidden; display: none;" width="100%" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/client.htm"></iframe><iframe id="dsq-indicator-north" data-disqus-uid="-indicator-north" allowtransparency="true" frameborder="0" role="application" style="width: 760px; border: none; overflow: hidden; top: 0px; min-width: 760px; max-width: 760px; position: fixed; max-height: 29px; min-height: 29px; height: 29px; display: none;" scrolling="no"></iframe><iframe id="dsq-indicator-south" data-disqus-uid="-indicator-south" allowtransparency="true" frameborder="0" role="application" style="width: 760px; border: none; overflow: hidden; bottom: 0px; min-width: 760px; max-width: 760px; position: fixed; max-height: 29px; min-height: 29px; height: 29px; display: none;" scrolling="no"></iframe></div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://www.appcoda.com/how-to-add-search-bar-uitableview/';
+    var disqus_identifier = '587 http://www.appcoda.com/?p=587';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'appcoda';
+    var disqus_title = "How To Add Search Bar in Table View";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=587';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+            {
+                'author_name':    "第十三部分：在表视图中添加搜索栏 Search Bar (2) | EntLib.net 技术分享平台",
+                'author_url':    "http:\/\/www.entlib.net\/?p=2053",
+                'date':            "08\/24\/2012 01:43 PM",
+                'excerpt':        "[...] 英文原文连接：How To Add Search Bar in Table View [...] ",
+                'type':            "pingback"            }
+,            {
+                'author_name':    "Searchbar not returning search results (NSpredicate)",
+                'author_url':    "http:\/\/fatal-errors.com\/searchbar-not-returning-search-results-nspredicate\/257643",
+                'date':            "12\/31\/2012 07:25 PM",
+                'excerpt':        "[...] I have created a searchbar following a tutorial here: http:\/\/www.appcoda.com\/how-to-add-search-bar-uitableview\/ [...] ",
+                'type':            "pingback"            }
+,            {
+                'author_name':    "Searchbar not returning search results (NSpredicate)",
+                'author_url':    "http:\/\/fatal-errors.com\/searchbar-not-returning-search-results-nspredicate\/257643",
+                'date':            "12\/31\/2012 07:25 PM",
+                'excerpt':        "[...] I have created a searchbar following a tutorial here: http:\/\/www.appcoda.com\/how-to-add-search-bar-uitableview\/ [...] ",
+                'type':            "pingback"            }
+        ],
+        'trackback_url': "http:\/\/www.appcoda.com\/how-to-add-search-bar-uitableview\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+		</div><!-- end #content -->
+		<div id="sidebar" class="sidebar widget-area">
+<div id="text-2" class="widget widget_text"><div class="widget-wrap"><h4 class="widgettitle">Sign Up for Our Free Tutorials</h4>
+			<div class="textwidget"><div class="enews"><form action="http://appcoda.us4.list-manage.com/subscribe/post?u=0c7883c41955cf5d7817400a2&id=9a52e964eb" method="post" id="subscribe" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+	<input type="email" id="subbox" value="" name="EMAIL" class="email" placeholder="Enter your email address" required=""><input type="submit" value="Subscribe" name="subscribe" id="subbutton" class="button">
+</form>
+</div></div>
+		</div></div>
+<div id="text-4" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><div class="fb-like-box fb_iframe_widget" data-href="http://www.facebook.com/appcodamobile" data-width="300" data-height="260" data-show-faces="true" data-border-color="#F1F1F1" data-stream="false" data-header="false" fb-xfbml-state="rendered"><span style="height: 260px; width: 300px;"><iframe id="f3c69b90ec" name="f201c6f6d" scrolling="no" style="border: none; overflow: hidden; height: 260px; width: 300px;" class="fb_ltr" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/likebox.htm"></iframe></span></div></div>
+		</div></div>
+<div id="text-5" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><a href="http://www.amazon.com/gp/product/1430236051?ie=UTF8&camp=1789&creativeASIN=1430236051&linkCode=xm2&tag=simblo-20"><img src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/ios5-programming-book.png"></a></div>
+		</div></div>
+<div id="vf-widget-discussions" class="widget vf_widget_discussions"><div class="widget-wrap"><h4 class="widgettitle">Recent Discussions</h4>
+<ul><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/15/rocket-fuel-weekly-newsletter-to-help-you-succeed-in-mobile-app-development">Rocket Fuel, weekly newsletter to help you succeed in mobile app development</a></li><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/46/how-should-i-promote-the-apps">How should i promote the apps</a></li><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/67/tutorialcourse-request-rss-reader-functionality">Tutorial/Course Request - RSS Reader Functionality</a></li><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/66/how-could-i-make-an-app-where-you-have-to-sign-in-to-an-account">How could I make an app where you have to sign in to an account?</a></li><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/65/remote-data">remote data</a></li><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/64/coretelephony-framework-usage-in-xcode">CoreTelephony Framework usage in XCODE</a></li><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/63/property-list-tutorial-general-plist-question">property list tutorial (&amp; general pList) question</a></li><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/22/how-would-i-make-a-uiwebview-display-whats-in-a-textbox.">How would I make a UIWebView display whats in a textbox.</a></li><li><a href="http://www.appcoda.com/how-to-add-search-bar-uitableview/forums#/discussion/33/how-to-display-an-integer-in-an-alert">How to display an integer in an alert</a></li></ul></div></div>
+		<div id="recent-posts-3" class="widget widget_recent_entries"><div class="widget-wrap">		<h4 class="widgettitle">Recent Posts</h4>
+		<ul>
+					<li>
+				<a href="http://www.appcoda.com/ios-avfoundation-framework-tutorial/" title="iOS Programming 101: Record and Play Audio using AVFoundation Framework">iOS Programming 101: Record and Play Audio using AVFoundation Framework</a>
+						</li>
+					<li>
+				<a href="http://www.appcoda.com/ios-collection-view-tutorial/" title="Handling Single and Multiple Selection in Collection View">Handling Single and Multiple Selection in Collection View</a>
+						</li>
+					<li>
+				<a href="http://www.appcoda.com/supplementary-view-uicollectionview-flow-layout/" title="How to Add Header and Footer View in UICollectionView">How to Add Header and Footer View in UICollectionView</a>
+						</li>
+					<li>
+				<a href="http://www.appcoda.com/ios-programming-uicollectionview-tutorial/" title="Create Grid Layout Using UICollectionView in iOS 6">Create Grid Layout Using UICollectionView in iOS 6</a>
+						</li>
+					<li>
+				<a href="http://www.appcoda.com/ios-programming-customize-uitableview-storyboard/" title="iOS Programming 101: Customize UITableView and UITableViewCell Background using Storyboard">iOS Programming 101: Customize UITableView and UITableViewCell Background using Storyboard</a>
+						</li>
+				</ul>
+		</div></div>
+<div id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap"><h4 class="widgettitle">Connect With Us</h4>
+<div class="menu-sidebar-container"><ul id="menu-sidebar" class="menu"><li id="menu-item-57" class="social-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-57"><a href="http://twitter.com/appcodamobile">Twitter</a></li>
+<li id="menu-item-58" class="social-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="http://facebook.com/appcodamobile">Facebook</a></li>
+<li id="menu-item-59" class="social-rss menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a href="http://feeds.feedburner.com/appcoda">RSS</a></li>
+<li id="menu-item-68" class="social-plus menu-item menu-item-type-custom menu-item-object-custom menu-item-68"><a href="https://plus.google.com/b/118438564257465271998/">Google Plus</a></li>
+</ul></div></div></div>
+</div>
+	</div><!-- end #content-sidebar-wrap -->
+	</div><!-- end .wrap --></div><!-- end #inner --><div id="footer-widgets" class="footer-widgets"><div class="wrap"><div class="footer-widgets-1 widget-area"><div id="nav_menu-4" class="widget widget_nav_menu"><div class="widget-wrap"><h4 class="widgettitle">About AppCoda</h4>
+<div class="menu-default-container"><ul id="menu-default-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://www.appcoda.com/about/">About</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-28"><a href="http://www.appcoda.com/tutorials/">Tutorials</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-530"><a href="http://www.appcoda.com/ios-programming-course/">Course</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-710"><a href="http://www.appcoda.com/marketplace/">Marketplace</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="http://www.appcoda.com/forums">Forum</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="http://www.appcoda.com/contact/">Contact</a></li>
+</ul></div></div></div>
+</div><div class="footer-widgets-2 widget-area"><div id="latest-tweets-2" class="widget latest-tweets"><div class="widget-wrap"><h4 class="widgettitle">Latest Tweets</h4>
+<ul>
+<li>iOS Programming: Record and Play Audio using AVFoundation Framework <a href="http://t.co/woJqAMolsK" target="_blank">http://t.co/woJqAMolsK</a> <span style="font-size: 85%;"><a href="http://twitter.com/simonng/status/306809483869446144" rel="nofollow">about 19 hours ago</a></span></li>
+<li>AssistantEnhancer Adds More Searching Options for Siri <a href="http://t.co/fy4k8eAG83" target="_blank">http://t.co/fy4k8eAG83</a> <a href="http://search.twitter.com/search?q=cydia" target="_blank">#cydia</a> <a href="http://search.twitter.com/search?q=ipad" target="_blank">#ipad</a> <a href="http://search.twitter.com/search?q=iphone" target="_blank">#iphone</a> <a href="http://search.twitter.com/search?q=iphone5" target="_blank">#iphone5</a> <span style="font-size: 85%;"><a href="http://twitter.com/simonng/status/306794372429647872" rel="nofollow">about 20 hours ago</a></span></li>
+<li>AssistantEnhancer Hack Adds More Searching Options for Siri <a href="http://t.co/EUv2fIiq00" target="_blank">http://t.co/EUv2fIiq00</a> <a href="http://search.twitter.com/search?q=cydia" target="_blank">#cydia</a> <a href="http://search.twitter.com/search?q=jailbreak" target="_blank">#jailbreak</a> <span style="font-size: 85%;"><a href="http://twitter.com/simonng/status/306790900355457026" rel="nofollow">about 20 hours ago</a></span></li>
+<li>Game Review: Die Hard for iPhone and iPad <a href="http://t.co/qiulLmxTME" target="_blank">http://t.co/qiulLmxTME</a> <span style="font-size: 85%;"><a href="http://twitter.com/simonng/status/306390613056708608" rel="nofollow">about 2 days ago</a></span></li>
+</ul>
+</div></div>
+</div><div class="footer-widgets-3 widget-area"><div id="nav_menu-5" class="widget widget_nav_menu"><div class="widget-wrap"><h4 class="widgettitle">Connect With Us</h4>
+<div class="menu-sidebar-container"><ul id="menu-sidebar-1" class="menu"><li class="social-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-57"><a href="http://twitter.com/appcodamobile">Twitter</a></li>
+<li class="social-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="http://facebook.com/appcodamobile">Facebook</a></li>
+<li class="social-rss menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a href="http://feeds.feedburner.com/appcoda">RSS</a></li>
+<li class="social-plus menu-item menu-item-type-custom menu-item-object-custom menu-item-68"><a href="https://plus.google.com/b/118438564257465271998/">Google Plus</a></li>
+</ul></div></div></div>
+<div id="text-3" class="widget widget_text"><div class="widget-wrap"><h4 class="widgettitle">Email Newsletter</h4>
+			<div class="textwidget"><p>Sign up to receive free tutorial and
+to hear what's going on with AppCoda!</p>
+<div class="enews"><form action="http://appcoda.us4.list-manage.com/subscribe/post?u=0c7883c41955cf5d7817400a2&id=9a52e964eb" method="post" id="subscribe" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+	<input type="email" id="subbox" value="" name="EMAIL" class="email" placeholder="Enter your email address" required=""><input type="submit" value="Subscribe" name="subscribe" id="subbutton" class="button">
+</form>
+</div></div>
+		</div></div>
+</div></div><!-- end .wrap --></div><div id="footer" class="footer"><div class="wrap">    <p>© Copyright 2012 <a href="http://appcoda.com/">AppCoda</a> · All Rights Reserved · Powered by <a href="http://wordpress.org/">WordPress</a></p>
+    </div><!-- end .wrap --></div><!-- end #footer -->
+</div><!-- end #wrap -->
+<script type="text/javascript">
+var vanilla_forum_url = 'http://www.appcoda.com/forum';
+(function() {
+   var vanilla_count = document.createElement('script');
+   vanilla_count.type = 'text/javascript';
+   vanilla_count.src = vanilla_forum_url + '/js/count.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(vanilla_count);
+})();
+</script>
+<span></span><style type="text/css" class="fluid-images">img{max-width:100%;height:auto;}</style><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><script type="text/javascript" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/jquery.form.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.appcoda.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/scripts.js"></script>
+<script type="text/javascript" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/superfish.js"></script>
+<script type="text/javascript" src="./How To Add a Search Bar in Table View   iOS Programming Tutorial_files/superfish.args.js"></script>
+
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+Served from: www.appcoda.com @ 2013-02-28 19:32:05 --></body></html>

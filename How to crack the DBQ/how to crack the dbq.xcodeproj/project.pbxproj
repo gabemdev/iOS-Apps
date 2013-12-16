@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA20B4B183B081600477C72 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA20B4A183B081600477C72 /* SidebarViewController.m */; };
+		ACA9EAD9183C5F70006A5298 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA9EAD8183C5F70006A5298 /* iAd.framework */; };
+		ACA9EADB183C5F7A006A5298 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA9EADA183C5F7A006A5298 /* MessageUI.framework */; };
+		ACA9EADC183C6574006A5298 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA20B42183AFA3A00477C72 /* SWRevealViewController.m */; };
+		ACAB0DF818516B6900FC306D /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAB0DF718516B6900FC306D /* nav_bg.png */; };
+		ACAB0DFB1851743200FC306D /* DBQExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAB0DFA1851743200FC306D /* DBQExamplesViewController.m */; };
+		ACABE6A41851F80900387F4A /* 2004 DBQ Annotated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE6981851F80900387F4A /* 2004 DBQ Annotated.pdf */; };
+		ACABE6A51851F80900387F4A /* 2011 DBQ Annotated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE69A1851F80900387F4A /* 2011 DBQ Annotated.pdf */; };
+		ACABE6A61851F80900387F4A /* 2011 DBQ PreWrite.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE69B1851F80900387F4A /* 2011 DBQ PreWrite.pdf */; };
+		ACABE6A71851F80900387F4A /* 12 Cricket Annotated Docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE69D1851F80900387F4A /* 12 Cricket Annotated Docs.pdf */; };
+		ACABE6A81851F80900387F4A /* 2012 DBQ PreWrite Cricket Annotation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE69E1851F80900387F4A /* 2012 DBQ PreWrite Cricket Annotation.pdf */; };
+		ACABE6A91851F80900387F4A /* DBQ Progression.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE69F1851F80900387F4A /* DBQ Progression.pdf */; };
+		ACABE6AA1851F80900387F4A /* DBQOrganizationChart.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE6A01851F80900387F4A /* DBQOrganizationChart.pdf */; };
+		ACABE6AB1851F80900387F4A /* Must Do Essay Checklist DBQ.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE6A11851F80900387F4A /* Must Do Essay Checklist DBQ.pdf */; };
+		ACABE6AC1851F80900387F4A /* Thesis Killer Words (3).pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE6A21851F80900387F4A /* Thesis Killer Words (3).pdf */; };
+		ACABE6AD1851F80900387F4A /* Writing Packet 2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE6A31851F80900387F4A /* Writing Packet 2013.pdf */; };
+		ACAC0584183C4D4500511BB7 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC057A183C4D4500511BB7 /* bookmark.png */; };
+		ACAC0585183C4D4500511BB7 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC057B183C4D4500511BB7 /* calendar.png */; };
+		ACAC0586183C4D4500511BB7 /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC057C183C4D4500511BB7 /* comments.png */; };
+		ACAC0587183C4D4500511BB7 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC057D183C4D4500511BB7 /* map.png */; };
+		ACAC0588183C4D4500511BB7 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC057E183C4D4500511BB7 /* menu.png */; };
+		ACAC0589183C4D4500511BB7 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC057F183C4D4500511BB7 /* menu@2x.png */; };
+		ACAC058A183C4D4500511BB7 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC0580183C4D4500511BB7 /* news.png */; };
+		ACAC058B183C4D4500511BB7 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC0581183C4D4500511BB7 /* photo.png */; };
+		ACAC058C183C4D4500511BB7 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC0582183C4D4500511BB7 /* tag.png */; };
+		ACAC058D183C4D4500511BB7 /* wishlist.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAC0583183C4D4500511BB7 /* wishlist.png */; };
+		ACAC4A0117F48C3500A6C3CA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC4A0017F48C3500A6C3CA /* WebViewController.m */; };
+		ACAE3CDD17E68F4C00A50746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE3CDC17E68F4C00A50746 /* UIKit.framework */; };
+		ACAE3CDF17E68F4C00A50746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE3CDE17E68F4C00A50746 /* Foundation.framework */; };
+		ACAE3CE117E68F4C00A50746 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE3CE017E68F4C00A50746 /* CoreGraphics.framework */; };
+		ACAE3CE717E68F4C00A50746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3CE517E68F4C00A50746 /* InfoPlist.strings */; };
+		ACAE3CE917E68F4C00A50746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE3CE817E68F4C00A50746 /* main.m */; };
+		ACAE3CED17E68F4C00A50746 /* DBQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAE3CEC17E68F4C00A50746 /* DBQAppDelegate.m */; };
+		ACAE3CEF17E68F4C00A50746 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3CEE17E68F4C00A50746 /* Default.png */; };
+		ACAE3CF117E68F4C00A50746 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3CF017E68F4C00A50746 /* Default@2x.png */; };
+		ACAE3CF317E68F4C00A50746 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3CF217E68F4C00A50746 /* Default-568h@2x.png */; };
+		ACAE3CF617E68F4C00A50746 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3CF417E68F4C00A50746 /* MainStoryboard.storyboard */; };
+		ACAE3CFB17E68F4C00A50746 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3CFA17E68F4C00A50746 /* first.png */; };
+		ACAE3CFD17E68F4C00A50746 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3CFC17E68F4C00A50746 /* first@2x.png */; };
+		ACAE3D0217E68F4C00A50746 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3D0117E68F4C00A50746 /* second.png */; };
+		ACAE3D0417E68F4C00A50746 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3D0317E68F4C00A50746 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACA20B41183AFA3A00477C72 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		ACA20B42183AFA3A00477C72 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		ACA20B49183B081600477C72 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		ACA20B4A183B081600477C72 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		ACA9EAD8183C5F70006A5298 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		ACA9EADA183C5F7A006A5298 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		ACAB0DF718516B6900FC306D /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
+		ACAB0DF91851743200FC306D /* DBQExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQExamplesViewController.h; sourceTree = "<group>"; };
+		ACAB0DFA1851743200FC306D /* DBQExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQExamplesViewController.m; sourceTree = "<group>"; };
+		ACABE6981851F80900387F4A /* 2004 DBQ Annotated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2004 DBQ Annotated.pdf"; sourceTree = "<group>"; };
+		ACABE69A1851F80900387F4A /* 2011 DBQ Annotated.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2011 DBQ Annotated.pdf"; sourceTree = "<group>"; };
+		ACABE69B1851F80900387F4A /* 2011 DBQ PreWrite.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2011 DBQ PreWrite.pdf"; sourceTree = "<group>"; };
+		ACABE69D1851F80900387F4A /* 12 Cricket Annotated Docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "12 Cricket Annotated Docs.pdf"; sourceTree = "<group>"; };
+		ACABE69E1851F80900387F4A /* 2012 DBQ PreWrite Cricket Annotation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2012 DBQ PreWrite Cricket Annotation.pdf"; sourceTree = "<group>"; };
+		ACABE69F1851F80900387F4A /* DBQ Progression.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "DBQ Progression.pdf"; sourceTree = "<group>"; };
+		ACABE6A01851F80900387F4A /* DBQOrganizationChart.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DBQOrganizationChart.pdf; sourceTree = "<group>"; };
+		ACABE6A11851F80900387F4A /* Must Do Essay Checklist DBQ.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Must Do Essay Checklist DBQ.pdf"; sourceTree = "<group>"; };
+		ACABE6A21851F80900387F4A /* Thesis Killer Words (3).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Thesis Killer Words (3).pdf"; sourceTree = "<group>"; };
+		ACABE6A31851F80900387F4A /* Writing Packet 2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Writing Packet 2013.pdf"; sourceTree = "<group>"; };
+		ACAC057A183C4D4500511BB7 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
+		ACAC057B183C4D4500511BB7 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		ACAC057C183C4D4500511BB7 /* comments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comments.png; sourceTree = "<group>"; };
+		ACAC057D183C4D4500511BB7 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		ACAC057E183C4D4500511BB7 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		ACAC057F183C4D4500511BB7 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		ACAC0580183C4D4500511BB7 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		ACAC0581183C4D4500511BB7 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		ACAC0582183C4D4500511BB7 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
+		ACAC0583183C4D4500511BB7 /* wishlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wishlist.png; sourceTree = "<group>"; };
+		ACAC49FF17F48C3500A6C3CA /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		ACAC4A0017F48C3500A6C3CA /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
+		ACAE3CD917E68F4C00A50746 /* How to crack the DBQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How to crack the DBQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAE3CDC17E68F4C00A50746 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACAE3CDE17E68F4C00A50746 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACAE3CE017E68F4C00A50746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACAE3CE417E68F4C00A50746 /* How to crack the DBQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "How to crack the DBQ-Info.plist"; sourceTree = "<group>"; };
+		ACAE3CE617E68F4C00A50746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACAE3CE817E68F4C00A50746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACAE3CEA17E68F4C00A50746 /* How to crack the DBQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "How to crack the DBQ-Prefix.pch"; sourceTree = "<group>"; };
+		ACAE3CEB17E68F4C00A50746 /* DBQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBQAppDelegate.h; sourceTree = "<group>"; };
+		ACAE3CEC17E68F4C00A50746 /* DBQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBQAppDelegate.m; sourceTree = "<group>"; };
+		ACAE3CEE17E68F4C00A50746 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACAE3CF017E68F4C00A50746 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACAE3CF217E68F4C00A50746 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACAE3CF517E68F4C00A50746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ACAE3CFA17E68F4C00A50746 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		ACAE3CFC17E68F4C00A50746 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		ACAE3D0117E68F4C00A50746 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		ACAE3D0317E68F4C00A50746 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAE3CD617E68F4C00A50746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA9EADB183C5F7A006A5298 /* MessageUI.framework in Frameworks */,
+				ACA9EAD9183C5F70006A5298 /* iAd.framework in Frameworks */,
+				ACAE3CDD17E68F4C00A50746 /* UIKit.framework in Frameworks */,
+				ACAE3CDF17E68F4C00A50746 /* Foundation.framework in Frameworks */,
+				ACAE3CE117E68F4C00A50746 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACABE6971851F80900387F4A /* Macsuga Stuff DBQ */ = {
+			isa = PBXGroup;
+			children = (
+				ACABE6981851F80900387F4A /* 2004 DBQ Annotated.pdf */,
+				ACABE6991851F80900387F4A /* 2011 Green Revolution */,
+				ACABE69C1851F80900387F4A /* 2012 Cricket and Politics in India */,
+				ACABE69F1851F80900387F4A /* DBQ Progression.pdf */,
+				ACABE6A01851F80900387F4A /* DBQOrganizationChart.pdf */,
+				ACABE6A11851F80900387F4A /* Must Do Essay Checklist DBQ.pdf */,
+				ACABE6A21851F80900387F4A /* Thesis Killer Words (3).pdf */,
+				ACABE6A31851F80900387F4A /* Writing Packet 2013.pdf */,
+			);
+			path = "Macsuga Stuff DBQ";
+			sourceTree = "<group>";
+		};
+		ACABE6991851F80900387F4A /* 2011 Green Revolution */ = {
+			isa = PBXGroup;
+			children = (
+				ACABE69A1851F80900387F4A /* 2011 DBQ Annotated.pdf */,
+				ACABE69B1851F80900387F4A /* 2011 DBQ PreWrite.pdf */,
+			);
+			path = "2011 Green Revolution";
+			sourceTree = "<group>";
+		};
+		ACABE69C1851F80900387F4A /* 2012 Cricket and Politics in India */ = {
+			isa = PBXGroup;
+			children = (
+				ACABE69D1851F80900387F4A /* 12 Cricket Annotated Docs.pdf */,
+				ACABE69E1851F80900387F4A /* 2012 DBQ PreWrite Cricket Annotation.pdf */,
+			);
+			path = "2012 Cricket and Politics in India";
+			sourceTree = "<group>";
+		};
+		ACAC0579183C4D4500511BB7 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC057A183C4D4500511BB7 /* bookmark.png */,
+				ACAC057B183C4D4500511BB7 /* calendar.png */,
+				ACAC057C183C4D4500511BB7 /* comments.png */,
+				ACAC057D183C4D4500511BB7 /* map.png */,
+				ACAC057E183C4D4500511BB7 /* menu.png */,
+				ACAC057F183C4D4500511BB7 /* menu@2x.png */,
+				ACAC0580183C4D4500511BB7 /* news.png */,
+				ACAC0581183C4D4500511BB7 /* photo.png */,
+				ACAC0582183C4D4500511BB7 /* tag.png */,
+				ACAC0583183C4D4500511BB7 /* wishlist.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		ACAE3CD017E68F4C00A50746 = {
+			isa = PBXGroup;
+			children = (
+				ACAC0579183C4D4500511BB7 /* Pictures */,
+				ACAE3CE217E68F4C00A50746 /* How to crack the DBQ */,
+				ACAE3CDB17E68F4C00A50746 /* Frameworks */,
+				ACAE3CDA17E68F4C00A50746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAE3CDA17E68F4C00A50746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE3CD917E68F4C00A50746 /* How to crack the DBQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAE3CDB17E68F4C00A50746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA9EADA183C5F7A006A5298 /* MessageUI.framework */,
+				ACA9EAD8183C5F70006A5298 /* iAd.framework */,
+				ACAE3CDC17E68F4C00A50746 /* UIKit.framework */,
+				ACAE3CDE17E68F4C00A50746 /* Foundation.framework */,
+				ACAE3CE017E68F4C00A50746 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACAE3CE217E68F4C00A50746 /* How to crack the DBQ */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE3CEB17E68F4C00A50746 /* DBQAppDelegate.h */,
+				ACAE3CEC17E68F4C00A50746 /* DBQAppDelegate.m */,
+				ACAB0DF91851743200FC306D /* DBQExamplesViewController.h */,
+				ACAB0DFA1851743200FC306D /* DBQExamplesViewController.m */,
+				ACA20B41183AFA3A00477C72 /* SWRevealViewController.h */,
+				ACA20B42183AFA3A00477C72 /* SWRevealViewController.m */,
+				ACAC49FF17F48C3500A6C3CA /* WebViewController.h */,
+				ACAC4A0017F48C3500A6C3CA /* WebViewController.m */,
+				ACA20B49183B081600477C72 /* SidebarViewController.h */,
+				ACA20B4A183B081600477C72 /* SidebarViewController.m */,
+				ACAE3CF417E68F4C00A50746 /* MainStoryboard.storyboard */,
+				ACAE3CFA17E68F4C00A50746 /* first.png */,
+				ACAE3CFC17E68F4C00A50746 /* first@2x.png */,
+				ACAE3D0117E68F4C00A50746 /* second.png */,
+				ACAE3D0317E68F4C00A50746 /* second@2x.png */,
+				ACABE6971851F80900387F4A /* Macsuga Stuff DBQ */,
+				ACAE3CE317E68F4C00A50746 /* Supporting Files */,
+			);
+			path = "How to crack the DBQ";
+			sourceTree = "<group>";
+		};
+		ACAE3CE317E68F4C00A50746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE3CE417E68F4C00A50746 /* How to crack the DBQ-Info.plist */,
+				ACAB0DF718516B6900FC306D /* nav_bg.png */,
+				ACAE3CE517E68F4C00A50746 /* InfoPlist.strings */,
+				ACAE3CE817E68F4C00A50746 /* main.m */,
+				ACAE3CEA17E68F4C00A50746 /* How to crack the DBQ-Prefix.pch */,
+				ACAE3CEE17E68F4C00A50746 /* Default.png */,
+				ACAE3CF017E68F4C00A50746 /* Default@2x.png */,
+				ACAE3CF217E68F4C00A50746 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAE3CD817E68F4C00A50746 /* How to crack the DBQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAE3D0717E68F4C00A50746 /* Build configuration list for PBXNativeTarget "How to crack the DBQ" */;
+			buildPhases = (
+				ACAE3CD517E68F4C00A50746 /* Sources */,
+				ACAE3CD617E68F4C00A50746 /* Frameworks */,
+				ACAE3CD717E68F4C00A50746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How to crack the DBQ";
+			productName = "How to crack the DBQ";
+			productReference = ACAE3CD917E68F4C00A50746 /* How to crack the DBQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAE3CD117E68F4C00A50746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DBQ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = MoAppsCo;
+			};
+			buildConfigurationList = ACAE3CD417E68F4C00A50746 /* Build configuration list for PBXProject "How to crack the DBQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACAE3CD017E68F4C00A50746;
+			productRefGroup = ACAE3CDA17E68F4C00A50746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAE3CD817E68F4C00A50746 /* How to crack the DBQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAE3CD717E68F4C00A50746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAE3CE717E68F4C00A50746 /* InfoPlist.strings in Resources */,
+				ACAE3CEF17E68F4C00A50746 /* Default.png in Resources */,
+				ACAE3CF117E68F4C00A50746 /* Default@2x.png in Resources */,
+				ACAE3CF317E68F4C00A50746 /* Default-568h@2x.png in Resources */,
+				ACAE3CF617E68F4C00A50746 /* MainStoryboard.storyboard in Resources */,
+				ACAE3CFB17E68F4C00A50746 /* first.png in Resources */,
+				ACAE3CFD17E68F4C00A50746 /* first@2x.png in Resources */,
+				ACAE3D0217E68F4C00A50746 /* second.png in Resources */,
+				ACAE3D0417E68F4C00A50746 /* second@2x.png in Resources */,
+				ACAC0584183C4D4500511BB7 /* bookmark.png in Resources */,
+				ACAC0585183C4D4500511BB7 /* calendar.png in Resources */,
+				ACAC0586183C4D4500511BB7 /* comments.png in Resources */,
+				ACAC0587183C4D4500511BB7 /* map.png in Resources */,
+				ACAC0588183C4D4500511BB7 /* menu.png in Resources */,
+				ACAC0589183C4D4500511BB7 /* menu@2x.png in Resources */,
+				ACAC058A183C4D4500511BB7 /* news.png in Resources */,
+				ACAC058B183C4D4500511BB7 /* photo.png in Resources */,
+				ACAC058C183C4D4500511BB7 /* tag.png in Resources */,
+				ACAC058D183C4D4500511BB7 /* wishlist.png in Resources */,
+				ACAB0DF818516B6900FC306D /* nav_bg.png in Resources */,
+				ACABE6A41851F80900387F4A /* 2004 DBQ Annotated.pdf in Resources */,
+				ACABE6A51851F80900387F4A /* 2011 DBQ Annotated.pdf in Resources */,
+				ACABE6A61851F80900387F4A /* 2011 DBQ PreWrite.pdf in Resources */,
+				ACABE6A71851F80900387F4A /* 12 Cricket Annotated Docs.pdf in Resources */,
+				ACABE6A81851F80900387F4A /* 2012 DBQ PreWrite Cricket Annotation.pdf in Resources */,
+				ACABE6A91851F80900387F4A /* DBQ Progression.pdf in Resources */,
+				ACABE6AA1851F80900387F4A /* DBQOrganizationChart.pdf in Resources */,
+				ACABE6AB1851F80900387F4A /* Must Do Essay Checklist DBQ.pdf in Resources */,
+				ACABE6AC1851F80900387F4A /* Thesis Killer Words (3).pdf in Resources */,
+				ACABE6AD1851F80900387F4A /* Writing Packet 2013.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAE3CD517E68F4C00A50746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA9EADC183C6574006A5298 /* SWRevealViewController.m in Sources */,
+				ACAE3CE917E68F4C00A50746 /* main.m in Sources */,
+				ACAE3CED17E68F4C00A50746 /* DBQAppDelegate.m in Sources */,
+				ACAC4A0117F48C3500A6C3CA /* WebViewController.m in Sources */,
+				ACA20B4B183B081600477C72 /* SidebarViewController.m in Sources */,
+				ACAB0DFB1851743200FC306D /* DBQExamplesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACAE3CE517E68F4C00A50746 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAE3CE617E68F4C00A50746 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACAE3CF417E68F4C00A50746 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAE3CF517E68F4C00A50746 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAE3D0517E68F4C00A50746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACAE3D0617E68F4C00A50746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAE3D0817E68F4C00A50746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "How to crack the DBQ/How to crack the DBQ-Prefix.pch";
+				INFOPLIST_FILE = "How to crack the DBQ/How to crack the DBQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACAE3D0917E68F4C00A50746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "How to crack the DBQ/How to crack the DBQ-Prefix.pch";
+				INFOPLIST_FILE = "How to crack the DBQ/How to crack the DBQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAE3CD417E68F4C00A50746 /* Build configuration list for PBXProject "How to crack the DBQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAE3D0517E68F4C00A50746 /* Debug */,
+				ACAE3D0617E68F4C00A50746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAE3D0717E68F4C00A50746 /* Build configuration list for PBXNativeTarget "How to crack the DBQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAE3D0817E68F4C00A50746 /* Debug */,
+				ACAE3D0917E68F4C00A50746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAE3CD117E68F4C00A50746 /* Project object */;
+}
