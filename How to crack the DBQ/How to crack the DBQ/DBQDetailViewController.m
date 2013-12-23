@@ -34,10 +34,19 @@
 	// Do any additional setup after loading the view.
 }
 
+
+- (void)viewDidUnload
+{
+[self setDbqimage:nil];
+    [super viewDidUnload];
+
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    [self setDbqimage:nil];
+    
     // Dispose of any resources that can be recreated.
 }
 
