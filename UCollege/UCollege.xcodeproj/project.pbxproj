@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C092AFB1869E5550040D1CF /* browncampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C092AFA1869E5550040D1CF /* browncampus.jpeg */; };
+		1C2E47A7185567AA0020665E /* marquette campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47A5185567AA0020665E /* marquette campus.jpeg */; };
+		1C2E47A8185567AA0020665E /* marquette seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47A6185567AA0020665E /* marquette seal.png */; };
+		1C2E47AC185568140020665E /* carnegie_mellon_U_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47A9185568140020665E /* carnegie_mellon_U_seal.png */; };
+		1C2E47AD185568140020665E /* carnegieclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47AA185568140020665E /* carnegieclasssize.png */; };
+		1C2E47AE185568140020665E /* college-photo_7656..jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C2E47AB185568140020665E /* college-photo_7656..jpg */; };
 		AC3357A217404A74001C8B7E /* Nimages.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A117404A74001C8B7E /* Nimages.jpeg */; };
 		AC3357A4174050F9001C8B7E /* asdnfsjajdnfs.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A3174050F9001C8B7E /* asdnfsjajdnfs.png */; };
 		AC3357A617405883001C8B7E /* cacsa.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3357A517405883001C8B7E /* cacsa.png */; };
@@ -31,7 +37,6 @@
 		ACAA986E17403B3300FC632D /* College4U Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA952517403B2F00FC632D /* College4U Splash Screen.png */; };
 		ACAA986F17403B3300FC632D /* Harvard Screenshot 1136x640.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA952617403B2F00FC632D /* Harvard Screenshot 1136x640.png */; };
 		ACAA987017403B3300FC632D /* Harvard Screenshot 960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA952717403B2F00FC632D /* Harvard Screenshot 960x640.png */; };
-		ACAA987117403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA952817403B2F00FC632D /* Icon */; };
 		ACAA987217403B3300FC632D /* list of colleges screenshot 1136x640 .png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA952917403B2F00FC632D /* list of colleges screenshot 1136x640 .png */; };
 		ACAA987317403B3300FC632D /* list of colleges screenshot 960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA952A17403B2F00FC632D /* list of colleges screenshot 960x640.png */; };
 		ACAA987417403B3300FC632D /* more tab 1136x640.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA952B17403B2F00FC632D /* more tab 1136x640.png */; };
@@ -44,11 +49,8 @@
 		ACAA987B17403B3300FC632D /* virginia tech screenshot 960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953217403B2F00FC632D /* virginia tech screenshot 960x640.png */; };
 		ACAA987C17403B3300FC632D /* baylor_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953517403B2F00FC632D /* baylor_campus.jpeg */; };
 		ACAA987D17403B3300FC632D /* baylor_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953617403B2F00FC632D /* baylor_seal.png */; };
-		ACAA987E17403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953717403B2F00FC632D /* Icon */; };
-		ACAA987F17403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953917403B2F00FC632D /* Icon */; };
 		ACAA988017403B3300FC632D /* iowa_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953A17403B2F00FC632D /* iowa_campus.jpeg */; };
 		ACAA988117403B3300FC632D /* iowa_seal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953B17403B2F00FC632D /* iowa_seal.jpeg */; };
-		ACAA988217403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953D17403B2F00FC632D /* Icon */; };
 		ACAA988317403B3300FC632D /* u of cali riverside campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953E17403B2F00FC632D /* u of cali riverside campus.jpeg */; };
 		ACAA988417403B3300FC632D /* u of cali riverside seal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA953F17403B2F00FC632D /* u of cali riverside seal.jpeg */; };
 		ACAA988517403B3300FC632D /* 1283462865841.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA954117403B2F00FC632D /* 1283462865841.jpg */; };
@@ -156,88 +158,58 @@
 		ACAA98EE17403B3300FC632D /* 55749414.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95DE17403B2F00FC632D /* 55749414.jpeg */; };
 		ACAA98EF17403B3300FC632D /* VOBOJSA.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95E017403B2F00FC632D /* VOBOJSA.jpeg */; };
 		ACAA98F017403B3300FC632D /* AOOOJWOF.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95E117403B2F00FC632D /* AOOOJWOF.jpeg */; };
-		ACAA98F117403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95E317403B3000FC632D /* Icon */; };
 		ACAA98F217403B3300FC632D /* ohioucolumbuscampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95E417403B3000FC632D /* ohioucolumbuscampus.jpeg */; };
 		ACAA98F317403B3300FC632D /* ohioucolumbusseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95E517403B3000FC632D /* ohioucolumbusseal.png */; };
 		ACAA98F417403B3300FC632D /* fordhamcampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95E717403B3000FC632D /* fordhamcampus.jpeg */; };
 		ACAA98F517403B3300FC632D /* fordhamseal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95E817403B3000FC632D /* fordhamseal.jpeg */; };
-		ACAA98F617403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95E917403B3000FC632D /* Icon */; };
-		ACAA98F717403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95EB17403B3000FC632D /* Icon */; };
 		ACAA98F817403B3300FC632D /* smu campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95EC17403B3000FC632D /* smu campus.jpeg */; };
 		ACAA98F917403B3300FC632D /* smu seal.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95ED17403B3000FC632D /* smu seal.gif */; };
-		ACAA98FA17403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95EF17403B3000FC632D /* Icon */; };
 		ACAA98FB17403B3300FC632D /* u of maryland college park campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95F017403B3000FC632D /* u of maryland college park campus.jpeg */; };
 		ACAA98FC17403B3300FC632D /* u of maryland college park seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95F117403B3000FC632D /* u of maryland college park seal.png */; };
-		ACAA98FD17403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95F317403B3000FC632D /* Icon */; };
 		ACAA98FE17403B3300FC632D /* u of georgia campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95F417403B3000FC632D /* u of georgia campus.jpeg */; };
 		ACAA98FF17403B3300FC632D /* u of georgia seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95F517403B3000FC632D /* u of georgia seal.png */; };
 		ACAA990017403B3300FC632D /* americancampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95F717403B3000FC632D /* americancampus.jpeg */; };
 		ACAA990117403B3300FC632D /* americanseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95F817403B3000FC632D /* americanseal.png */; };
-		ACAA990217403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95F917403B3000FC632D /* Icon */; };
 		ACAA990317403B3300FC632D /* coloradominescampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95FB17403B3000FC632D /* coloradominescampus.jpeg */; };
 		ACAA990417403B3300FC632D /* coloradominesseal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95FC17403B3000FC632D /* coloradominesseal.jpeg */; };
-		ACAA990517403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95FD17403B3000FC632D /* Icon */; };
-		ACAA990617403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA95FF17403B3000FC632D /* Icon */; };
 		ACAA990717403B3300FC632D /* suny_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960017403B3000FC632D /* suny_campus.jpeg */; };
 		ACAA990817403B3300FC632D /* suny_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960117403B3000FC632D /* suny_seal.png */; };
 		ACAA990917403B3300FC632D /* alabamacampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960317403B3000FC632D /* alabamacampus.jpeg */; };
 		ACAA990A17403B3300FC632D /* alabamaseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960417403B3000FC632D /* alabamaseal.png */; };
-		ACAA990B17403B3300FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960517403B3000FC632D /* Icon */; };
 		ACAA990C17403B3400FC632D /* cali u santa cruz campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960717403B3000FC632D /* cali u santa cruz campus.jpg */; };
 		ACAA990D17403B3400FC632D /* calu u santa cruz seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960817403B3000FC632D /* calu u santa cruz seal.png */; };
-		ACAA990E17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960917403B3000FC632D /* Icon */; };
 		ACAA990F17403B3400FC632D /* clarkcampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960B17403B3000FC632D /* clarkcampus.jpeg */; };
 		ACAA991017403B3400FC632D /* clarkseal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960C17403B3000FC632D /* clarkseal.jpeg */; };
-		ACAA991117403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960D17403B3000FC632D /* Icon */; };
 		ACAA991217403B3400FC632D /* Drexel_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA960F17403B3000FC632D /* Drexel_campus.jpeg */; };
 		ACAA991317403B3400FC632D /* Drexel_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961017403B3000FC632D /* Drexel_seal.png */; };
-		ACAA991417403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961117403B3000FC632D /* Icon */; };
-		ACAA991517403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961317403B3000FC632D /* Icon */; };
 		ACAA991617403B3400FC632D /* indianabloomingtoncampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961417403B3000FC632D /* indianabloomingtoncampus.jpeg */; };
 		ACAA991717403B3400FC632D /* indianabloomingtonseal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961517403B3000FC632D /* indianabloomingtonseal.jpeg */; };
-		ACAA991817403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961717403B3000FC632D /* Icon */; };
-		ACAA991917403B3400FC632D /* marquette campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961817403B3000FC632D /* marquette campus.jpeg */; };
-		ACAA991A17403B3400FC632D /* marquette seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961917403B3000FC632D /* marquette seal.png */; };
 		ACAA991B17403B3400FC632D /* denvercampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961B17403B3000FC632D /* denvercampus.jpeg */; };
 		ACAA991C17403B3400FC632D /* denverseal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961C17403B3000FC632D /* denverseal.jpeg */; };
-		ACAA991D17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961D17403B3000FC632D /* Icon */; };
-		ACAA991E17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA961F17403B3000FC632D /* Icon */; };
 		ACAA991F17403B3400FC632D /* tulsa campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962017403B3000FC632D /* tulsa campus.jpeg */; };
 		ACAA992017403B3400FC632D /* tulsa seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962117403B3000FC632D /* tulsa seal.png */; };
 		ACAA992117403B3400FC632D /* auburncampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962317403B3000FC632D /* auburncampus.jpeg */; };
 		ACAA992217403B3400FC632D /* auburnseal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962417403B3000FC632D /* auburnseal.jpeg */; };
-		ACAA992317403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962517403B3000FC632D /* Icon */; };
 		ACAA992417403B3400FC632D /* binghamton campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962717403B3000FC632D /* binghamton campus.jpeg */; };
 		ACAA992517403B3400FC632D /* binghamton seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962817403B3000FC632D /* binghamton seal.png */; };
-		ACAA992617403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962917403B3000FC632D /* Icon */; };
-		ACAA992717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962B17403B3000FC632D /* Icon */; };
 		ACAA992817403B3400FC632D /* miamioxfordcampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962C17403B3000FC632D /* miamioxfordcampus.jpeg */; };
 		ACAA992917403B3400FC632D /* miamioxfordseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962D17403B3000FC632D /* miamioxfordseal.png */; };
-		ACAA992A17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA962F17403B3000FC632D /* Icon */; };
 		ACAA992B17403B3400FC632D /* saintlouisseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963017403B3000FC632D /* saintlouisseal.png */; };
 		ACAA992C17403B3400FC632D /* stlouiscampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963117403B3000FC632D /* stlouiscampus.jpeg */; };
-		ACAA992D17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963317403B3000FC632D /* Icon */; };
 		ACAA992E17403B3400FC632D /* stonycampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963417403B3000FC632D /* stonycampus.jpeg */; };
 		ACAA992F17403B3400FC632D /* stonyseal.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963517403B3000FC632D /* stonyseal.gif */; };
-		ACAA993017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963717403B3000FC632D /* Icon */; };
 		ACAA993117403B3400FC632D /* texaschristiancampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963817403B3000FC632D /* texaschristiancampus.jpeg */; };
 		ACAA993217403B3400FC632D /* texaschristianseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963917403B3000FC632D /* texaschristianseal.png */; };
-		ACAA993317403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963B17403B3000FC632D /* Icon */; };
 		ACAA993417403B3400FC632D /* sandiegocampus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963C17403B3000FC632D /* sandiegocampus.jpg */; };
 		ACAA993517403B3400FC632D /* sandiegoseal.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963D17403B3000FC632D /* sandiegoseal.gif */; };
 		ACAA993617403B3400FC632D /* fsu campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA963F17403B3000FC632D /* fsu campus.jpeg */; };
 		ACAA993717403B3400FC632D /* fsu seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964017403B3000FC632D /* fsu seal.png */; };
-		ACAA993817403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964117403B3000FC632D /* Icon */; };
-		ACAA993917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964317403B3000FC632D /* Icon */; };
 		ACAA993A17403B3400FC632D /* vermontcampus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964417403B3000FC632D /* vermontcampus.jpg */; };
 		ACAA993B17403B3400FC632D /* vermontseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964517403B3000FC632D /* vermontseal.png */; };
-		ACAA993C17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964717403B3000FC632D /* Icon */; };
 		ACAA993D17403B3400FC632D /* u of colorado boulder campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964817403B3000FC632D /* u of colorado boulder campus.jpeg */; };
 		ACAA993E17403B3400FC632D /* u of colorado boulder seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964917403B3000FC632D /* u of colorado boulder seal.png */; };
-		ACAA993F17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964B17403B3000FC632D /* Icon */; };
 		ACAA994017403B3400FC632D /* umassamherstcampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964C17403B3000FC632D /* umassamherstcampus.jpeg */; };
 		ACAA994117403B3400FC632D /* umassamherstseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964D17403B3000FC632D /* umassamherstseal.png */; };
-		ACAA994217403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA964F17403B3000FC632D /* Icon */; };
 		ACAA994317403B3400FC632D /* u of missouri campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA965017403B3000FC632D /* u of missouri campus.jpeg */; };
 		ACAA994417403B3400FC632D /* u of missouri seal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA965117403B3000FC632D /* u of missouri seal.jpeg */; };
 		ACAA994517403B3400FC632D /* HQAH.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA965317403B3000FC632D /* HQAH.jpeg */; };
@@ -332,80 +304,52 @@
 		ACAA99A017403B3400FC632D /* bdksjfdhsfjdhsf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96DB17403B3100FC632D /* bdksjfdhsfjdhsf.jpeg */; };
 		ACAA99A117403B3400FC632D /* shdkfjdhksfjhasdf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96DC17403B3100FC632D /* shdkfjdhksfjhasdf.jpeg */; };
 		ACAA99A217403B3400FC632D /* File:Baylor_University_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96DE17403B3100FC632D /* File:Baylor_University_seal.png */; };
-		ACAA99A317403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96DF17403B3100FC632D /* Icon */; };
 		ACAA99A417403B3400FC632D /* photos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96E017403B3100FC632D /* photos.jpeg */; };
 		ACAA99A517403B3400FC632D /* boston_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96E217403B3100FC632D /* boston_campus.jpeg */; };
 		ACAA99A617403B3400FC632D /* boston_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96E317403B3100FC632D /* boston_seal.png */; };
-		ACAA99A717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96E417403B3100FC632D /* Icon */; };
 		ACAA99A817403B3400FC632D /* boston_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96E617403B3100FC632D /* boston_campus.jpeg */; };
 		ACAA99A917403B3400FC632D /* Boston_University_seal.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96E717403B3100FC632D /* Boston_University_seal.svg.png */; };
-		ACAA99AA17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96E817403B3100FC632D /* Icon */; };
 		ACAA99AB17403B3400FC632D /* college-photo_2914..jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96EA17403B3100FC632D /* college-photo_2914..jpg */; };
 		ACAA99AC17403B3400FC632D /* File:BrandeisUnivSeal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96EB17403B3100FC632D /* File:BrandeisUnivSeal.png */; };
-		ACAA99AD17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96EC17403B3100FC632D /* Icon */; };
 		ACAA99AE17403B3400FC632D /* brigham_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96EE17403B3100FC632D /* brigham_campus.jpeg */; };
 		ACAA99AF17403B3400FC632D /* brigham_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96EF17403B3100FC632D /* brigham_logo.png */; };
-		ACAA99B017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F017403B3100FC632D /* Icon */; };
 		ACAA99B117403B3400FC632D /* BrownCampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F217403B3100FC632D /* BrownCampus.jpeg */; };
 		ACAA99B217403B3400FC632D /* brownclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F317403B3100FC632D /* brownclasssize.png */; };
 		ACAA99B317403B3400FC632D /* BrownSeal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F417403B3100FC632D /* BrownSeal.png */; };
-		ACAA99B417403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F517403B3100FC632D /* Icon */; };
-		ACAA99B517403B3400FC632D /* browncampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F717403B3100FC632D /* browncampus.jpeg */; };
 		ACAA99B617403B3400FC632D /* brownclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F817403B3100FC632D /* brownclasssize.png */; };
-		ACAA99B717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96F917403B3100FC632D /* Icon */; };
 		ACAA99B817403B3400FC632D /* url2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FA17403B3100FC632D /* url2.jpeg */; };
 		ACAA99B917403B3400FC632D /* calitechclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FC17403B3100FC632D /* calitechclasssize.png */; };
 		ACAA99BA17403B3400FC632D /* college-photo_91.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FD17403B3100FC632D /* college-photo_91.png */; };
-		ACAA99BB17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FE17403B3100FC632D /* Icon */; };
 		ACAA99BC17403B3400FC632D /* seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA96FF17403B3100FC632D /* seal.png */; };
-		ACAA99BD17403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970017403B3100FC632D /* Thumbs.db */; };
-		ACAA99BE17403B3400FC632D /* carnegie_mellon_U_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970217403B3100FC632D /* carnegie_mellon_U_seal.png */; };
-		ACAA99BF17403B3400FC632D /* carnegieclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970317403B3100FC632D /* carnegieclasssize.png */; };
-		ACAA99C017403B3400FC632D /* college-photo_7656..jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970417403B3100FC632D /* college-photo_7656..jpg */; };
-		ACAA99C117403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970517403B3100FC632D /* Icon */; };
 		ACAA99C217403B3400FC632D /* case_western_reserve_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970717403B3100FC632D /* case_western_reserve_logo.png */; };
 		ACAA99C317403B3400FC632D /* college-photo_206..JPG in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970817403B3100FC632D /* college-photo_206..JPG */; };
-		ACAA99C417403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970917403B3100FC632D /* Icon */; };
 		ACAA99C517403B3400FC632D /* clemson_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970B17403B3100FC632D /* clemson_campus.jpeg */; };
 		ACAA99C617403B3400FC632D /* clemson_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970C17403B3100FC632D /* clemson_logo.png */; };
-		ACAA99C717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970D17403B3100FC632D /* Icon */; };
 		ACAA99C817403B3400FC632D /* File:College_of_William_%26_Mary_Seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA970F17403B3100FC632D /* File:College_of_William_%26_Mary_Seal.png */; };
-		ACAA99C917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971017403B3100FC632D /* Icon */; };
 		ACAA99CA17403B3400FC632D /* william_mary_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971117403B3100FC632D /* william_mary_campus.jpeg */; };
 		ACAA99CB17403B3400FC632D /* 200px-ColumbiaNYUCoat.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971317403B3100FC632D /* 200px-ColumbiaNYUCoat.png */; };
 		ACAA99CC17403B3400FC632D /* columbia_u.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971417403B3100FC632D /* columbia_u.png */; };
 		ACAA99CD17403B3400FC632D /* columbiaclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971517403B3100FC632D /* columbiaclasssize.png */; };
-		ACAA99CE17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971617403B3100FC632D /* Icon */; };
-		ACAA99CF17403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971717403B3100FC632D /* Thumbs.db */; };
 		ACAA99D017403B3400FC632D /* CornellCampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971917403B3100FC632D /* CornellCampus.jpeg */; };
 		ACAA99D117403B3400FC632D /* cornellclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971A17403B3100FC632D /* cornellclasssize.png */; };
 		ACAA99D217403B3400FC632D /* CornellSeal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971B17403B3100FC632D /* CornellSeal.jpeg */; };
-		ACAA99D317403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971C17403B3100FC632D /* Icon */; };
 		ACAA99D417403B3400FC632D /* dart-campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971E17403B3200FC632D /* dart-campus.jpeg */; };
 		ACAA99D517403B3400FC632D /* dart-seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA971F17403B3200FC632D /* dart-seal.png */; };
 		ACAA99D617403B3400FC632D /* dartmouthclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972017403B3200FC632D /* dartmouthclasssize.png */; };
-		ACAA99D717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972117403B3200FC632D /* Icon */; };
-		ACAA99D817403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972217403B3200FC632D /* Thumbs.db */; };
 		ACAA99D917403B3400FC632D /* college-photo_8736.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972417403B3200FC632D /* college-photo_8736.png */; };
 		ACAA99DA17403B3400FC632D /* Duke_University_Crest.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972517403B3200FC632D /* Duke_University_Crest.png */; };
 		ACAA99DB17403B3400FC632D /* dukeclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972617403B3200FC632D /* dukeclasssize.png */; };
-		ACAA99DC17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972717403B3200FC632D /* Icon */; };
-		ACAA99DD17403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972817403B3200FC632D /* Thumbs.db */; };
 		ACAA99DE17403B3400FC632D /* EmoryCampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972A17403B3200FC632D /* EmoryCampus.jpeg */; };
 		ACAA99DF17403B3400FC632D /* emoryclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972B17403B3200FC632D /* emoryclasssize.png */; };
 		ACAA99E017403B3400FC632D /* EmorySeal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972C17403B3200FC632D /* EmorySeal.jpeg */; };
-		ACAA99E117403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972D17403B3200FC632D /* Icon */; };
 		ACAA99E217403B3400FC632D /* college-photo_7438..jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA972F17403B3200FC632D /* college-photo_7438..jpg */; };
 		ACAA99E317403B3400FC632D /* george_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973017403B3200FC632D /* george_seal.png */; };
 		ACAA99E417403B3400FC632D /* georgetownclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973117403B3200FC632D /* georgetownclasssize.png */; };
-		ACAA99E517403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973217403B3200FC632D /* Icon */; };
 		ACAA99E617403B3400FC632D /* georgia_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973417403B3200FC632D /* georgia_campus.jpeg */; };
 		ACAA99E717403B3400FC632D /* georgia_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973517403B3200FC632D /* georgia_logo.png */; };
-		ACAA99E817403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973617403B3200FC632D /* Icon */; };
 		ACAA99E917403B3400FC632D /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973817403B3200FC632D /* 01.jpg */; };
 		ACAA99EA17403B3400FC632D /* Harvard_Wreath_Logo_1.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973917403B3200FC632D /* Harvard_Wreath_Logo_1.svg.png */; };
 		ACAA99EB17403B3400FC632D /* harvardclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973A17403B3200FC632D /* harvardclasssize.png */; };
-		ACAA99EC17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973B17403B3200FC632D /* Icon */; };
 		ACAA99ED17403B3400FC632D /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973D17403B3200FC632D /* button_back.png */; };
 		ACAA99EE17403B3400FC632D /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973E17403B3200FC632D /* button_normal.png */; };
 		ACAA99EF17403B3400FC632D /* cell_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA973F17403B3200FC632D /* cell_bottom.png */; };
@@ -422,7 +366,6 @@
 		ACAA99FA17403B3400FC632D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA974A17403B3200FC632D /* Default@2x.png */; };
 		ACAA99FB17403B3400FC632D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA974B17403B3200FC632D /* first.png */; };
 		ACAA99FC17403B3400FC632D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA974C17403B3200FC632D /* first@2x.png */; };
-		ACAA99FD17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA974D17403B3200FC632D /* Icon */; };
 		ACAA99FE17403B3400FC632D /* icondemo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA974E17403B3200FC632D /* icondemo.png */; };
 		ACAA99FF17403B3400FC632D /* listofcollegesicon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA974F17403B3200FC632D /* listofcollegesicon.png */; };
 		ACAA9A0017403B3400FC632D /* navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975017403B3200FC632D /* navbar_bg.png */; };
@@ -432,204 +375,140 @@
 		ACAA9A0417403B3400FC632D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975417403B3200FC632D /* second.png */; };
 		ACAA9A0517403B3400FC632D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975517403B3200FC632D /* second@2x.png */; };
 		ACAA9A0617403B3400FC632D /* hopkinsclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975717403B3200FC632D /* hopkinsclasssize.png */; };
-		ACAA9A0717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975817403B3200FC632D /* Icon */; };
 		ACAA9A0817403B3400FC632D /* JHU_University_Seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975917403B3200FC632D /* JHU_University_Seal.png */; };
 		ACAA9A0917403B3400FC632D /* photos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975A17403B3200FC632D /* photos.jpeg */; };
-		ACAA9A0A17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975C17403B3200FC632D /* Icon */; };
 		ACAA9A0B17403B3400FC632D /* lehigh_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975D17403B3200FC632D /* lehigh_campus.jpeg */; };
 		ACAA9A0C17403B3400FC632D /* lehigh_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA975E17403B3200FC632D /* lehigh_logo.png */; };
-		ACAA9A0D17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976017403B3200FC632D /* Icon */; };
 		ACAA9A0E17403B3400FC632D /* michigan_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976117403B3200FC632D /* michigan_campus.jpeg */; };
 		ACAA9A0F17403B3400FC632D /* MSU_Seal_2010.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976217403B3200FC632D /* MSU_Seal_2010.svg.png */; };
-		ACAA9A1017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976417403B3200FC632D /* Icon */; };
 		ACAA9A1117403B3400FC632D /* MIT_Seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976517403B3200FC632D /* MIT_Seal.png */; };
 		ACAA9A1217403B3400FC632D /* mit_u.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976617403B3200FC632D /* mit_u.png */; };
 		ACAA9A1317403B3400FC632D /* mitclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976717403B3200FC632D /* mitclasssize.png */; };
-		ACAA9A1417403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976817403B3200FC632D /* Thumbs.db */; };
-		ACAA9A1517403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976A17403B3200FC632D /* Icon */; };
 		ACAA9A1617403B3400FC632D /* new_york_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976B17403B3200FC632D /* new_york_campus.jpeg */; };
 		ACAA9A1717403B3400FC632D /* new_york_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976C17403B3200FC632D /* new_york_seal.png */; };
 		ACAA9A1817403B3400FC632D /* college-photo_8852.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976E17403B3200FC632D /* college-photo_8852.jpg */; };
-		ACAA9A1917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA976F17403B3200FC632D /* Icon */; };
 		ACAA9A1A17403B3400FC632D /* Northeastern-seal.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977017403B3200FC632D /* Northeastern-seal.svg.png */; };
 		ACAA9A1B17403B3400FC632D /* college-photo_3270..jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977217403B3200FC632D /* college-photo_3270..jpg */; };
-		ACAA9A1C17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977317403B3200FC632D /* Icon */; };
 		ACAA9A1D17403B3400FC632D /* northwesternclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977417403B3200FC632D /* northwesternclasssize.png */; };
 		ACAA9A1E17403B3400FC632D /* viewer2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977517403B3200FC632D /* viewer2.png */; };
-		ACAA9A1F17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977717403B3200FC632D /* Icon */; };
 		ACAA9A2017403B3400FC632D /* NDCampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977817403B3200FC632D /* NDCampus.jpeg */; };
 		ACAA9A2117403B3400FC632D /* NDSeal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977917403B3200FC632D /* NDSeal.png */; };
 		ACAA9A2217403B3400FC632D /* notredameclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977A17403B3200FC632D /* notredameclasssize.png */; };
 		ACAA9A2317403B3400FC632D /* File:Seal_of_the_Ohio_State_University.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977C17403B3200FC632D /* File:Seal_of_the_Ohio_State_University.png */; };
-		ACAA9A2417403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977D17403B3200FC632D /* Icon */; };
 		ACAA9A2517403B3400FC632D /* photos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA977E17403B3200FC632D /* photos.jpeg */; };
 		ACAA9A2617403B3400FC632D /* college-photo_6492..jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978017403B3200FC632D /* college-photo_6492..jpg */; };
-		ACAA9A2717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978117403B3200FC632D /* Icon */; };
 		ACAA9A2817403B3400FC632D /* Pennsylvania_State_University_seal.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978217403B3200FC632D /* Pennsylvania_State_University_seal.svg.png */; };
 		ACAA9A2917403B3400FC632D /* File:Pepperdine_Official_Seal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978417403B3200FC632D /* File:Pepperdine_Official_Seal.jpg */; };
-		ACAA9A2A17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978517403B3200FC632D /* Icon */; };
 		ACAA9A2B17403B3400FC632D /* pepperdine.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978617403B3200FC632D /* pepperdine.jpeg */; };
 		ACAA9A2C17403B3400FC632D /* 157px-Princeton_shield.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978817403B3200FC632D /* 157px-Princeton_shield.png */; };
 		ACAA9A2D17403B3400FC632D /* college-photo_6976..png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978917403B3200FC632D /* college-photo_6976..png */; };
-		ACAA9A2E17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978A17403B3200FC632D /* Icon */; };
 		ACAA9A2F17403B3400FC632D /* princetonclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978B17403B3200FC632D /* princetonclasssize.png */; };
-		ACAA9A3017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978D17403B3200FC632D /* Icon */; };
 		ACAA9A3117403B3400FC632D /* purdue_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978E17403B3200FC632D /* purdue_campus.jpeg */; };
 		ACAA9A3217403B3400FC632D /* purdue_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA978F17403B3200FC632D /* purdue_logo.png */; };
-		ACAA9A3317403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979117403B3200FC632D /* Icon */; };
 		ACAA9A3417403B3400FC632D /* rensselaer_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979217403B3200FC632D /* rensselaer_campus.jpeg */; };
 		ACAA9A3517403B3400FC632D /* rensselaer_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979317403B3200FC632D /* rensselaer_logo.png */; };
-		ACAA9A3617403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979517403B3200FC632D /* Icon */; };
 		ACAA9A3717403B3400FC632D /* RiceCampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979617403B3200FC632D /* RiceCampus.jpeg */; };
 		ACAA9A3817403B3400FC632D /* riceclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979717403B3200FC632D /* riceclasssize.png */; };
 		ACAA9A3917403B3400FC632D /* RiceSeal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979817403B3200FC632D /* RiceSeal.png */; };
 		ACAA9A3A17403B3400FC632D /* File:Rutgers,_The_State_University_of_New_Jersey_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979A17403B3200FC632D /* File:Rutgers,_The_State_University_of_New_Jersey_logo.png */; };
-		ACAA9A3B17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979B17403B3200FC632D /* Icon */; };
 		ACAA9A3C17403B3400FC632D /* new_brunswick_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979C17403B3200FC632D /* new_brunswick_campus.jpeg */; };
 		ACAA9A3D17403B3400FC632D /* File:Southern_Methodist_University_Seal.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979E17403B3200FC632D /* File:Southern_Methodist_University_Seal.gif */; };
-		ACAA9A3E17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA979F17403B3200FC632D /* Icon */; };
 		ACAA9A3F17403B3400FC632D /* photos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97A017403B3200FC632D /* photos.jpeg */; };
-		ACAA9A4017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97A217403B3200FC632D /* Icon */; };
 		ACAA9A4117403B3400FC632D /* Stan-Shield.gif in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97A317403B3200FC632D /* Stan-Shield.gif */; };
 		ACAA9A4217403B3400FC632D /* stan_u.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97A417403B3200FC632D /* stan_u.png */; };
 		ACAA9A4317403B3400FC632D /* stanfordclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97A517403B3200FC632D /* stanfordclasssize.png */; };
-		ACAA9A4417403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97A617403B3200FC632D /* Thumbs.db */; };
 		ACAA9A4517403B3400FC632D /* File:ESF_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97A817403B3200FC632D /* File:ESF_logo.png */; };
-		ACAA9A4617403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97A917403B3200FC632D /* Icon */; };
 		ACAA9A4717403B3400FC632D /* photos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97AA17403B3200FC632D /* photos.jpeg */; };
 		ACAA9A4817403B3400FC632D /* File:SIT_Seal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97AC17403B3200FC632D /* File:SIT_Seal.jpg */; };
-		ACAA9A4917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97AD17403B3200FC632D /* Icon */; };
 		ACAA9A4A17403B3400FC632D /* SIT_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97AE17403B3200FC632D /* SIT_campus.jpeg */; };
-		ACAA9A4B17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97B017403B3200FC632D /* Icon */; };
 		ACAA9A4C17403B3400FC632D /* syracuse_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97B117403B3200FC632D /* syracuse_campus.jpeg */; };
 		ACAA9A4D17403B3400FC632D /* Syracuse_University_Seal.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97B217403B3200FC632D /* Syracuse_University_Seal.svg.png */; };
 		ACAA9A4E17403B3400FC632D /* File:Texas_A%26M_University_Seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97B417403B3200FC632D /* File:Texas_A%26M_University_Seal.png */; };
-		ACAA9A4F17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97B517403B3200FC632D /* Icon */; };
 		ACAA9A5017403B3400FC632D /* texas_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97B617403B3200FC632D /* texas_campus.jpeg */; };
-		ACAA9A5117403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97B817403B3200FC632D /* Icon */; };
 		ACAA9A5217403B3400FC632D /* tuft_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97B917403B3200FC632D /* tuft_campus.jpeg */; };
 		ACAA9A5317403B3400FC632D /* tuft_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97BA17403B3200FC632D /* tuft_seal.png */; };
 		ACAA9A5417403B3400FC632D /* tuftsclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97BB17403B3200FC632D /* tuftsclasssize.png */; };
-		ACAA9A5517403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97BD17403B3200FC632D /* Icon */; };
 		ACAA9A5617403B3400FC632D /* tulane_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97BE17403B3300FC632D /* tulane_campus.jpeg */; };
 		ACAA9A5717403B3400FC632D /* TulaneSealColor.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97BF17403B3300FC632D /* TulaneSealColor.png */; };
 		ACAA9A5817403B3400FC632D /* File:Ucla_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97C117403B3300FC632D /* File:Ucla_logo.png */; };
-		ACAA9A5917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97C217403B3300FC632D /* Icon */; };
 		ACAA9A5A17403B3400FC632D /* losangelescaliclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97C317403B3300FC632D /* losangelescaliclasssize.png */; };
 		ACAA9A5B17403B3400FC632D /* ucla_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97C417403B3300FC632D /* ucla_campus.jpeg */; };
 		ACAA9A5C17403B3400FC632D /* berkleyclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97C617403B3300FC632D /* berkleyclasssize.png */; };
 		ACAA9A5D17403B3400FC632D /* California_Berkley_Seal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97C717403B3300FC632D /* California_Berkley_Seal.jpeg */; };
-		ACAA9A5E17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97C817403B3300FC632D /* Icon */; };
 		ACAA9A5F17403B3400FC632D /* University_of_California_Seal.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97C917403B3300FC632D /* University_of_California_Seal.svg.png */; };
 		ACAA9A6017403B3400FC632D /* File:Ucsc_fiatslug.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97CB17403B3300FC632D /* File:Ucsc_fiatslug.png */; };
-		ACAA9A6117403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97CC17403B3300FC632D /* Icon */; };
 		ACAA9A6217403B3400FC632D /* photos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97CD17403B3300FC632D /* photos.jpeg */; };
 		ACAA9A6317403B3400FC632D /* davis_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97CF17403B3300FC632D /* davis_campus.jpeg */; };
 		ACAA9A6417403B3400FC632D /* davis_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97D017403B3300FC632D /* davis_logo.png */; };
-		ACAA9A6517403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97D117403B3300FC632D /* Icon */; };
 		ACAA9A6617403B3400FC632D /* File:UC_Irvine_Seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97D317403B3300FC632D /* File:UC_Irvine_Seal.png */; };
-		ACAA9A6717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97D417403B3300FC632D /* Icon */; };
 		ACAA9A6817403B3400FC632D /* irvine_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97D517403B3300FC632D /* irvine_campus.jpeg */; };
-		ACAA9A6917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97D717403B3300FC632D /* Icon */; };
 		ACAA9A6A17403B3400FC632D /* san_diego_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97D817403B3300FC632D /* san_diego_campus.jpeg */; };
 		ACAA9A6B17403B3400FC632D /* san_diego_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97D917403B3300FC632D /* san_diego_logo.png */; };
-		ACAA9A6C17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97DB17403B3300FC632D /* Icon */; };
 		ACAA9A6D17403B3400FC632D /* santa_barbara_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97DC17403B3300FC632D /* santa_barbara_campus.jpeg */; };
 		ACAA9A6E17403B3400FC632D /* Ucsb_seal.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97DD17403B3300FC632D /* Ucsb_seal.svg.png */; };
 		ACAA9A6F17403B3400FC632D /* chicago_u.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97DF17403B3300FC632D /* chicago_u.png */; };
 		ACAA9A7017403B3400FC632D /* chicagoclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97E017403B3300FC632D /* chicagoclasssize.png */; };
-		ACAA9A7117403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97E117403B3300FC632D /* Icon */; };
-		ACAA9A7217403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97E217403B3300FC632D /* Thumbs.db */; };
 		ACAA9A7317403B3400FC632D /* University_of_Chicago_Modern_Etched_Seal_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97E317403B3300FC632D /* University_of_Chicago_Modern_Etched_Seal_1.png */; };
 		ACAA9A7417403B3400FC632D /* connecticut_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97E517403B3300FC632D /* connecticut_campus.jpeg */; };
 		ACAA9A7517403B3400FC632D /* connecticut_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97E617403B3300FC632D /* connecticut_logo.png */; };
-		ACAA9A7617403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97E717403B3300FC632D /* Icon */; };
 		ACAA9A7717403B3400FC632D /* delaware_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97E917403B3300FC632D /* delaware_campus.jpeg */; };
 		ACAA9A7817403B3400FC632D /* delaware_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97EA17403B3300FC632D /* delaware_logo.png */; };
-		ACAA9A7917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97EB17403B3300FC632D /* Icon */; };
 		ACAA9A7A17403B3400FC632D /* File:University_of_Florida_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97ED17403B3300FC632D /* File:University_of_Florida_seal.png */; };
 		ACAA9A7B17403B3400FC632D /* florida_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97EE17403B3300FC632D /* florida_campus.jpeg */; };
-		ACAA9A7C17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97EF17403B3300FC632D /* Icon */; };
 		ACAA9A7D17403B3400FC632D /* college-photo_144..jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97F117403B3300FC632D /* college-photo_144..jpg */; };
 		ACAA9A7E17403B3400FC632D /* File:Seal_of_the_University_of_Georgia.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97F217403B3300FC632D /* File:Seal_of_the_University_of_Georgia.png */; };
-		ACAA9A7F17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97F317403B3300FC632D /* Icon */; };
-		ACAA9A8017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97F517403B3300FC632D /* Icon */; };
 		ACAA9A8117403B3400FC632D /* urbana_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97F617403B3300FC632D /* urbana_campus.jpeg */; };
 		ACAA9A8217403B3400FC632D /* urbana_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97F717403B3300FC632D /* urbana_logo.png */; };
 		ACAA9A8317403B3400FC632D /* File:UI-seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97F917403B3300FC632D /* File:UI-seal.png */; };
-		ACAA9A8417403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97FA17403B3300FC632D /* Icon */; };
 		ACAA9A8517403B3400FC632D /* iowa_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97FB17403B3300FC632D /* iowa_campus.jpeg */; };
-		ACAA9A8617403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97FD17403B3300FC632D /* Icon */; };
 		ACAA9A8717403B3400FC632D /* maryland_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97FE17403B3300FC632D /* maryland_campus.jpeg */; };
 		ACAA9A8817403B3400FC632D /* University_of_Maryland_Seal.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA97FF17403B3300FC632D /* University_of_Maryland_Seal.svg.png */; };
-		ACAA9A8917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980117403B3300FC632D /* Icon */; };
 		ACAA9A8A17403B3400FC632D /* miami_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980217403B3300FC632D /* miami_campus.jpeg */; };
 		ACAA9A8B17403B3400FC632D /* miami_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980317403B3300FC632D /* miami_logo.png */; };
 		ACAA9A8C17403B3400FC632D /* File:Umichigan_color_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980517403B3300FC632D /* File:Umichigan_color_seal.png */; };
-		ACAA9A8D17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980617403B3300FC632D /* Icon */; };
 		ACAA9A8E17403B3400FC632D /* michigan_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980717403B3300FC632D /* michigan_campus.jpeg */; };
 		ACAA9A8F17403B3400FC632D /* michiganannarborclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980817403B3300FC632D /* michiganannarborclasssize.png */; };
-		ACAA9A9017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980A17403B3300FC632D /* Icon */; };
 		ACAA9A9117403B3400FC632D /* minnesota_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980B17403B3300FC632D /* minnesota_campus.jpeg */; };
 		ACAA9A9217403B3400FC632D /* Umnseal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980C17403B3300FC632D /* Umnseal.png */; };
-		ACAA9A9317403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980E17403B3300FC632D /* Icon */; };
 		ACAA9A9417403B3400FC632D /* nebraskacampus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA980F17403B3300FC632D /* nebraskacampus.jpg */; };
 		ACAA9A9517403B3400FC632D /* nebraskaseal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981017403B3300FC632D /* nebraskaseal.jpeg */; };
 		ACAA9A9617403B3400FC632D /* File:UNC_Chapel_Hill_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981217403B3300FC632D /* File:UNC_Chapel_Hill_seal.png */; };
-		ACAA9A9717403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981317403B3300FC632D /* Icon */; };
 		ACAA9A9817403B3400FC632D /* north_carolina_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981417403B3300FC632D /* north_carolina_campus.jpeg */; };
-		ACAA9A9917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981617403B3300FC632D /* Icon */; };
 		ACAA9A9A17403B3400FC632D /* pittsbrgh_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981717403B3300FC632D /* pittsbrgh_campus.jpeg */; };
 		ACAA9A9B17403B3400FC632D /* pittsburgh_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981817403B3300FC632D /* pittsburgh_logo.png */; };
 		ACAA9A9C17403B3400FC632D /* college-photo_2965._445x280-zmm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981A17403B3300FC632D /* college-photo_2965._445x280-zmm.jpg */; };
-		ACAA9A9D17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981B17403B3300FC632D /* Icon */; };
 		ACAA9A9E17403B3400FC632D /* University_of_Rochester_logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981C17403B3300FC632D /* University_of_Rochester_logo.svg.png */; };
 		ACAA9A9F17403B3400FC632D /* college-photo_11609..jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981E17403B3300FC632D /* college-photo_11609..jpg */; };
-		ACAA9AA017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA981F17403B3300FC632D /* Icon */; };
 		ACAA9AA117403B3400FC632D /* southcaliclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982017403B3300FC632D /* southcaliclasssize.png */; };
 		ACAA9AA217403B3400FC632D /* USC_Shield.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982117403B3300FC632D /* USC_Shield.svg.png */; };
 		ACAA9AA317403B3400FC632D /* austin_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982317403B3300FC632D /* austin_campus.jpeg */; };
 		ACAA9AA417403B3400FC632D /* File:Large_university-of-texas_seal_rgb(199-91-18).png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982417403B3300FC632D /* File:Large_university-of-texas_seal_rgb(199-91-18).png */; };
-		ACAA9AA517403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982517403B3300FC632D /* Icon */; };
-		ACAA9AA617403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982717403B3300FC632D /* Icon */; };
 		ACAA9AA717403B3400FC632D /* photos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982817403B3300FC632D /* photos.jpeg */; };
 		ACAA9AA817403B3400FC632D /* UVA_Rotunda_Logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982917403B3300FC632D /* UVA_Rotunda_Logo.svg.png */; };
 		ACAA9AA917403B3400FC632D /* virginiaclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982A17403B3300FC632D /* virginiaclasssize.png */; };
 		ACAA9AAA17403B3400FC632D /* File:University_of_Washington_Seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982C17403B3300FC632D /* File:University_of_Washington_Seal.png */; };
-		ACAA9AAB17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982D17403B3300FC632D /* Icon */; };
 		ACAA9AAC17403B3400FC632D /* washington_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA982E17403B3300FC632D /* washington_campus.jpeg */; };
-		ACAA9AAD17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983017403B3300FC632D /* Icon */; };
 		ACAA9AAE17403B3400FC632D /* madison_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983117403B3300FC632D /* madison_campus.jpeg */; };
 		ACAA9AAF17403B3400FC632D /* madison_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983217403B3300FC632D /* madison_logo.png */; };
 		ACAA9AB017403B3400FC632D /* college-photo_2741..png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983417403B3300FC632D /* college-photo_2741..png */; };
-		ACAA9AB117403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983517403B3300FC632D /* Icon */; };
 		ACAA9AB217403B3400FC632D /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983617403B3300FC632D /* images.png */; };
-		ACAA9AB317403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983717403B3300FC632D /* Thumbs.db */; };
 		ACAA9AB417403B3400FC632D /* upennclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983817403B3300FC632D /* upennclasssize.png */; };
-		ACAA9AB517403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983A17403B3300FC632D /* Icon */; };
 		ACAA9AB617403B3400FC632D /* VanderbiltCampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983B17403B3300FC632D /* VanderbiltCampus.jpeg */; };
 		ACAA9AB717403B3400FC632D /* vanderbiltclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983C17403B3300FC632D /* vanderbiltclasssize.png */; };
 		ACAA9AB817403B3400FC632D /* VanderbiltSeal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983D17403B3300FC632D /* VanderbiltSeal.jpeg */; };
-		ACAA9AB917403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA983F17403B3300FC632D /* Icon */; };
 		ACAA9ABA17403B3400FC632D /* virginia_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984017403B3300FC632D /* virginia_campus.jpeg */; };
 		ACAA9ABB17403B3400FC632D /* virginia_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984117403B3300FC632D /* virginia_logo.png */; };
-		ACAA9ABC17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984317403B3300FC632D /* Icon */; };
 		ACAA9ABD17403B3400FC632D /* wake_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984417403B3300FC632D /* wake_campus.jpeg */; };
 		ACAA9ABE17403B3400FC632D /* wake_seal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984517403B3300FC632D /* wake_seal.png */; };
 		ACAA9ABF17403B3400FC632D /* wakeforestclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984617403B3300FC632D /* wakeforestclasssize.png */; };
-		ACAA9AC017403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984817403B3300FC632D /* Icon */; };
 		ACAA9AC117403B3400FC632D /* washigtonuclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984917403B3300FC632D /* washigtonuclasssize.png */; };
 		ACAA9AC217403B3400FC632D /* WashUCampus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984A17403B3300FC632D /* WashUCampus.jpeg */; };
 		ACAA9AC317403B3400FC632D /* WashUShield.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984B17403B3300FC632D /* WashUShield.png */; };
 		ACAA9AC417403B3400FC632D /* File:WPI_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984D17403B3300FC632D /* File:WPI_logo.png */; };
-		ACAA9AC517403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984E17403B3300FC632D /* Icon */; };
 		ACAA9AC617403B3400FC632D /* WPI_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA984F17403B3300FC632D /* WPI_campus.jpeg */; };
 		ACAA9AC717403B3400FC632D /* college-photo_8737.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985117403B3300FC632D /* college-photo_8737.png */; };
-		ACAA9AC817403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985217403B3300FC632D /* Icon */; };
-		ACAA9AC917403B3400FC632D /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985317403B3300FC632D /* Thumbs.db */; };
 		ACAA9ACA17403B3400FC632D /* Yale_University_Shield_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985417403B3300FC632D /* Yale_University_Shield_1.png */; };
 		ACAA9ACB17403B3400FC632D /* yaleclasssize.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985517403B3300FC632D /* yaleclasssize.png */; };
-		ACAA9ACC17403B3400FC632D /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985717403B3300FC632D /* Icon */; };
 		ACAA9ACD17403B3400FC632D /* yeshiva_campus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985817403B3300FC632D /* yeshiva_campus.jpeg */; };
 		ACAA9ACE17403B3400FC632D /* yeshiva_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985917403B3300FC632D /* yeshiva_logo.jpeg */; };
 		ACAA9ACF17403B3400FC632D /* community.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA985B17403B3300FC632D /* community.png */; };
@@ -675,6 +554,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C092AFA1869E5550040D1CF /* browncampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = browncampus.jpeg; sourceTree = "<group>"; };
+		1C2E47A5185567AA0020665E /* marquette campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "marquette campus.jpeg"; path = "Pictures/College Photos/#85 Marquette U/marquette campus.jpeg"; sourceTree = SOURCE_ROOT; };
+		1C2E47A6185567AA0020665E /* marquette seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marquette seal.png"; path = "Pictures/College Photos/#85 Marquette U/marquette seal.png"; sourceTree = SOURCE_ROOT; };
+		1C2E47A9185568140020665E /* carnegie_mellon_U_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carnegie_mellon_U_seal.png; path = "Pictures/College Photos/Carnegie Mellon U #23/carnegie_mellon_U_seal.png"; sourceTree = SOURCE_ROOT; };
+		1C2E47AA185568140020665E /* carnegieclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carnegieclasssize.png; path = "Pictures/College Photos/Carnegie Mellon U #23/carnegieclasssize.png"; sourceTree = SOURCE_ROOT; };
+		1C2E47AB185568140020665E /* college-photo_7656..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "college-photo_7656..jpg"; path = "Pictures/College Photos/Carnegie Mellon U #23/college-photo_7656..jpg"; sourceTree = SOURCE_ROOT; };
 		AC3357A117404A74001C8B7E /* Nimages.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nimages.jpeg; sourceTree = "<group>"; };
 		AC3357A3174050F9001C8B7E /* asdnfsjajdnfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asdnfsjajdnfs.png; sourceTree = "<group>"; };
 		AC3357A517405883001C8B7E /* cacsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cacsa.png; sourceTree = "<group>"; };
@@ -707,7 +592,6 @@
 		ACAA952517403B2F00FC632D /* College4U Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "College4U Splash Screen.png"; sourceTree = "<group>"; };
 		ACAA952617403B2F00FC632D /* Harvard Screenshot 1136x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harvard Screenshot 1136x640.png"; sourceTree = "<group>"; };
 		ACAA952717403B2F00FC632D /* Harvard Screenshot 960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Harvard Screenshot 960x640.png"; sourceTree = "<group>"; };
-		ACAA952817403B2F00FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA952917403B2F00FC632D /* list of colleges screenshot 1136x640 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list of colleges screenshot 1136x640 .png"; sourceTree = "<group>"; };
 		ACAA952A17403B2F00FC632D /* list of colleges screenshot 960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list of colleges screenshot 960x640.png"; sourceTree = "<group>"; };
 		ACAA952B17403B2F00FC632D /* more tab 1136x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more tab 1136x640.png"; sourceTree = "<group>"; };
@@ -720,11 +604,8 @@
 		ACAA953217403B2F00FC632D /* virginia tech screenshot 960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "virginia tech screenshot 960x640.png"; sourceTree = "<group>"; };
 		ACAA953517403B2F00FC632D /* baylor_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baylor_campus.jpeg; sourceTree = "<group>"; };
 		ACAA953617403B2F00FC632D /* baylor_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baylor_seal.png; sourceTree = "<group>"; };
-		ACAA953717403B2F00FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA953917403B2F00FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA953A17403B2F00FC632D /* iowa_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iowa_campus.jpeg; sourceTree = "<group>"; };
 		ACAA953B17403B2F00FC632D /* iowa_seal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iowa_seal.jpeg; sourceTree = "<group>"; };
-		ACAA953D17403B2F00FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA953E17403B2F00FC632D /* u of cali riverside campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u of cali riverside campus.jpeg"; sourceTree = "<group>"; };
 		ACAA953F17403B2F00FC632D /* u of cali riverside seal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u of cali riverside seal.jpeg"; sourceTree = "<group>"; };
 		ACAA954117403B2F00FC632D /* 1283462865841.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1283462865841.jpg; sourceTree = "<group>"; };
@@ -832,88 +713,58 @@
 		ACAA95DE17403B2F00FC632D /* 55749414.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 55749414.jpeg; sourceTree = "<group>"; };
 		ACAA95E017403B2F00FC632D /* VOBOJSA.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VOBOJSA.jpeg; sourceTree = "<group>"; };
 		ACAA95E117403B2F00FC632D /* AOOOJWOF.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AOOOJWOF.jpeg; sourceTree = "<group>"; };
-		ACAA95E317403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA95E417403B3000FC632D /* ohioucolumbuscampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ohioucolumbuscampus.jpeg; sourceTree = "<group>"; };
 		ACAA95E517403B3000FC632D /* ohioucolumbusseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ohioucolumbusseal.png; sourceTree = "<group>"; };
 		ACAA95E717403B3000FC632D /* fordhamcampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fordhamcampus.jpeg; sourceTree = "<group>"; };
 		ACAA95E817403B3000FC632D /* fordhamseal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fordhamseal.jpeg; sourceTree = "<group>"; };
-		ACAA95E917403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA95EB17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA95EC17403B3000FC632D /* smu campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "smu campus.jpeg"; sourceTree = "<group>"; };
 		ACAA95ED17403B3000FC632D /* smu seal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "smu seal.gif"; sourceTree = "<group>"; };
-		ACAA95EF17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA95F017403B3000FC632D /* u of maryland college park campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u of maryland college park campus.jpeg"; sourceTree = "<group>"; };
 		ACAA95F117403B3000FC632D /* u of maryland college park seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "u of maryland college park seal.png"; sourceTree = "<group>"; };
-		ACAA95F317403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA95F417403B3000FC632D /* u of georgia campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u of georgia campus.jpeg"; sourceTree = "<group>"; };
 		ACAA95F517403B3000FC632D /* u of georgia seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "u of georgia seal.png"; sourceTree = "<group>"; };
 		ACAA95F717403B3000FC632D /* americancampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = americancampus.jpeg; sourceTree = "<group>"; };
 		ACAA95F817403B3000FC632D /* americanseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = americanseal.png; sourceTree = "<group>"; };
-		ACAA95F917403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA95FB17403B3000FC632D /* coloradominescampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coloradominescampus.jpeg; sourceTree = "<group>"; };
 		ACAA95FC17403B3000FC632D /* coloradominesseal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coloradominesseal.jpeg; sourceTree = "<group>"; };
-		ACAA95FD17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA95FF17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA960017403B3000FC632D /* suny_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suny_campus.jpeg; sourceTree = "<group>"; };
 		ACAA960117403B3000FC632D /* suny_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suny_seal.png; sourceTree = "<group>"; };
 		ACAA960317403B3000FC632D /* alabamacampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alabamacampus.jpeg; sourceTree = "<group>"; };
 		ACAA960417403B3000FC632D /* alabamaseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alabamaseal.png; sourceTree = "<group>"; };
-		ACAA960517403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA960717403B3000FC632D /* cali u santa cruz campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cali u santa cruz campus.jpg"; sourceTree = "<group>"; };
 		ACAA960817403B3000FC632D /* calu u santa cruz seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calu u santa cruz seal.png"; sourceTree = "<group>"; };
-		ACAA960917403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA960B17403B3000FC632D /* clarkcampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clarkcampus.jpeg; sourceTree = "<group>"; };
 		ACAA960C17403B3000FC632D /* clarkseal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clarkseal.jpeg; sourceTree = "<group>"; };
-		ACAA960D17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA960F17403B3000FC632D /* Drexel_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drexel_campus.jpeg; sourceTree = "<group>"; };
 		ACAA961017403B3000FC632D /* Drexel_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drexel_seal.png; sourceTree = "<group>"; };
-		ACAA961117403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA961317403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA961417403B3000FC632D /* indianabloomingtoncampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indianabloomingtoncampus.jpeg; sourceTree = "<group>"; };
 		ACAA961517403B3000FC632D /* indianabloomingtonseal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indianabloomingtonseal.jpeg; sourceTree = "<group>"; };
-		ACAA961717403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA961817403B3000FC632D /* marquette campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "marquette campus.jpeg"; sourceTree = "<group>"; };
-		ACAA961917403B3000FC632D /* marquette seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marquette seal.png"; sourceTree = "<group>"; };
 		ACAA961B17403B3000FC632D /* denvercampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = denvercampus.jpeg; sourceTree = "<group>"; };
 		ACAA961C17403B3000FC632D /* denverseal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = denverseal.jpeg; sourceTree = "<group>"; };
-		ACAA961D17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA961F17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA962017403B3000FC632D /* tulsa campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tulsa campus.jpeg"; sourceTree = "<group>"; };
 		ACAA962117403B3000FC632D /* tulsa seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tulsa seal.png"; sourceTree = "<group>"; };
 		ACAA962317403B3000FC632D /* auburncampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = auburncampus.jpeg; sourceTree = "<group>"; };
 		ACAA962417403B3000FC632D /* auburnseal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = auburnseal.jpeg; sourceTree = "<group>"; };
-		ACAA962517403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA962717403B3000FC632D /* binghamton campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "binghamton campus.jpeg"; sourceTree = "<group>"; };
 		ACAA962817403B3000FC632D /* binghamton seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "binghamton seal.png"; sourceTree = "<group>"; };
-		ACAA962917403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA962B17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA962C17403B3000FC632D /* miamioxfordcampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miamioxfordcampus.jpeg; sourceTree = "<group>"; };
 		ACAA962D17403B3000FC632D /* miamioxfordseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miamioxfordseal.png; sourceTree = "<group>"; };
-		ACAA962F17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA963017403B3000FC632D /* saintlouisseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saintlouisseal.png; sourceTree = "<group>"; };
 		ACAA963117403B3000FC632D /* stlouiscampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stlouiscampus.jpeg; sourceTree = "<group>"; };
-		ACAA963317403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA963417403B3000FC632D /* stonycampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonycampus.jpeg; sourceTree = "<group>"; };
 		ACAA963517403B3000FC632D /* stonyseal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stonyseal.gif; sourceTree = "<group>"; };
-		ACAA963717403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA963817403B3000FC632D /* texaschristiancampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texaschristiancampus.jpeg; sourceTree = "<group>"; };
 		ACAA963917403B3000FC632D /* texaschristianseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texaschristianseal.png; sourceTree = "<group>"; };
-		ACAA963B17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA963C17403B3000FC632D /* sandiegocampus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sandiegocampus.jpg; sourceTree = "<group>"; };
 		ACAA963D17403B3000FC632D /* sandiegoseal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sandiegoseal.gif; sourceTree = "<group>"; };
 		ACAA963F17403B3000FC632D /* fsu campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fsu campus.jpeg"; sourceTree = "<group>"; };
 		ACAA964017403B3000FC632D /* fsu seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fsu seal.png"; sourceTree = "<group>"; };
-		ACAA964117403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA964317403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA964417403B3000FC632D /* vermontcampus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vermontcampus.jpg; sourceTree = "<group>"; };
 		ACAA964517403B3000FC632D /* vermontseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vermontseal.png; sourceTree = "<group>"; };
-		ACAA964717403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA964817403B3000FC632D /* u of colorado boulder campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u of colorado boulder campus.jpeg"; sourceTree = "<group>"; };
 		ACAA964917403B3000FC632D /* u of colorado boulder seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "u of colorado boulder seal.png"; sourceTree = "<group>"; };
-		ACAA964B17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA964C17403B3000FC632D /* umassamherstcampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umassamherstcampus.jpeg; sourceTree = "<group>"; };
 		ACAA964D17403B3000FC632D /* umassamherstseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umassamherstseal.png; sourceTree = "<group>"; };
-		ACAA964F17403B3000FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA965017403B3000FC632D /* u of missouri campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u of missouri campus.jpeg"; sourceTree = "<group>"; };
 		ACAA965117403B3000FC632D /* u of missouri seal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u of missouri seal.jpeg"; sourceTree = "<group>"; };
 		ACAA965317403B3000FC632D /* HQAH.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HQAH.jpeg; sourceTree = "<group>"; };
@@ -1008,80 +859,52 @@
 		ACAA96DB17403B3100FC632D /* bdksjfdhsfjdhsf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bdksjfdhsfjdhsf.jpeg; sourceTree = "<group>"; };
 		ACAA96DC17403B3100FC632D /* shdkfjdhksfjhasdf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shdkfjdhksfjhasdf.jpeg; sourceTree = "<group>"; };
 		ACAA96DE17403B3100FC632D /* File:Baylor_University_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Baylor_University_seal.png"; sourceTree = "<group>"; };
-		ACAA96DF17403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA96E017403B3100FC632D /* photos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photos.jpeg; sourceTree = "<group>"; };
 		ACAA96E217403B3100FC632D /* boston_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boston_campus.jpeg; sourceTree = "<group>"; };
 		ACAA96E317403B3100FC632D /* boston_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boston_seal.png; sourceTree = "<group>"; };
-		ACAA96E417403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA96E617403B3100FC632D /* boston_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boston_campus.jpeg; sourceTree = "<group>"; };
 		ACAA96E717403B3100FC632D /* Boston_University_seal.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boston_University_seal.svg.png; sourceTree = "<group>"; };
-		ACAA96E817403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA96EA17403B3100FC632D /* college-photo_2914..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_2914..jpg"; sourceTree = "<group>"; };
 		ACAA96EB17403B3100FC632D /* File:BrandeisUnivSeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:BrandeisUnivSeal.png"; sourceTree = "<group>"; };
-		ACAA96EC17403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA96EE17403B3100FC632D /* brigham_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brigham_campus.jpeg; sourceTree = "<group>"; };
 		ACAA96EF17403B3100FC632D /* brigham_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brigham_logo.png; sourceTree = "<group>"; };
-		ACAA96F017403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA96F217403B3100FC632D /* BrownCampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrownCampus.jpeg; sourceTree = "<group>"; };
 		ACAA96F317403B3100FC632D /* brownclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownclasssize.png; sourceTree = "<group>"; };
 		ACAA96F417403B3100FC632D /* BrownSeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrownSeal.png; sourceTree = "<group>"; };
-		ACAA96F517403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA96F717403B3100FC632D /* browncampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = browncampus.jpeg; sourceTree = "<group>"; };
 		ACAA96F817403B3100FC632D /* brownclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownclasssize.png; sourceTree = "<group>"; };
-		ACAA96F917403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA96FA17403B3100FC632D /* url2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = url2.jpeg; sourceTree = "<group>"; };
 		ACAA96FC17403B3100FC632D /* calitechclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calitechclasssize.png; sourceTree = "<group>"; };
 		ACAA96FD17403B3100FC632D /* college-photo_91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college-photo_91.png"; sourceTree = "<group>"; };
-		ACAA96FE17403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA96FF17403B3100FC632D /* seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seal.png; sourceTree = "<group>"; };
-		ACAA970017403B3100FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
-		ACAA970217403B3100FC632D /* carnegie_mellon_U_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carnegie_mellon_U_seal.png; sourceTree = "<group>"; };
-		ACAA970317403B3100FC632D /* carnegieclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carnegieclasssize.png; sourceTree = "<group>"; };
-		ACAA970417403B3100FC632D /* college-photo_7656..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_7656..jpg"; sourceTree = "<group>"; };
-		ACAA970517403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA970717403B3100FC632D /* case_western_reserve_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = case_western_reserve_logo.png; sourceTree = "<group>"; };
 		ACAA970817403B3100FC632D /* college-photo_206..JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_206..JPG"; sourceTree = "<group>"; };
-		ACAA970917403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA970B17403B3100FC632D /* clemson_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clemson_campus.jpeg; sourceTree = "<group>"; };
 		ACAA970C17403B3100FC632D /* clemson_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clemson_logo.png; sourceTree = "<group>"; };
-		ACAA970D17403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA970F17403B3100FC632D /* File:College_of_William_%26_Mary_Seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:College_of_William_%26_Mary_Seal.png"; sourceTree = "<group>"; };
-		ACAA971017403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA971117403B3100FC632D /* william_mary_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = william_mary_campus.jpeg; sourceTree = "<group>"; };
 		ACAA971317403B3100FC632D /* 200px-ColumbiaNYUCoat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-ColumbiaNYUCoat.png"; sourceTree = "<group>"; };
 		ACAA971417403B3100FC632D /* columbia_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = columbia_u.png; sourceTree = "<group>"; };
 		ACAA971517403B3100FC632D /* columbiaclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = columbiaclasssize.png; sourceTree = "<group>"; };
-		ACAA971617403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA971717403B3100FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		ACAA971917403B3100FC632D /* CornellCampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CornellCampus.jpeg; sourceTree = "<group>"; };
 		ACAA971A17403B3100FC632D /* cornellclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cornellclasssize.png; sourceTree = "<group>"; };
 		ACAA971B17403B3100FC632D /* CornellSeal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CornellSeal.jpeg; sourceTree = "<group>"; };
-		ACAA971C17403B3100FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA971E17403B3200FC632D /* dart-campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dart-campus.jpeg"; sourceTree = "<group>"; };
 		ACAA971F17403B3200FC632D /* dart-seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dart-seal.png"; sourceTree = "<group>"; };
 		ACAA972017403B3200FC632D /* dartmouthclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dartmouthclasssize.png; sourceTree = "<group>"; };
-		ACAA972117403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA972217403B3200FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		ACAA972417403B3200FC632D /* college-photo_8736.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college-photo_8736.png"; sourceTree = "<group>"; };
 		ACAA972517403B3200FC632D /* Duke_University_Crest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duke_University_Crest.png; sourceTree = "<group>"; };
 		ACAA972617403B3200FC632D /* dukeclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dukeclasssize.png; sourceTree = "<group>"; };
-		ACAA972717403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA972817403B3200FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		ACAA972A17403B3200FC632D /* EmoryCampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EmoryCampus.jpeg; sourceTree = "<group>"; };
 		ACAA972B17403B3200FC632D /* emoryclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoryclasssize.png; sourceTree = "<group>"; };
 		ACAA972C17403B3200FC632D /* EmorySeal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EmorySeal.jpeg; sourceTree = "<group>"; };
-		ACAA972D17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA972F17403B3200FC632D /* college-photo_7438..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_7438..jpg"; sourceTree = "<group>"; };
 		ACAA973017403B3200FC632D /* george_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = george_seal.png; sourceTree = "<group>"; };
 		ACAA973117403B3200FC632D /* georgetownclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = georgetownclasssize.png; sourceTree = "<group>"; };
-		ACAA973217403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA973417403B3200FC632D /* georgia_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgia_campus.jpeg; sourceTree = "<group>"; };
 		ACAA973517403B3200FC632D /* georgia_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = georgia_logo.png; sourceTree = "<group>"; };
-		ACAA973617403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA973817403B3200FC632D /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
 		ACAA973917403B3200FC632D /* Harvard_Wreath_Logo_1.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Harvard_Wreath_Logo_1.svg.png; sourceTree = "<group>"; };
 		ACAA973A17403B3200FC632D /* harvardclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harvardclasssize.png; sourceTree = "<group>"; };
-		ACAA973B17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA973D17403B3200FC632D /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
 		ACAA973E17403B3200FC632D /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.png; sourceTree = "<group>"; };
 		ACAA973F17403B3200FC632D /* cell_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_bottom.png; sourceTree = "<group>"; };
@@ -1098,7 +921,6 @@
 		ACAA974A17403B3200FC632D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ACAA974B17403B3200FC632D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		ACAA974C17403B3200FC632D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		ACAA974D17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA974E17403B3200FC632D /* icondemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icondemo.png; sourceTree = "<group>"; };
 		ACAA974F17403B3200FC632D /* listofcollegesicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listofcollegesicon.png; sourceTree = "<group>"; };
 		ACAA975017403B3200FC632D /* navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_bg.png; sourceTree = "<group>"; };
@@ -1108,204 +930,140 @@
 		ACAA975417403B3200FC632D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		ACAA975517403B3200FC632D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		ACAA975717403B3200FC632D /* hopkinsclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hopkinsclasssize.png; sourceTree = "<group>"; };
-		ACAA975817403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA975917403B3200FC632D /* JHU_University_Seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JHU_University_Seal.png; sourceTree = "<group>"; };
 		ACAA975A17403B3200FC632D /* photos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photos.jpeg; sourceTree = "<group>"; };
-		ACAA975C17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA975D17403B3200FC632D /* lehigh_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lehigh_campus.jpeg; sourceTree = "<group>"; };
 		ACAA975E17403B3200FC632D /* lehigh_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lehigh_logo.png; sourceTree = "<group>"; };
-		ACAA976017403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA976117403B3200FC632D /* michigan_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michigan_campus.jpeg; sourceTree = "<group>"; };
 		ACAA976217403B3200FC632D /* MSU_Seal_2010.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MSU_Seal_2010.svg.png; sourceTree = "<group>"; };
-		ACAA976417403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA976517403B3200FC632D /* MIT_Seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MIT_Seal.png; sourceTree = "<group>"; };
 		ACAA976617403B3200FC632D /* mit_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mit_u.png; sourceTree = "<group>"; };
 		ACAA976717403B3200FC632D /* mitclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mitclasssize.png; sourceTree = "<group>"; };
-		ACAA976817403B3200FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
-		ACAA976A17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA976B17403B3200FC632D /* new_york_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_york_campus.jpeg; sourceTree = "<group>"; };
 		ACAA976C17403B3200FC632D /* new_york_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_york_seal.png; sourceTree = "<group>"; };
 		ACAA976E17403B3200FC632D /* college-photo_8852.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_8852.jpg"; sourceTree = "<group>"; };
-		ACAA976F17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA977017403B3200FC632D /* Northeastern-seal.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Northeastern-seal.svg.png"; sourceTree = "<group>"; };
 		ACAA977217403B3200FC632D /* college-photo_3270..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_3270..jpg"; sourceTree = "<group>"; };
-		ACAA977317403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA977417403B3200FC632D /* northwesternclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = northwesternclasssize.png; sourceTree = "<group>"; };
 		ACAA977517403B3200FC632D /* viewer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewer2.png; sourceTree = "<group>"; };
-		ACAA977717403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA977817403B3200FC632D /* NDCampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NDCampus.jpeg; sourceTree = "<group>"; };
 		ACAA977917403B3200FC632D /* NDSeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NDSeal.png; sourceTree = "<group>"; };
 		ACAA977A17403B3200FC632D /* notredameclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notredameclasssize.png; sourceTree = "<group>"; };
 		ACAA977C17403B3200FC632D /* File:Seal_of_the_Ohio_State_University.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Seal_of_the_Ohio_State_University.png"; sourceTree = "<group>"; };
-		ACAA977D17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA977E17403B3200FC632D /* photos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photos.jpeg; sourceTree = "<group>"; };
 		ACAA978017403B3200FC632D /* college-photo_6492..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_6492..jpg"; sourceTree = "<group>"; };
-		ACAA978117403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA978217403B3200FC632D /* Pennsylvania_State_University_seal.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pennsylvania_State_University_seal.svg.png; sourceTree = "<group>"; };
 		ACAA978417403B3200FC632D /* File:Pepperdine_Official_Seal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "File:Pepperdine_Official_Seal.jpg"; sourceTree = "<group>"; };
-		ACAA978517403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA978617403B3200FC632D /* pepperdine.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pepperdine.jpeg; sourceTree = "<group>"; };
 		ACAA978817403B3200FC632D /* 157px-Princeton_shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "157px-Princeton_shield.png"; sourceTree = "<group>"; };
 		ACAA978917403B3200FC632D /* college-photo_6976..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college-photo_6976..png"; sourceTree = "<group>"; };
-		ACAA978A17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA978B17403B3200FC632D /* princetonclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = princetonclasssize.png; sourceTree = "<group>"; };
-		ACAA978D17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA978E17403B3200FC632D /* purdue_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = purdue_campus.jpeg; sourceTree = "<group>"; };
 		ACAA978F17403B3200FC632D /* purdue_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purdue_logo.png; sourceTree = "<group>"; };
-		ACAA979117403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA979217403B3200FC632D /* rensselaer_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rensselaer_campus.jpeg; sourceTree = "<group>"; };
 		ACAA979317403B3200FC632D /* rensselaer_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rensselaer_logo.png; sourceTree = "<group>"; };
-		ACAA979517403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA979617403B3200FC632D /* RiceCampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RiceCampus.jpeg; sourceTree = "<group>"; };
 		ACAA979717403B3200FC632D /* riceclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riceclasssize.png; sourceTree = "<group>"; };
 		ACAA979817403B3200FC632D /* RiceSeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RiceSeal.png; sourceTree = "<group>"; };
 		ACAA979A17403B3200FC632D /* File:Rutgers,_The_State_University_of_New_Jersey_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Rutgers,_The_State_University_of_New_Jersey_logo.png"; sourceTree = "<group>"; };
-		ACAA979B17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA979C17403B3200FC632D /* new_brunswick_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_brunswick_campus.jpeg; sourceTree = "<group>"; };
 		ACAA979E17403B3200FC632D /* File:Southern_Methodist_University_Seal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "File:Southern_Methodist_University_Seal.gif"; sourceTree = "<group>"; };
-		ACAA979F17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97A017403B3200FC632D /* photos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photos.jpeg; sourceTree = "<group>"; };
-		ACAA97A217403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97A317403B3200FC632D /* Stan-Shield.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Stan-Shield.gif"; sourceTree = "<group>"; };
 		ACAA97A417403B3200FC632D /* stan_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stan_u.png; sourceTree = "<group>"; };
 		ACAA97A517403B3200FC632D /* stanfordclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stanfordclasssize.png; sourceTree = "<group>"; };
-		ACAA97A617403B3200FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		ACAA97A817403B3200FC632D /* File:ESF_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:ESF_logo.png"; sourceTree = "<group>"; };
-		ACAA97A917403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97AA17403B3200FC632D /* photos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photos.jpeg; sourceTree = "<group>"; };
 		ACAA97AC17403B3200FC632D /* File:SIT_Seal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "File:SIT_Seal.jpg"; sourceTree = "<group>"; };
-		ACAA97AD17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97AE17403B3200FC632D /* SIT_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SIT_campus.jpeg; sourceTree = "<group>"; };
-		ACAA97B017403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97B117403B3200FC632D /* syracuse_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = syracuse_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97B217403B3200FC632D /* Syracuse_University_Seal.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Syracuse_University_Seal.svg.png; sourceTree = "<group>"; };
 		ACAA97B417403B3200FC632D /* File:Texas_A%26M_University_Seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Texas_A%26M_University_Seal.png"; sourceTree = "<group>"; };
-		ACAA97B517403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97B617403B3200FC632D /* texas_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texas_campus.jpeg; sourceTree = "<group>"; };
-		ACAA97B817403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97B917403B3200FC632D /* tuft_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuft_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97BA17403B3200FC632D /* tuft_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuft_seal.png; sourceTree = "<group>"; };
 		ACAA97BB17403B3200FC632D /* tuftsclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuftsclasssize.png; sourceTree = "<group>"; };
-		ACAA97BD17403B3200FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97BE17403B3300FC632D /* tulane_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tulane_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97BF17403B3300FC632D /* TulaneSealColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TulaneSealColor.png; sourceTree = "<group>"; };
 		ACAA97C117403B3300FC632D /* File:Ucla_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Ucla_logo.png"; sourceTree = "<group>"; };
-		ACAA97C217403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97C317403B3300FC632D /* losangelescaliclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = losangelescaliclasssize.png; sourceTree = "<group>"; };
 		ACAA97C417403B3300FC632D /* ucla_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ucla_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97C617403B3300FC632D /* berkleyclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = berkleyclasssize.png; sourceTree = "<group>"; };
 		ACAA97C717403B3300FC632D /* California_Berkley_Seal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = California_Berkley_Seal.jpeg; sourceTree = "<group>"; };
-		ACAA97C817403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97C917403B3300FC632D /* University_of_California_Seal.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = University_of_California_Seal.svg.png; sourceTree = "<group>"; };
 		ACAA97CB17403B3300FC632D /* File:Ucsc_fiatslug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Ucsc_fiatslug.png"; sourceTree = "<group>"; };
-		ACAA97CC17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97CD17403B3300FC632D /* photos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photos.jpeg; sourceTree = "<group>"; };
 		ACAA97CF17403B3300FC632D /* davis_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = davis_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97D017403B3300FC632D /* davis_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = davis_logo.png; sourceTree = "<group>"; };
-		ACAA97D117403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97D317403B3300FC632D /* File:UC_Irvine_Seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:UC_Irvine_Seal.png"; sourceTree = "<group>"; };
-		ACAA97D417403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97D517403B3300FC632D /* irvine_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = irvine_campus.jpeg; sourceTree = "<group>"; };
-		ACAA97D717403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97D817403B3300FC632D /* san_diego_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = san_diego_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97D917403B3300FC632D /* san_diego_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = san_diego_logo.png; sourceTree = "<group>"; };
-		ACAA97DB17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97DC17403B3300FC632D /* santa_barbara_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santa_barbara_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97DD17403B3300FC632D /* Ucsb_seal.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ucsb_seal.svg.png; sourceTree = "<group>"; };
 		ACAA97DF17403B3300FC632D /* chicago_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicago_u.png; sourceTree = "<group>"; };
 		ACAA97E017403B3300FC632D /* chicagoclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicagoclasssize.png; sourceTree = "<group>"; };
-		ACAA97E117403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA97E217403B3300FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		ACAA97E317403B3300FC632D /* University_of_Chicago_Modern_Etched_Seal_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = University_of_Chicago_Modern_Etched_Seal_1.png; sourceTree = "<group>"; };
 		ACAA97E517403B3300FC632D /* connecticut_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = connecticut_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97E617403B3300FC632D /* connecticut_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connecticut_logo.png; sourceTree = "<group>"; };
-		ACAA97E717403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97E917403B3300FC632D /* delaware_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delaware_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97EA17403B3300FC632D /* delaware_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delaware_logo.png; sourceTree = "<group>"; };
-		ACAA97EB17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97ED17403B3300FC632D /* File:University_of_Florida_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:University_of_Florida_seal.png"; sourceTree = "<group>"; };
 		ACAA97EE17403B3300FC632D /* florida_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = florida_campus.jpeg; sourceTree = "<group>"; };
-		ACAA97EF17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97F117403B3300FC632D /* college-photo_144..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_144..jpg"; sourceTree = "<group>"; };
 		ACAA97F217403B3300FC632D /* File:Seal_of_the_University_of_Georgia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Seal_of_the_University_of_Georgia.png"; sourceTree = "<group>"; };
-		ACAA97F317403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA97F517403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97F617403B3300FC632D /* urbana_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = urbana_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97F717403B3300FC632D /* urbana_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = urbana_logo.png; sourceTree = "<group>"; };
 		ACAA97F917403B3300FC632D /* File:UI-seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:UI-seal.png"; sourceTree = "<group>"; };
-		ACAA97FA17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97FB17403B3300FC632D /* iowa_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iowa_campus.jpeg; sourceTree = "<group>"; };
-		ACAA97FD17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA97FE17403B3300FC632D /* maryland_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maryland_campus.jpeg; sourceTree = "<group>"; };
 		ACAA97FF17403B3300FC632D /* University_of_Maryland_Seal.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = University_of_Maryland_Seal.svg.png; sourceTree = "<group>"; };
-		ACAA980117403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA980217403B3300FC632D /* miami_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miami_campus.jpeg; sourceTree = "<group>"; };
 		ACAA980317403B3300FC632D /* miami_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miami_logo.png; sourceTree = "<group>"; };
 		ACAA980517403B3300FC632D /* File:Umichigan_color_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Umichigan_color_seal.png"; sourceTree = "<group>"; };
-		ACAA980617403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA980717403B3300FC632D /* michigan_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michigan_campus.jpeg; sourceTree = "<group>"; };
 		ACAA980817403B3300FC632D /* michiganannarborclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michiganannarborclasssize.png; sourceTree = "<group>"; };
-		ACAA980A17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA980B17403B3300FC632D /* minnesota_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minnesota_campus.jpeg; sourceTree = "<group>"; };
 		ACAA980C17403B3300FC632D /* Umnseal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Umnseal.png; sourceTree = "<group>"; };
-		ACAA980E17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA980F17403B3300FC632D /* nebraskacampus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nebraskacampus.jpg; sourceTree = "<group>"; };
 		ACAA981017403B3300FC632D /* nebraskaseal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nebraskaseal.jpeg; sourceTree = "<group>"; };
 		ACAA981217403B3300FC632D /* File:UNC_Chapel_Hill_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:UNC_Chapel_Hill_seal.png"; sourceTree = "<group>"; };
-		ACAA981317403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA981417403B3300FC632D /* north_carolina_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = north_carolina_campus.jpeg; sourceTree = "<group>"; };
-		ACAA981617403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA981717403B3300FC632D /* pittsbrgh_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pittsbrgh_campus.jpeg; sourceTree = "<group>"; };
 		ACAA981817403B3300FC632D /* pittsburgh_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pittsburgh_logo.png; sourceTree = "<group>"; };
 		ACAA981A17403B3300FC632D /* college-photo_2965._445x280-zmm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_2965._445x280-zmm.jpg"; sourceTree = "<group>"; };
-		ACAA981B17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA981C17403B3300FC632D /* University_of_Rochester_logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = University_of_Rochester_logo.svg.png; sourceTree = "<group>"; };
 		ACAA981E17403B3300FC632D /* college-photo_11609..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "college-photo_11609..jpg"; sourceTree = "<group>"; };
-		ACAA981F17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA982017403B3300FC632D /* southcaliclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = southcaliclasssize.png; sourceTree = "<group>"; };
 		ACAA982117403B3300FC632D /* USC_Shield.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USC_Shield.svg.png; sourceTree = "<group>"; };
 		ACAA982317403B3300FC632D /* austin_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = austin_campus.jpeg; sourceTree = "<group>"; };
 		ACAA982417403B3300FC632D /* File:Large_university-of-texas_seal_rgb(199-91-18).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:Large_university-of-texas_seal_rgb(199-91-18).png"; sourceTree = "<group>"; };
-		ACAA982517403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA982717403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA982817403B3300FC632D /* photos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photos.jpeg; sourceTree = "<group>"; };
 		ACAA982917403B3300FC632D /* UVA_Rotunda_Logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UVA_Rotunda_Logo.svg.png; sourceTree = "<group>"; };
 		ACAA982A17403B3300FC632D /* virginiaclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = virginiaclasssize.png; sourceTree = "<group>"; };
 		ACAA982C17403B3300FC632D /* File:University_of_Washington_Seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:University_of_Washington_Seal.png"; sourceTree = "<group>"; };
-		ACAA982D17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA982E17403B3300FC632D /* washington_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = washington_campus.jpeg; sourceTree = "<group>"; };
-		ACAA983017403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA983117403B3300FC632D /* madison_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = madison_campus.jpeg; sourceTree = "<group>"; };
 		ACAA983217403B3300FC632D /* madison_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = madison_logo.png; sourceTree = "<group>"; };
 		ACAA983417403B3300FC632D /* college-photo_2741..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college-photo_2741..png"; sourceTree = "<group>"; };
-		ACAA983517403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA983617403B3300FC632D /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
-		ACAA983717403B3300FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		ACAA983817403B3300FC632D /* upennclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upennclasssize.png; sourceTree = "<group>"; };
-		ACAA983A17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA983B17403B3300FC632D /* VanderbiltCampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VanderbiltCampus.jpeg; sourceTree = "<group>"; };
 		ACAA983C17403B3300FC632D /* vanderbiltclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanderbiltclasssize.png; sourceTree = "<group>"; };
 		ACAA983D17403B3300FC632D /* VanderbiltSeal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VanderbiltSeal.jpeg; sourceTree = "<group>"; };
-		ACAA983F17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA984017403B3300FC632D /* virginia_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = virginia_campus.jpeg; sourceTree = "<group>"; };
 		ACAA984117403B3300FC632D /* virginia_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = virginia_logo.png; sourceTree = "<group>"; };
-		ACAA984317403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA984417403B3300FC632D /* wake_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wake_campus.jpeg; sourceTree = "<group>"; };
 		ACAA984517403B3300FC632D /* wake_seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wake_seal.png; sourceTree = "<group>"; };
 		ACAA984617403B3300FC632D /* wakeforestclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wakeforestclasssize.png; sourceTree = "<group>"; };
-		ACAA984817403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA984917403B3300FC632D /* washigtonuclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = washigtonuclasssize.png; sourceTree = "<group>"; };
 		ACAA984A17403B3300FC632D /* WashUCampus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WashUCampus.jpeg; sourceTree = "<group>"; };
 		ACAA984B17403B3300FC632D /* WashUShield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WashUShield.png; sourceTree = "<group>"; };
 		ACAA984D17403B3300FC632D /* File:WPI_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File:WPI_logo.png"; sourceTree = "<group>"; };
-		ACAA984E17403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA984F17403B3300FC632D /* WPI_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WPI_campus.jpeg; sourceTree = "<group>"; };
 		ACAA985117403B3300FC632D /* college-photo_8737.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "college-photo_8737.png"; sourceTree = "<group>"; };
-		ACAA985217403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
-		ACAA985317403B3300FC632D /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
 		ACAA985417403B3300FC632D /* Yale_University_Shield_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yale_University_Shield_1.png; sourceTree = "<group>"; };
 		ACAA985517403B3300FC632D /* yaleclasssize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yaleclasssize.png; sourceTree = "<group>"; };
-		ACAA985717403B3300FC632D /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
 		ACAA985817403B3300FC632D /* yeshiva_campus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yeshiva_campus.jpeg; sourceTree = "<group>"; };
 		ACAA985917403B3300FC632D /* yeshiva_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yeshiva_logo.jpeg; sourceTree = "<group>"; };
 		ACAA985B17403B3300FC632D /* community.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = community.png; sourceTree = "<group>"; };
@@ -1452,7 +1210,6 @@
 				ACAA952517403B2F00FC632D /* College4U Splash Screen.png */,
 				ACAA952617403B2F00FC632D /* Harvard Screenshot 1136x640.png */,
 				ACAA952717403B2F00FC632D /* Harvard Screenshot 960x640.png */,
-				ACAA952817403B2F00FC632D /* Icon */,
 				ACAA952917403B2F00FC632D /* list of colleges screenshot 1136x640 .png */,
 				ACAA952A17403B2F00FC632D /* list of colleges screenshot 960x640.png */,
 				ACAA952B17403B2F00FC632D /* more tab 1136x640.png */,
@@ -1691,7 +1448,6 @@
 			children = (
 				ACAA953517403B2F00FC632D /* baylor_campus.jpeg */,
 				ACAA953617403B2F00FC632D /* baylor_seal.png */,
-				ACAA953717403B2F00FC632D /* Icon */,
 			);
 			path = "# 77 Baylor u";
 			sourceTree = "<group>";
@@ -1699,7 +1455,6 @@
 		ACAA953817403B2F00FC632D /* #100 iowa state u */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA953917403B2F00FC632D /* Icon */,
 				ACAA953A17403B2F00FC632D /* iowa_campus.jpeg */,
 				ACAA953B17403B2F00FC632D /* iowa_seal.jpeg */,
 			);
@@ -1709,7 +1464,6 @@
 		ACAA953C17403B2F00FC632D /* #101 U of California Riverside */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA953D17403B2F00FC632D /* Icon */,
 				ACAA953E17403B2F00FC632D /* u of cali riverside campus.jpeg */,
 				ACAA953F17403B2F00FC632D /* u of cali riverside seal.jpeg */,
 			);
@@ -2205,7 +1959,6 @@
 		ACAA95E217403B3000FC632D /* #56 Ohio U- Columbus */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA95E317403B3000FC632D /* Icon */,
 				ACAA95E417403B3000FC632D /* ohioucolumbuscampus.jpeg */,
 				ACAA95E517403B3000FC632D /* ohioucolumbusseal.png */,
 			);
@@ -2217,7 +1970,6 @@
 			children = (
 				ACAA95E717403B3000FC632D /* fordhamcampus.jpeg */,
 				ACAA95E817403B3000FC632D /* fordhamseal.jpeg */,
-				ACAA95E917403B3000FC632D /* Icon */,
 			);
 			path = "#57 fordham u";
 			sourceTree = "<group>";
@@ -2225,7 +1977,6 @@
 		ACAA95EA17403B3000FC632D /* #58 Southern Methodist U */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA95EB17403B3000FC632D /* Icon */,
 				ACAA95EC17403B3000FC632D /* smu campus.jpeg */,
 				ACAA95ED17403B3000FC632D /* smu seal.gif */,
 			);
@@ -2235,7 +1986,6 @@
 		ACAA95EE17403B3000FC632D /* #60 U of Maryland- college park */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA95EF17403B3000FC632D /* Icon */,
 				ACAA95F017403B3000FC632D /* u of maryland college park campus.jpeg */,
 				ACAA95F117403B3000FC632D /* u of maryland college park seal.png */,
 			);
@@ -2245,7 +1995,6 @@
 		ACAA95F217403B3000FC632D /* #63 U of Georgia */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA95F317403B3000FC632D /* Icon */,
 				ACAA95F417403B3000FC632D /* u of georgia campus.jpeg */,
 				ACAA95F517403B3000FC632D /* u of georgia seal.png */,
 			);
@@ -2257,7 +2006,6 @@
 			children = (
 				ACAA95F717403B3000FC632D /* americancampus.jpeg */,
 				ACAA95F817403B3000FC632D /* americanseal.png */,
-				ACAA95F917403B3000FC632D /* Icon */,
 			);
 			path = "#76 american u";
 			sourceTree = "<group>";
@@ -2267,7 +2015,6 @@
 			children = (
 				ACAA95FB17403B3000FC632D /* coloradominescampus.jpeg */,
 				ACAA95FC17403B3000FC632D /* coloradominesseal.jpeg */,
-				ACAA95FD17403B3000FC632D /* Icon */,
 			);
 			path = "#78 colorado school of mines";
 			sourceTree = "<group>";
@@ -2275,7 +2022,6 @@
 		ACAA95FE17403B3000FC632D /* #79 suny */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA95FF17403B3000FC632D /* Icon */,
 				ACAA960017403B3000FC632D /* suny_campus.jpeg */,
 				ACAA960117403B3000FC632D /* suny_seal.png */,
 			);
@@ -2287,7 +2033,6 @@
 			children = (
 				ACAA960317403B3000FC632D /* alabamacampus.jpeg */,
 				ACAA960417403B3000FC632D /* alabamaseal.png */,
-				ACAA960517403B3000FC632D /* Icon */,
 			);
 			path = "#80 university of alabama";
 			sourceTree = "<group>";
@@ -2297,7 +2042,6 @@
 			children = (
 				ACAA960717403B3000FC632D /* cali u santa cruz campus.jpg */,
 				ACAA960817403B3000FC632D /* calu u santa cruz seal.png */,
-				ACAA960917403B3000FC632D /* Icon */,
 			);
 			path = "#81 California U Santa Cruz";
 			sourceTree = "<group>";
@@ -2307,7 +2051,6 @@
 			children = (
 				ACAA960B17403B3000FC632D /* clarkcampus.jpeg */,
 				ACAA960C17403B3000FC632D /* clarkseal.jpeg */,
-				ACAA960D17403B3000FC632D /* Icon */,
 			);
 			path = "#82 clark u";
 			sourceTree = "<group>";
@@ -2317,7 +2060,6 @@
 			children = (
 				ACAA960F17403B3000FC632D /* Drexel_campus.jpeg */,
 				ACAA961017403B3000FC632D /* Drexel_seal.png */,
-				ACAA961117403B3000FC632D /* Icon */,
 			);
 			path = "#83 Drexel U";
 			sourceTree = "<group>";
@@ -2325,7 +2067,6 @@
 		ACAA961217403B3000FC632D /* #84 indiana u- bloomington */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA961317403B3000FC632D /* Icon */,
 				ACAA961417403B3000FC632D /* indianabloomingtoncampus.jpeg */,
 				ACAA961517403B3000FC632D /* indianabloomingtonseal.jpeg */,
 			);
@@ -2335,9 +2076,8 @@
 		ACAA961617403B3000FC632D /* #85 Marquette U  */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA961717403B3000FC632D /* Icon */,
-				ACAA961817403B3000FC632D /* marquette campus.jpeg */,
-				ACAA961917403B3000FC632D /* marquette seal.png */,
+				1C2E47A5185567AA0020665E /* marquette campus.jpeg */,
+				1C2E47A6185567AA0020665E /* marquette seal.png */,
 			);
 			path = "#85 Marquette U ";
 			sourceTree = "<group>";
@@ -2347,7 +2087,6 @@
 			children = (
 				ACAA961B17403B3000FC632D /* denvercampus.jpeg */,
 				ACAA961C17403B3000FC632D /* denverseal.jpeg */,
-				ACAA961D17403B3000FC632D /* Icon */,
 			);
 			path = "#86 u of denver";
 			sourceTree = "<group>";
@@ -2355,7 +2094,6 @@
 		ACAA961E17403B3000FC632D /* #87 U of Tulsa */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA961F17403B3000FC632D /* Icon */,
 				ACAA962017403B3000FC632D /* tulsa campus.jpeg */,
 				ACAA962117403B3000FC632D /* tulsa seal.png */,
 			);
@@ -2367,7 +2105,6 @@
 			children = (
 				ACAA962317403B3000FC632D /* auburncampus.jpeg */,
 				ACAA962417403B3000FC632D /* auburnseal.jpeg */,
-				ACAA962517403B3000FC632D /* Icon */,
 			);
 			path = "#88 auburn u";
 			sourceTree = "<group>";
@@ -2377,7 +2114,6 @@
 			children = (
 				ACAA962717403B3000FC632D /* binghamton campus.jpeg */,
 				ACAA962817403B3000FC632D /* binghamton seal.png */,
-				ACAA962917403B3000FC632D /* Icon */,
 			);
 			path = "#89 Binghamton U";
 			sourceTree = "<group>";
@@ -2385,7 +2121,6 @@
 		ACAA962A17403B3000FC632D /* #90 miami u- oxford */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA962B17403B3000FC632D /* Icon */,
 				ACAA962C17403B3000FC632D /* miamioxfordcampus.jpeg */,
 				ACAA962D17403B3000FC632D /* miamioxfordseal.png */,
 			);
@@ -2395,7 +2130,6 @@
 		ACAA962E17403B3000FC632D /* #91 St Louis U */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA962F17403B3000FC632D /* Icon */,
 				ACAA963017403B3000FC632D /* saintlouisseal.png */,
 				ACAA963117403B3000FC632D /* stlouiscampus.jpeg */,
 			);
@@ -2405,7 +2139,6 @@
 		ACAA963217403B3000FC632D /* #92 stony brook u- ny */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA963317403B3000FC632D /* Icon */,
 				ACAA963417403B3000FC632D /* stonycampus.jpeg */,
 				ACAA963517403B3000FC632D /* stonyseal.gif */,
 			);
@@ -2415,7 +2148,6 @@
 		ACAA963617403B3000FC632D /* #93 Texas Christian U */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA963717403B3000FC632D /* Icon */,
 				ACAA963817403B3000FC632D /* texaschristiancampus.jpeg */,
 				ACAA963917403B3000FC632D /* texaschristianseal.png */,
 			);
@@ -2425,7 +2157,6 @@
 		ACAA963A17403B3000FC632D /* #94 u of san diego */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA963B17403B3000FC632D /* Icon */,
 				ACAA963C17403B3000FC632D /* sandiegocampus.jpg */,
 				ACAA963D17403B3000FC632D /* sandiegoseal.gif */,
 			);
@@ -2437,7 +2168,6 @@
 			children = (
 				ACAA963F17403B3000FC632D /* fsu campus.jpeg */,
 				ACAA964017403B3000FC632D /* fsu seal.png */,
-				ACAA964117403B3000FC632D /* Icon */,
 			);
 			path = "#96 FSU";
 			sourceTree = "<group>";
@@ -2445,7 +2175,6 @@
 		ACAA964217403B3000FC632D /* #96 u of vermont */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA964317403B3000FC632D /* Icon */,
 				ACAA964417403B3000FC632D /* vermontcampus.jpg */,
 				ACAA964517403B3000FC632D /* vermontseal.png */,
 			);
@@ -2455,7 +2184,6 @@
 		ACAA964617403B3000FC632D /* #97 U of Colorado- Boulder */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA964717403B3000FC632D /* Icon */,
 				ACAA964817403B3000FC632D /* u of colorado boulder campus.jpeg */,
 				ACAA964917403B3000FC632D /* u of colorado boulder seal.png */,
 			);
@@ -2465,7 +2193,6 @@
 		ACAA964A17403B3000FC632D /* #98 u of mass.- amherst */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA964B17403B3000FC632D /* Icon */,
 				ACAA964C17403B3000FC632D /* umassamherstcampus.jpeg */,
 				ACAA964D17403B3000FC632D /* umassamherstseal.png */,
 			);
@@ -2475,7 +2202,6 @@
 		ACAA964E17403B3000FC632D /* #99 U of Missouri */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA964F17403B3000FC632D /* Icon */,
 				ACAA965017403B3000FC632D /* u of missouri campus.jpeg */,
 				ACAA965117403B3000FC632D /* u of missouri seal.jpeg */,
 			);
@@ -2900,7 +2626,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA96DE17403B3100FC632D /* File:Baylor_University_seal.png */,
-				ACAA96DF17403B3100FC632D /* Icon */,
 				ACAA96E017403B3100FC632D /* photos.jpeg */,
 			);
 			path = "Baylor University #77";
@@ -2911,7 +2636,6 @@
 			children = (
 				ACAA96E217403B3100FC632D /* boston_campus.jpeg */,
 				ACAA96E317403B3100FC632D /* boston_seal.png */,
-				ACAA96E417403B3100FC632D /* Icon */,
 			);
 			path = "Boston College #31";
 			sourceTree = "<group>";
@@ -2921,7 +2645,6 @@
 			children = (
 				ACAA96E617403B3100FC632D /* boston_campus.jpeg */,
 				ACAA96E717403B3100FC632D /* Boston_University_seal.svg.png */,
-				ACAA96E817403B3100FC632D /* Icon */,
 			);
 			path = "Boston University #51";
 			sourceTree = "<group>";
@@ -2931,7 +2654,6 @@
 			children = (
 				ACAA96EA17403B3100FC632D /* college-photo_2914..jpg */,
 				ACAA96EB17403B3100FC632D /* File:BrandeisUnivSeal.png */,
-				ACAA96EC17403B3100FC632D /* Icon */,
 			);
 			path = "Brandeis University #33";
 			sourceTree = "<group>";
@@ -2941,7 +2663,6 @@
 			children = (
 				ACAA96EE17403B3100FC632D /* brigham_campus.jpeg */,
 				ACAA96EF17403B3100FC632D /* brigham_logo.png */,
-				ACAA96F017403B3100FC632D /* Icon */,
 			);
 			path = "Brigham Young University--Provo #67";
 			sourceTree = "<group>";
@@ -2952,7 +2673,6 @@
 				ACAA96F217403B3100FC632D /* BrownCampus.jpeg */,
 				ACAA96F317403B3100FC632D /* brownclasssize.png */,
 				ACAA96F417403B3100FC632D /* BrownSeal.png */,
-				ACAA96F517403B3100FC632D /* Icon */,
 			);
 			path = "Brown U #15";
 			sourceTree = "<group>";
@@ -2960,9 +2680,8 @@
 		ACAA96F617403B3100FC632D /* Brown University #15 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA96F717403B3100FC632D /* browncampus.jpeg */,
+				1C092AFA1869E5550040D1CF /* browncampus.jpeg */,
 				ACAA96F817403B3100FC632D /* brownclasssize.png */,
-				ACAA96F917403B3100FC632D /* Icon */,
 				ACAA96FA17403B3100FC632D /* url2.jpeg */,
 			);
 			path = "Brown University #15";
@@ -2973,9 +2692,7 @@
 			children = (
 				ACAA96FC17403B3100FC632D /* calitechclasssize.png */,
 				ACAA96FD17403B3100FC632D /* college-photo_91.png */,
-				ACAA96FE17403B3100FC632D /* Icon */,
 				ACAA96FF17403B3100FC632D /* seal.png */,
-				ACAA970017403B3100FC632D /* Thumbs.db */,
 			);
 			path = "Caltech #10";
 			sourceTree = "<group>";
@@ -2983,10 +2700,9 @@
 		ACAA970117403B3100FC632D /* Carnegie Mellon U #23  */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA970217403B3100FC632D /* carnegie_mellon_U_seal.png */,
-				ACAA970317403B3100FC632D /* carnegieclasssize.png */,
-				ACAA970417403B3100FC632D /* college-photo_7656..jpg */,
-				ACAA970517403B3100FC632D /* Icon */,
+				1C2E47A9185568140020665E /* carnegie_mellon_U_seal.png */,
+				1C2E47AA185568140020665E /* carnegieclasssize.png */,
+				1C2E47AB185568140020665E /* college-photo_7656..jpg */,
 			);
 			path = "Carnegie Mellon U #23 ";
 			sourceTree = "<group>";
@@ -2996,7 +2712,6 @@
 			children = (
 				ACAA970717403B3100FC632D /* case_western_reserve_logo.png */,
 				ACAA970817403B3100FC632D /* college-photo_206..JPG */,
-				ACAA970917403B3100FC632D /* Icon */,
 			);
 			path = "Case Western Reserve U #37";
 			sourceTree = "<group>";
@@ -3006,7 +2721,6 @@
 			children = (
 				ACAA970B17403B3100FC632D /* clemson_campus.jpeg */,
 				ACAA970C17403B3100FC632D /* clemson_logo.png */,
-				ACAA970D17403B3100FC632D /* Icon */,
 			);
 			path = "Clemson University #68";
 			sourceTree = "<group>";
@@ -3015,7 +2729,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA970F17403B3100FC632D /* File:College_of_William_%26_Mary_Seal.png */,
-				ACAA971017403B3100FC632D /* Icon */,
 				ACAA971117403B3100FC632D /* william_mary_campus.jpeg */,
 			);
 			path = "College of William and Mary #34";
@@ -3027,8 +2740,6 @@
 				ACAA971317403B3100FC632D /* 200px-ColumbiaNYUCoat.png */,
 				ACAA971417403B3100FC632D /* columbia_u.png */,
 				ACAA971517403B3100FC632D /* columbiaclasssize.png */,
-				ACAA971617403B3100FC632D /* Icon */,
-				ACAA971717403B3100FC632D /* Thumbs.db */,
 			);
 			path = "Columbia #4";
 			sourceTree = "<group>";
@@ -3039,7 +2750,6 @@
 				ACAA971917403B3100FC632D /* CornellCampus.jpeg */,
 				ACAA971A17403B3100FC632D /* cornellclasssize.png */,
 				ACAA971B17403B3100FC632D /* CornellSeal.jpeg */,
-				ACAA971C17403B3100FC632D /* Icon */,
 			);
 			path = "Cornell U #16";
 			sourceTree = "<group>";
@@ -3050,8 +2760,6 @@
 				ACAA971E17403B3200FC632D /* dart-campus.jpeg */,
 				ACAA971F17403B3200FC632D /* dart-seal.png */,
 				ACAA972017403B3200FC632D /* dartmouthclasssize.png */,
-				ACAA972117403B3200FC632D /* Icon */,
-				ACAA972217403B3200FC632D /* Thumbs.db */,
 			);
 			path = "Dartmouth #11";
 			sourceTree = "<group>";
@@ -3062,8 +2770,6 @@
 				ACAA972417403B3200FC632D /* college-photo_8736.png */,
 				ACAA972517403B3200FC632D /* Duke_University_Crest.png */,
 				ACAA972617403B3200FC632D /* dukeclasssize.png */,
-				ACAA972717403B3200FC632D /* Icon */,
-				ACAA972817403B3200FC632D /* Thumbs.db */,
 			);
 			path = "Duke #8";
 			sourceTree = "<group>";
@@ -3074,7 +2780,6 @@
 				ACAA972A17403B3200FC632D /* EmoryCampus.jpeg */,
 				ACAA972B17403B3200FC632D /* emoryclasssize.png */,
 				ACAA972C17403B3200FC632D /* EmorySeal.jpeg */,
-				ACAA972D17403B3200FC632D /* Icon */,
 			);
 			path = "Emory U #20";
 			sourceTree = "<group>";
@@ -3085,7 +2790,6 @@
 				ACAA972F17403B3200FC632D /* college-photo_7438..jpg */,
 				ACAA973017403B3200FC632D /* george_seal.png */,
 				ACAA973117403B3200FC632D /* georgetownclasssize.png */,
-				ACAA973217403B3200FC632D /* Icon */,
 			);
 			path = "Georgetown U #21";
 			sourceTree = "<group>";
@@ -3095,7 +2799,6 @@
 			children = (
 				ACAA973417403B3200FC632D /* georgia_campus.jpeg */,
 				ACAA973517403B3200FC632D /* georgia_logo.png */,
-				ACAA973617403B3200FC632D /* Icon */,
 			);
 			path = "Georgia Tech #36";
 			sourceTree = "<group>";
@@ -3106,7 +2809,6 @@
 				ACAA973817403B3200FC632D /* 01.jpg */,
 				ACAA973917403B3200FC632D /* Harvard_Wreath_Logo_1.svg.png */,
 				ACAA973A17403B3200FC632D /* harvardclasssize.png */,
-				ACAA973B17403B3200FC632D /* Icon */,
 			);
 			path = "Harvard #1";
 			sourceTree = "<group>";
@@ -3146,7 +2848,6 @@
 				ACAA974A17403B3200FC632D /* Default@2x.png */,
 				ACAA974B17403B3200FC632D /* first.png */,
 				ACAA974C17403B3200FC632D /* first@2x.png */,
-				ACAA974D17403B3200FC632D /* Icon */,
 				ACAA974E17403B3200FC632D /* icondemo.png */,
 				ACAA974F17403B3200FC632D /* listofcollegesicon.png */,
 				ACAA975017403B3200FC632D /* navbar_bg.png */,
@@ -3163,7 +2864,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA975717403B3200FC632D /* hopkinsclasssize.png */,
-				ACAA975817403B3200FC632D /* Icon */,
 				ACAA975917403B3200FC632D /* JHU_University_Seal.png */,
 				ACAA975A17403B3200FC632D /* photos.jpeg */,
 			);
@@ -3173,7 +2873,6 @@
 		ACAA975B17403B3200FC632D /* Lehigh University #38 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA975C17403B3200FC632D /* Icon */,
 				ACAA975D17403B3200FC632D /* lehigh_campus.jpeg */,
 				ACAA975E17403B3200FC632D /* lehigh_logo.png */,
 			);
@@ -3183,7 +2882,6 @@
 		ACAA975F17403B3200FC632D /* Michigan State University #71 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA976017403B3200FC632D /* Icon */,
 				ACAA976117403B3200FC632D /* michigan_campus.jpeg */,
 				ACAA976217403B3200FC632D /* MSU_Seal_2010.svg.png */,
 			);
@@ -3193,11 +2891,9 @@
 		ACAA976317403B3200FC632D /* MIT #6 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA976417403B3200FC632D /* Icon */,
 				ACAA976517403B3200FC632D /* MIT_Seal.png */,
 				ACAA976617403B3200FC632D /* mit_u.png */,
 				ACAA976717403B3200FC632D /* mitclasssize.png */,
-				ACAA976817403B3200FC632D /* Thumbs.db */,
 			);
 			path = "MIT #6";
 			sourceTree = "<group>";
@@ -3205,7 +2901,6 @@
 		ACAA976917403B3200FC632D /* New York University #32 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA976A17403B3200FC632D /* Icon */,
 				ACAA976B17403B3200FC632D /* new_york_campus.jpeg */,
 				ACAA976C17403B3200FC632D /* new_york_seal.png */,
 			);
@@ -3216,7 +2911,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA976E17403B3200FC632D /* college-photo_8852.jpg */,
-				ACAA976F17403B3200FC632D /* Icon */,
 				ACAA977017403B3200FC632D /* Northeastern-seal.svg.png */,
 			);
 			path = "Northeastern University  #55";
@@ -3226,7 +2920,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA977217403B3200FC632D /* college-photo_3270..jpg */,
-				ACAA977317403B3200FC632D /* Icon */,
 				ACAA977417403B3200FC632D /* northwesternclasssize.png */,
 				ACAA977517403B3200FC632D /* viewer2.png */,
 			);
@@ -3236,7 +2929,6 @@
 		ACAA977617403B3200FC632D /* Notre Dame #18 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA977717403B3200FC632D /* Icon */,
 				ACAA977817403B3200FC632D /* NDCampus.jpeg */,
 				ACAA977917403B3200FC632D /* NDSeal.png */,
 				ACAA977A17403B3200FC632D /* notredameclasssize.png */,
@@ -3248,7 +2940,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA977C17403B3200FC632D /* File:Seal_of_the_Ohio_State_University.png */,
-				ACAA977D17403B3200FC632D /* Icon */,
 				ACAA977E17403B3200FC632D /* photos.jpeg */,
 			);
 			path = "Ohio State University--Columbus #56";
@@ -3258,7 +2949,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA978017403B3200FC632D /* college-photo_6492..jpg */,
-				ACAA978117403B3200FC632D /* Icon */,
 				ACAA978217403B3200FC632D /* Pennsylvania_State_University_seal.svg.png */,
 			);
 			path = "Pennsylvania State University--University Park #46";
@@ -3268,7 +2958,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA978417403B3200FC632D /* File:Pepperdine_Official_Seal.jpg */,
-				ACAA978517403B3200FC632D /* Icon */,
 				ACAA978617403B3200FC632D /* pepperdine.jpeg */,
 			);
 			path = "Pepperdine University #53";
@@ -3279,7 +2968,6 @@
 			children = (
 				ACAA978817403B3200FC632D /* 157px-Princeton_shield.png */,
 				ACAA978917403B3200FC632D /* college-photo_6976..png */,
-				ACAA978A17403B3200FC632D /* Icon */,
 				ACAA978B17403B3200FC632D /* princetonclasssize.png */,
 			);
 			path = "Princeton #2";
@@ -3288,7 +2976,6 @@
 		ACAA978C17403B3200FC632D /* Purdue University--West Lafayette #64 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA978D17403B3200FC632D /* Icon */,
 				ACAA978E17403B3200FC632D /* purdue_campus.jpeg */,
 				ACAA978F17403B3200FC632D /* purdue_logo.png */,
 			);
@@ -3298,7 +2985,6 @@
 		ACAA979017403B3200FC632D /* Rensselaer Polytechnic Institute #41 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA979117403B3200FC632D /* Icon */,
 				ACAA979217403B3200FC632D /* rensselaer_campus.jpeg */,
 				ACAA979317403B3200FC632D /* rensselaer_logo.png */,
 			);
@@ -3308,7 +2994,6 @@
 		ACAA979417403B3200FC632D /* Rice U #17 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA979517403B3200FC632D /* Icon */,
 				ACAA979617403B3200FC632D /* RiceCampus.jpeg */,
 				ACAA979717403B3200FC632D /* riceclasssize.png */,
 				ACAA979817403B3200FC632D /* RiceSeal.png */,
@@ -3320,7 +3005,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA979A17403B3200FC632D /* File:Rutgers,_The_State_University_of_New_Jersey_logo.png */,
-				ACAA979B17403B3200FC632D /* Icon */,
 				ACAA979C17403B3200FC632D /* new_brunswick_campus.jpeg */,
 			);
 			path = "Rutgers, the State University of New Jersey--New Brunswick #69";
@@ -3330,7 +3014,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA979E17403B3200FC632D /* File:Southern_Methodist_University_Seal.gif */,
-				ACAA979F17403B3200FC632D /* Icon */,
 				ACAA97A017403B3200FC632D /* photos.jpeg */,
 			);
 			path = "Southern Methodist University  #58";
@@ -3339,11 +3022,9 @@
 		ACAA97A117403B3200FC632D /* Stanford #7 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA97A217403B3200FC632D /* Icon */,
 				ACAA97A317403B3200FC632D /* Stan-Shield.gif */,
 				ACAA97A417403B3200FC632D /* stan_u.png */,
 				ACAA97A517403B3200FC632D /* stanfordclasssize.png */,
-				ACAA97A617403B3200FC632D /* Thumbs.db */,
 			);
 			path = "Stanford #7";
 			sourceTree = "<group>";
@@ -3352,7 +3033,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA97A817403B3200FC632D /* File:ESF_logo.png */,
-				ACAA97A917403B3200FC632D /* Icon */,
 				ACAA97AA17403B3200FC632D /* photos.jpeg */,
 			);
 			path = "State University of New York College of Environmental Science and Forestry #79";
@@ -3362,7 +3042,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA97AC17403B3200FC632D /* File:SIT_Seal.jpg */,
-				ACAA97AD17403B3200FC632D /* Icon */,
 				ACAA97AE17403B3200FC632D /* SIT_campus.jpeg */,
 			);
 			path = "Stevens Institute of Technology #74";
@@ -3371,7 +3050,6 @@
 		ACAA97AF17403B3200FC632D /* Syracuse University #59 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA97B017403B3200FC632D /* Icon */,
 				ACAA97B117403B3200FC632D /* syracuse_campus.jpeg */,
 				ACAA97B217403B3200FC632D /* Syracuse_University_Seal.svg.png */,
 			);
@@ -3382,7 +3060,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA97B417403B3200FC632D /* File:Texas_A%26M_University_Seal.png */,
-				ACAA97B517403B3200FC632D /* Icon */,
 				ACAA97B617403B3200FC632D /* texas_campus.jpeg */,
 			);
 			path = "Texas A&M University--College Station #65";
@@ -3391,7 +3068,6 @@
 		ACAA97B717403B3200FC632D /* Tufts University #28 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA97B817403B3200FC632D /* Icon */,
 				ACAA97B917403B3200FC632D /* tuft_campus.jpeg */,
 				ACAA97BA17403B3200FC632D /* tuft_seal.png */,
 				ACAA97BB17403B3200FC632D /* tuftsclasssize.png */,
@@ -3402,7 +3078,6 @@
 		ACAA97BC17403B3200FC632D /* Tulane University #52 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA97BD17403B3200FC632D /* Icon */,
 				ACAA97BE17403B3300FC632D /* tulane_campus.jpeg */,
 				ACAA97BF17403B3300FC632D /* TulaneSealColor.png */,
 			);
@@ -3413,7 +3088,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA97C117403B3300FC632D /* File:Ucla_logo.png */,
-				ACAA97C217403B3300FC632D /* Icon */,
 				ACAA97C317403B3300FC632D /* losangelescaliclasssize.png */,
 				ACAA97C417403B3300FC632D /* ucla_campus.jpeg */,
 			);
@@ -3425,7 +3099,6 @@
 			children = (
 				ACAA97C617403B3300FC632D /* berkleyclasssize.png */,
 				ACAA97C717403B3300FC632D /* California_Berkley_Seal.jpeg */,
-				ACAA97C817403B3300FC632D /* Icon */,
 				ACAA97C917403B3300FC632D /* University_of_California_Seal.svg.png */,
 			);
 			path = "University of California, Berkley #22";
@@ -3435,7 +3108,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA97CB17403B3300FC632D /* File:Ucsc_fiatslug.png */,
-				ACAA97CC17403B3300FC632D /* Icon */,
 				ACAA97CD17403B3300FC632D /* photos.jpeg */,
 			);
 			path = "University of California, Santa Cruz #81";
@@ -3446,7 +3118,6 @@
 			children = (
 				ACAA97CF17403B3300FC632D /* davis_campus.jpeg */,
 				ACAA97D017403B3300FC632D /* davis_logo.png */,
-				ACAA97D117403B3300FC632D /* Icon */,
 			);
 			path = "University of California--Davis #39";
 			sourceTree = "<group>";
@@ -3455,7 +3126,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA97D317403B3300FC632D /* File:UC_Irvine_Seal.png */,
-				ACAA97D417403B3300FC632D /* Icon */,
 				ACAA97D517403B3300FC632D /* irvine_campus.jpeg */,
 			);
 			path = "University of California--Irvine #44";
@@ -3464,7 +3134,6 @@
 		ACAA97D617403B3300FC632D /* University of California--San Diego #40 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA97D717403B3300FC632D /* Icon */,
 				ACAA97D817403B3300FC632D /* san_diego_campus.jpeg */,
 				ACAA97D917403B3300FC632D /* san_diego_logo.png */,
 			);
@@ -3474,7 +3143,6 @@
 		ACAA97DA17403B3300FC632D /* University of California--Santa Barbara #42 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA97DB17403B3300FC632D /* Icon */,
 				ACAA97DC17403B3300FC632D /* santa_barbara_campus.jpeg */,
 				ACAA97DD17403B3300FC632D /* Ucsb_seal.svg.png */,
 			);
@@ -3486,8 +3154,6 @@
 			children = (
 				ACAA97DF17403B3300FC632D /* chicago_u.png */,
 				ACAA97E017403B3300FC632D /* chicagoclasssize.png */,
-				ACAA97E117403B3300FC632D /* Icon */,
-				ACAA97E217403B3300FC632D /* Thumbs.db */,
 				ACAA97E317403B3300FC632D /* University_of_Chicago_Modern_Etched_Seal_1.png */,
 			);
 			path = "University of Chicago #5";
@@ -3498,7 +3164,6 @@
 			children = (
 				ACAA97E517403B3300FC632D /* connecticut_campus.jpeg */,
 				ACAA97E617403B3300FC632D /* connecticut_logo.png */,
-				ACAA97E717403B3300FC632D /* Icon */,
 			);
 			path = "University of Connecticut #62";
 			sourceTree = "<group>";
@@ -3508,7 +3173,6 @@
 			children = (
 				ACAA97E917403B3300FC632D /* delaware_campus.jpeg */,
 				ACAA97EA17403B3300FC632D /* delaware_logo.png */,
-				ACAA97EB17403B3300FC632D /* Icon */,
 			);
 			path = "University of Delaware #75";
 			sourceTree = "<group>";
@@ -3518,7 +3182,6 @@
 			children = (
 				ACAA97ED17403B3300FC632D /* File:University_of_Florida_seal.png */,
 				ACAA97EE17403B3300FC632D /* florida_campus.jpeg */,
-				ACAA97EF17403B3300FC632D /* Icon */,
 			);
 			path = "University of Florida #54";
 			sourceTree = "<group>";
@@ -3528,7 +3191,6 @@
 			children = (
 				ACAA97F117403B3300FC632D /* college-photo_144..jpg */,
 				ACAA97F217403B3300FC632D /* File:Seal_of_the_University_of_Georgia.png */,
-				ACAA97F317403B3300FC632D /* Icon */,
 			);
 			path = "University of Georgia #63";
 			sourceTree = "<group>";
@@ -3536,7 +3198,6 @@
 		ACAA97F417403B3300FC632D /* University of Illinois--Urbana-Champaign #47 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA97F517403B3300FC632D /* Icon */,
 				ACAA97F617403B3300FC632D /* urbana_campus.jpeg */,
 				ACAA97F717403B3300FC632D /* urbana_logo.png */,
 			);
@@ -3547,7 +3208,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA97F917403B3300FC632D /* File:UI-seal.png */,
-				ACAA97FA17403B3300FC632D /* Icon */,
 				ACAA97FB17403B3300FC632D /* iowa_campus.jpeg */,
 			);
 			path = "University of Iowa #72";
@@ -3556,7 +3216,6 @@
 		ACAA97FC17403B3300FC632D /* University of Maryland--College Park #60 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA97FD17403B3300FC632D /* Icon */,
 				ACAA97FE17403B3300FC632D /* maryland_campus.jpeg */,
 				ACAA97FF17403B3300FC632D /* University_of_Maryland_Seal.svg.png */,
 			);
@@ -3566,7 +3225,6 @@
 		ACAA980017403B3300FC632D /* University of Miami #45 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA980117403B3300FC632D /* Icon */,
 				ACAA980217403B3300FC632D /* miami_campus.jpeg */,
 				ACAA980317403B3300FC632D /* miami_logo.png */,
 			);
@@ -3577,7 +3235,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA980517403B3300FC632D /* File:Umichigan_color_seal.png */,
-				ACAA980617403B3300FC632D /* Icon */,
 				ACAA980717403B3300FC632D /* michigan_campus.jpeg */,
 				ACAA980817403B3300FC632D /* michiganannarborclasssize.png */,
 			);
@@ -3587,7 +3244,6 @@
 		ACAA980917403B3300FC632D /* University of Minnesota--Twin Cities #70 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA980A17403B3300FC632D /* Icon */,
 				ACAA980B17403B3300FC632D /* minnesota_campus.jpeg */,
 				ACAA980C17403B3300FC632D /* Umnseal.png */,
 			);
@@ -3597,7 +3253,6 @@
 		ACAA980D17403B3300FC632D /* University of Nebraska #102 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA980E17403B3300FC632D /* Icon */,
 				ACAA980F17403B3300FC632D /* nebraskacampus.jpg */,
 				ACAA981017403B3300FC632D /* nebraskaseal.jpeg */,
 			);
@@ -3608,7 +3263,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA981217403B3300FC632D /* File:UNC_Chapel_Hill_seal.png */,
-				ACAA981317403B3300FC632D /* Icon */,
 				ACAA981417403B3300FC632D /* north_carolina_campus.jpeg */,
 			);
 			path = "University of North Carolina Chapel Hill #30";
@@ -3617,7 +3271,6 @@
 		ACAA981517403B3300FC632D /* University of Pittsburgh #61 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA981617403B3300FC632D /* Icon */,
 				ACAA981717403B3300FC632D /* pittsbrgh_campus.jpeg */,
 				ACAA981817403B3300FC632D /* pittsburgh_logo.png */,
 			);
@@ -3628,7 +3281,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA981A17403B3300FC632D /* college-photo_2965._445x280-zmm.jpg */,
-				ACAA981B17403B3300FC632D /* Icon */,
 				ACAA981C17403B3300FC632D /* University_of_Rochester_logo.svg.png */,
 			);
 			path = "University of Rochester #35";
@@ -3638,7 +3290,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA981E17403B3300FC632D /* college-photo_11609..jpg */,
-				ACAA981F17403B3300FC632D /* Icon */,
 				ACAA982017403B3300FC632D /* southcaliclasssize.png */,
 				ACAA982117403B3300FC632D /* USC_Shield.svg.png */,
 			);
@@ -3650,7 +3301,6 @@
 			children = (
 				ACAA982317403B3300FC632D /* austin_campus.jpeg */,
 				ACAA982417403B3300FC632D /* File:Large_university-of-texas_seal_rgb(199-91-18).png */,
-				ACAA982517403B3300FC632D /* Icon */,
 			);
 			path = "University of Texas--Austin #48";
 			sourceTree = "<group>";
@@ -3658,7 +3308,6 @@
 		ACAA982617403B3300FC632D /* University of Virginia #26 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA982717403B3300FC632D /* Icon */,
 				ACAA982817403B3300FC632D /* photos.jpeg */,
 				ACAA982917403B3300FC632D /* UVA_Rotunda_Logo.svg.png */,
 				ACAA982A17403B3300FC632D /* virginiaclasssize.png */,
@@ -3670,7 +3319,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA982C17403B3300FC632D /* File:University_of_Washington_Seal.png */,
-				ACAA982D17403B3300FC632D /* Icon */,
 				ACAA982E17403B3300FC632D /* washington_campus.jpeg */,
 			);
 			path = "University of Washington #49";
@@ -3679,7 +3327,6 @@
 		ACAA982F17403B3300FC632D /* University of Wisconsin--Madison #43 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA983017403B3300FC632D /* Icon */,
 				ACAA983117403B3300FC632D /* madison_campus.jpeg */,
 				ACAA983217403B3300FC632D /* madison_logo.png */,
 			);
@@ -3690,9 +3337,7 @@
 			isa = PBXGroup;
 			children = (
 				ACAA983417403B3300FC632D /* college-photo_2741..png */,
-				ACAA983517403B3300FC632D /* Icon */,
 				ACAA983617403B3300FC632D /* images.png */,
-				ACAA983717403B3300FC632D /* Thumbs.db */,
 				ACAA983817403B3300FC632D /* upennclasssize.png */,
 			);
 			path = "UPenn #9";
@@ -3701,7 +3346,6 @@
 		ACAA983917403B3300FC632D /* Vanderbilt U #19 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA983A17403B3300FC632D /* Icon */,
 				ACAA983B17403B3300FC632D /* VanderbiltCampus.jpeg */,
 				ACAA983C17403B3300FC632D /* vanderbiltclasssize.png */,
 				ACAA983D17403B3300FC632D /* VanderbiltSeal.jpeg */,
@@ -3712,7 +3356,6 @@
 		ACAA983E17403B3300FC632D /* Virginia Tech #73 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA983F17403B3300FC632D /* Icon */,
 				ACAA984017403B3300FC632D /* virginia_campus.jpeg */,
 				ACAA984117403B3300FC632D /* virginia_logo.png */,
 			);
@@ -3722,7 +3365,6 @@
 		ACAA984217403B3300FC632D /* Wake Forest University #27 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA984317403B3300FC632D /* Icon */,
 				ACAA984417403B3300FC632D /* wake_campus.jpeg */,
 				ACAA984517403B3300FC632D /* wake_seal.png */,
 				ACAA984617403B3300FC632D /* wakeforestclasssize.png */,
@@ -3733,7 +3375,6 @@
 		ACAA984717403B3300FC632D /* Washington U #14 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA984817403B3300FC632D /* Icon */,
 				ACAA984917403B3300FC632D /* washigtonuclasssize.png */,
 				ACAA984A17403B3300FC632D /* WashUCampus.jpeg */,
 				ACAA984B17403B3300FC632D /* WashUShield.png */,
@@ -3745,7 +3386,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA984D17403B3300FC632D /* File:WPI_logo.png */,
-				ACAA984E17403B3300FC632D /* Icon */,
 				ACAA984F17403B3300FC632D /* WPI_campus.jpeg */,
 			);
 			path = "Worcester Polytechnic Institute #66";
@@ -3755,8 +3395,6 @@
 			isa = PBXGroup;
 			children = (
 				ACAA985117403B3300FC632D /* college-photo_8737.png */,
-				ACAA985217403B3300FC632D /* Icon */,
-				ACAA985317403B3300FC632D /* Thumbs.db */,
 				ACAA985417403B3300FC632D /* Yale_University_Shield_1.png */,
 				ACAA985517403B3300FC632D /* yaleclasssize.png */,
 			);
@@ -3766,7 +3404,6 @@
 		ACAA985617403B3300FC632D /* Yeshiva University #50 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAA985717403B3300FC632D /* Icon */,
 				ACAA985817403B3300FC632D /* yeshiva_campus.jpeg */,
 				ACAA985917403B3300FC632D /* yeshiva_logo.jpeg */,
 			);
@@ -3866,7 +3503,6 @@
 				ACAA986E17403B3300FC632D /* College4U Splash Screen.png in Resources */,
 				ACAA986F17403B3300FC632D /* Harvard Screenshot 1136x640.png in Resources */,
 				ACAA987017403B3300FC632D /* Harvard Screenshot 960x640.png in Resources */,
-				ACAA987117403B3300FC632D /* Icon in Resources */,
 				ACAA987217403B3300FC632D /* list of colleges screenshot 1136x640 .png in Resources */,
 				ACAA987317403B3300FC632D /* list of colleges screenshot 960x640.png in Resources */,
 				ACAA987417403B3300FC632D /* more tab 1136x640.png in Resources */,
@@ -3879,11 +3515,8 @@
 				ACAA987B17403B3300FC632D /* virginia tech screenshot 960x640.png in Resources */,
 				ACAA987C17403B3300FC632D /* baylor_campus.jpeg in Resources */,
 				ACAA987D17403B3300FC632D /* baylor_seal.png in Resources */,
-				ACAA987E17403B3300FC632D /* Icon in Resources */,
-				ACAA987F17403B3300FC632D /* Icon in Resources */,
 				ACAA988017403B3300FC632D /* iowa_campus.jpeg in Resources */,
 				ACAA988117403B3300FC632D /* iowa_seal.jpeg in Resources */,
-				ACAA988217403B3300FC632D /* Icon in Resources */,
 				ACAA988317403B3300FC632D /* u of cali riverside campus.jpeg in Resources */,
 				ACAA988417403B3300FC632D /* u of cali riverside seal.jpeg in Resources */,
 				ACAA988517403B3300FC632D /* 1283462865841.jpg in Resources */,
@@ -3932,6 +3565,7 @@
 				ACAA98B217403B3300FC632D /* xkCVOUtwH8FIAQAF.jpg in Resources */,
 				ACAA98B317403B3300FC632D /* hiiuhiihi.jpeg in Resources */,
 				ACAA98B417403B3300FC632D /* uk-seal-1930.gif in Resources */,
+				1C2E47A8185567AA0020665E /* marquette seal.png in Resources */,
 				ACAA98B517403B3300FC632D /* coldd.jpeg in Resources */,
 				ACAA98B617403B3300FC632D /* UofU_official_seal.png in Resources */,
 				ACAA98B717403B3300FC632D /* 200px-Washington_State_U_Seal.png in Resources */,
@@ -3980,6 +3614,7 @@
 				ACAA98E217403B3300FC632D /* Saint_John_Fisher_College.gif in Resources */,
 				ACAA98E317403B3300FC632D /* university-of-alabama-birmingham.jpg in Resources */,
 				ACAA98E417403B3300FC632D /* University_of_Alabama_at_Birmingham_seal.png in Resources */,
+				1C2E47AC185568140020665E /* carnegie_mellon_U_seal.png in Resources */,
 				ACAA98E517403B3300FC632D /* 275px-Olemisslyceum.jpg in Resources */,
 				ACAA98E617403B3300FC632D /* VLVOBVLOBL.jpeg in Resources */,
 				ACAA98E817403B3300FC632D /* VNBOOALOF.jpeg in Resources */,
@@ -3991,88 +3626,58 @@
 				ACAA98EE17403B3300FC632D /* 55749414.jpeg in Resources */,
 				ACAA98EF17403B3300FC632D /* VOBOJSA.jpeg in Resources */,
 				ACAA98F017403B3300FC632D /* AOOOJWOF.jpeg in Resources */,
-				ACAA98F117403B3300FC632D /* Icon in Resources */,
 				ACAA98F217403B3300FC632D /* ohioucolumbuscampus.jpeg in Resources */,
 				ACAA98F317403B3300FC632D /* ohioucolumbusseal.png in Resources */,
 				ACAA98F417403B3300FC632D /* fordhamcampus.jpeg in Resources */,
 				ACAA98F517403B3300FC632D /* fordhamseal.jpeg in Resources */,
-				ACAA98F617403B3300FC632D /* Icon in Resources */,
-				ACAA98F717403B3300FC632D /* Icon in Resources */,
 				ACAA98F817403B3300FC632D /* smu campus.jpeg in Resources */,
 				ACAA98F917403B3300FC632D /* smu seal.gif in Resources */,
-				ACAA98FA17403B3300FC632D /* Icon in Resources */,
 				ACAA98FB17403B3300FC632D /* u of maryland college park campus.jpeg in Resources */,
 				ACAA98FC17403B3300FC632D /* u of maryland college park seal.png in Resources */,
-				ACAA98FD17403B3300FC632D /* Icon in Resources */,
 				ACAA98FE17403B3300FC632D /* u of georgia campus.jpeg in Resources */,
 				ACAA98FF17403B3300FC632D /* u of georgia seal.png in Resources */,
 				ACAA990017403B3300FC632D /* americancampus.jpeg in Resources */,
 				ACAA990117403B3300FC632D /* americanseal.png in Resources */,
-				ACAA990217403B3300FC632D /* Icon in Resources */,
 				ACAA990317403B3300FC632D /* coloradominescampus.jpeg in Resources */,
 				ACAA990417403B3300FC632D /* coloradominesseal.jpeg in Resources */,
-				ACAA990517403B3300FC632D /* Icon in Resources */,
-				ACAA990617403B3300FC632D /* Icon in Resources */,
 				ACAA990717403B3300FC632D /* suny_campus.jpeg in Resources */,
 				ACAA990817403B3300FC632D /* suny_seal.png in Resources */,
 				ACAA990917403B3300FC632D /* alabamacampus.jpeg in Resources */,
 				ACAA990A17403B3300FC632D /* alabamaseal.png in Resources */,
-				ACAA990B17403B3300FC632D /* Icon in Resources */,
 				ACAA990C17403B3400FC632D /* cali u santa cruz campus.jpg in Resources */,
 				ACAA990D17403B3400FC632D /* calu u santa cruz seal.png in Resources */,
-				ACAA990E17403B3400FC632D /* Icon in Resources */,
 				ACAA990F17403B3400FC632D /* clarkcampus.jpeg in Resources */,
 				ACAA991017403B3400FC632D /* clarkseal.jpeg in Resources */,
-				ACAA991117403B3400FC632D /* Icon in Resources */,
 				ACAA991217403B3400FC632D /* Drexel_campus.jpeg in Resources */,
 				ACAA991317403B3400FC632D /* Drexel_seal.png in Resources */,
-				ACAA991417403B3400FC632D /* Icon in Resources */,
-				ACAA991517403B3400FC632D /* Icon in Resources */,
 				ACAA991617403B3400FC632D /* indianabloomingtoncampus.jpeg in Resources */,
 				ACAA991717403B3400FC632D /* indianabloomingtonseal.jpeg in Resources */,
-				ACAA991817403B3400FC632D /* Icon in Resources */,
-				ACAA991917403B3400FC632D /* marquette campus.jpeg in Resources */,
-				ACAA991A17403B3400FC632D /* marquette seal.png in Resources */,
 				ACAA991B17403B3400FC632D /* denvercampus.jpeg in Resources */,
 				ACAA991C17403B3400FC632D /* denverseal.jpeg in Resources */,
-				ACAA991D17403B3400FC632D /* Icon in Resources */,
-				ACAA991E17403B3400FC632D /* Icon in Resources */,
 				ACAA991F17403B3400FC632D /* tulsa campus.jpeg in Resources */,
 				ACAA992017403B3400FC632D /* tulsa seal.png in Resources */,
 				ACAA992117403B3400FC632D /* auburncampus.jpeg in Resources */,
 				ACAA992217403B3400FC632D /* auburnseal.jpeg in Resources */,
-				ACAA992317403B3400FC632D /* Icon in Resources */,
 				ACAA992417403B3400FC632D /* binghamton campus.jpeg in Resources */,
 				ACAA992517403B3400FC632D /* binghamton seal.png in Resources */,
-				ACAA992617403B3400FC632D /* Icon in Resources */,
-				ACAA992717403B3400FC632D /* Icon in Resources */,
 				ACAA992817403B3400FC632D /* miamioxfordcampus.jpeg in Resources */,
 				ACAA992917403B3400FC632D /* miamioxfordseal.png in Resources */,
-				ACAA992A17403B3400FC632D /* Icon in Resources */,
 				ACAA992B17403B3400FC632D /* saintlouisseal.png in Resources */,
 				ACAA992C17403B3400FC632D /* stlouiscampus.jpeg in Resources */,
-				ACAA992D17403B3400FC632D /* Icon in Resources */,
 				ACAA992E17403B3400FC632D /* stonycampus.jpeg in Resources */,
 				ACAA992F17403B3400FC632D /* stonyseal.gif in Resources */,
-				ACAA993017403B3400FC632D /* Icon in Resources */,
 				ACAA993117403B3400FC632D /* texaschristiancampus.jpeg in Resources */,
 				ACAA993217403B3400FC632D /* texaschristianseal.png in Resources */,
-				ACAA993317403B3400FC632D /* Icon in Resources */,
 				ACAA993417403B3400FC632D /* sandiegocampus.jpg in Resources */,
 				ACAA993517403B3400FC632D /* sandiegoseal.gif in Resources */,
 				ACAA993617403B3400FC632D /* fsu campus.jpeg in Resources */,
 				ACAA993717403B3400FC632D /* fsu seal.png in Resources */,
-				ACAA993817403B3400FC632D /* Icon in Resources */,
-				ACAA993917403B3400FC632D /* Icon in Resources */,
 				ACAA993A17403B3400FC632D /* vermontcampus.jpg in Resources */,
 				ACAA993B17403B3400FC632D /* vermontseal.png in Resources */,
-				ACAA993C17403B3400FC632D /* Icon in Resources */,
 				ACAA993D17403B3400FC632D /* u of colorado boulder campus.jpeg in Resources */,
 				ACAA993E17403B3400FC632D /* u of colorado boulder seal.png in Resources */,
-				ACAA993F17403B3400FC632D /* Icon in Resources */,
 				ACAA994017403B3400FC632D /* umassamherstcampus.jpeg in Resources */,
 				ACAA994117403B3400FC632D /* umassamherstseal.png in Resources */,
-				ACAA994217403B3400FC632D /* Icon in Resources */,
 				ACAA994317403B3400FC632D /* u of missouri campus.jpeg in Resources */,
 				ACAA994417403B3400FC632D /* u of missouri seal.jpeg in Resources */,
 				ACAA994517403B3400FC632D /* HQAH.jpeg in Resources */,
@@ -4166,81 +3771,54 @@
 				ACAA999F17403B3400FC632D /* dshfkjshfkjdhsh.jpeg in Resources */,
 				ACAA99A017403B3400FC632D /* bdksjfdhsfjdhsf.jpeg in Resources */,
 				ACAA99A117403B3400FC632D /* shdkfjdhksfjhasdf.jpeg in Resources */,
+				1C2E47AD185568140020665E /* carnegieclasssize.png in Resources */,
 				ACAA99A217403B3400FC632D /* File:Baylor_University_seal.png in Resources */,
-				ACAA99A317403B3400FC632D /* Icon in Resources */,
 				ACAA99A417403B3400FC632D /* photos.jpeg in Resources */,
 				ACAA99A517403B3400FC632D /* boston_campus.jpeg in Resources */,
 				ACAA99A617403B3400FC632D /* boston_seal.png in Resources */,
-				ACAA99A717403B3400FC632D /* Icon in Resources */,
 				ACAA99A817403B3400FC632D /* boston_campus.jpeg in Resources */,
 				ACAA99A917403B3400FC632D /* Boston_University_seal.svg.png in Resources */,
-				ACAA99AA17403B3400FC632D /* Icon in Resources */,
 				ACAA99AB17403B3400FC632D /* college-photo_2914..jpg in Resources */,
 				ACAA99AC17403B3400FC632D /* File:BrandeisUnivSeal.png in Resources */,
-				ACAA99AD17403B3400FC632D /* Icon in Resources */,
 				ACAA99AE17403B3400FC632D /* brigham_campus.jpeg in Resources */,
 				ACAA99AF17403B3400FC632D /* brigham_logo.png in Resources */,
-				ACAA99B017403B3400FC632D /* Icon in Resources */,
 				ACAA99B117403B3400FC632D /* BrownCampus.jpeg in Resources */,
 				ACAA99B217403B3400FC632D /* brownclasssize.png in Resources */,
 				ACAA99B317403B3400FC632D /* BrownSeal.png in Resources */,
-				ACAA99B417403B3400FC632D /* Icon in Resources */,
-				ACAA99B517403B3400FC632D /* browncampus.jpeg in Resources */,
 				ACAA99B617403B3400FC632D /* brownclasssize.png in Resources */,
-				ACAA99B717403B3400FC632D /* Icon in Resources */,
 				ACAA99B817403B3400FC632D /* url2.jpeg in Resources */,
 				ACAA99B917403B3400FC632D /* calitechclasssize.png in Resources */,
 				ACAA99BA17403B3400FC632D /* college-photo_91.png in Resources */,
-				ACAA99BB17403B3400FC632D /* Icon in Resources */,
 				ACAA99BC17403B3400FC632D /* seal.png in Resources */,
-				ACAA99BD17403B3400FC632D /* Thumbs.db in Resources */,
-				ACAA99BE17403B3400FC632D /* carnegie_mellon_U_seal.png in Resources */,
-				ACAA99BF17403B3400FC632D /* carnegieclasssize.png in Resources */,
-				ACAA99C017403B3400FC632D /* college-photo_7656..jpg in Resources */,
-				ACAA99C117403B3400FC632D /* Icon in Resources */,
 				ACAA99C217403B3400FC632D /* case_western_reserve_logo.png in Resources */,
 				ACAA99C317403B3400FC632D /* college-photo_206..JPG in Resources */,
-				ACAA99C417403B3400FC632D /* Icon in Resources */,
 				ACAA99C517403B3400FC632D /* clemson_campus.jpeg in Resources */,
 				ACAA99C617403B3400FC632D /* clemson_logo.png in Resources */,
-				ACAA99C717403B3400FC632D /* Icon in Resources */,
 				ACAA99C817403B3400FC632D /* File:College_of_William_%26_Mary_Seal.png in Resources */,
-				ACAA99C917403B3400FC632D /* Icon in Resources */,
 				ACAA99CA17403B3400FC632D /* william_mary_campus.jpeg in Resources */,
 				ACAA99CB17403B3400FC632D /* 200px-ColumbiaNYUCoat.png in Resources */,
 				ACAA99CC17403B3400FC632D /* columbia_u.png in Resources */,
 				ACAA99CD17403B3400FC632D /* columbiaclasssize.png in Resources */,
-				ACAA99CE17403B3400FC632D /* Icon in Resources */,
-				ACAA99CF17403B3400FC632D /* Thumbs.db in Resources */,
 				ACAA99D017403B3400FC632D /* CornellCampus.jpeg in Resources */,
 				ACAA99D117403B3400FC632D /* cornellclasssize.png in Resources */,
 				ACAA99D217403B3400FC632D /* CornellSeal.jpeg in Resources */,
-				ACAA99D317403B3400FC632D /* Icon in Resources */,
 				ACAA99D417403B3400FC632D /* dart-campus.jpeg in Resources */,
 				ACAA99D517403B3400FC632D /* dart-seal.png in Resources */,
 				ACAA99D617403B3400FC632D /* dartmouthclasssize.png in Resources */,
-				ACAA99D717403B3400FC632D /* Icon in Resources */,
-				ACAA99D817403B3400FC632D /* Thumbs.db in Resources */,
 				ACAA99D917403B3400FC632D /* college-photo_8736.png in Resources */,
 				ACAA99DA17403B3400FC632D /* Duke_University_Crest.png in Resources */,
 				ACAA99DB17403B3400FC632D /* dukeclasssize.png in Resources */,
-				ACAA99DC17403B3400FC632D /* Icon in Resources */,
-				ACAA99DD17403B3400FC632D /* Thumbs.db in Resources */,
 				ACAA99DE17403B3400FC632D /* EmoryCampus.jpeg in Resources */,
 				ACAA99DF17403B3400FC632D /* emoryclasssize.png in Resources */,
 				ACAA99E017403B3400FC632D /* EmorySeal.jpeg in Resources */,
-				ACAA99E117403B3400FC632D /* Icon in Resources */,
 				ACAA99E217403B3400FC632D /* college-photo_7438..jpg in Resources */,
 				ACAA99E317403B3400FC632D /* george_seal.png in Resources */,
 				ACAA99E417403B3400FC632D /* georgetownclasssize.png in Resources */,
-				ACAA99E517403B3400FC632D /* Icon in Resources */,
 				ACAA99E617403B3400FC632D /* georgia_campus.jpeg in Resources */,
 				ACAA99E717403B3400FC632D /* georgia_logo.png in Resources */,
-				ACAA99E817403B3400FC632D /* Icon in Resources */,
 				ACAA99E917403B3400FC632D /* 01.jpg in Resources */,
 				ACAA99EA17403B3400FC632D /* Harvard_Wreath_Logo_1.svg.png in Resources */,
 				ACAA99EB17403B3400FC632D /* harvardclasssize.png in Resources */,
-				ACAA99EC17403B3400FC632D /* Icon in Resources */,
 				ACAA99ED17403B3400FC632D /* button_back.png in Resources */,
 				ACAA99EE17403B3400FC632D /* button_normal.png in Resources */,
 				ACAA99EF17403B3400FC632D /* cell_bottom.png in Resources */,
@@ -4257,7 +3835,6 @@
 				ACAA99FA17403B3400FC632D /* Default@2x.png in Resources */,
 				ACAA99FB17403B3400FC632D /* first.png in Resources */,
 				ACAA99FC17403B3400FC632D /* first@2x.png in Resources */,
-				ACAA99FD17403B3400FC632D /* Icon in Resources */,
 				ACAA99FE17403B3400FC632D /* icondemo.png in Resources */,
 				ACAA99FF17403B3400FC632D /* listofcollegesicon.png in Resources */,
 				ACAA9A0017403B3400FC632D /* navbar_bg.png in Resources */,
@@ -4267,204 +3844,143 @@
 				ACAA9A0417403B3400FC632D /* second.png in Resources */,
 				ACAA9A0517403B3400FC632D /* second@2x.png in Resources */,
 				ACAA9A0617403B3400FC632D /* hopkinsclasssize.png in Resources */,
-				ACAA9A0717403B3400FC632D /* Icon in Resources */,
 				ACAA9A0817403B3400FC632D /* JHU_University_Seal.png in Resources */,
 				ACAA9A0917403B3400FC632D /* photos.jpeg in Resources */,
-				ACAA9A0A17403B3400FC632D /* Icon in Resources */,
 				ACAA9A0B17403B3400FC632D /* lehigh_campus.jpeg in Resources */,
 				ACAA9A0C17403B3400FC632D /* lehigh_logo.png in Resources */,
-				ACAA9A0D17403B3400FC632D /* Icon in Resources */,
 				ACAA9A0E17403B3400FC632D /* michigan_campus.jpeg in Resources */,
 				ACAA9A0F17403B3400FC632D /* MSU_Seal_2010.svg.png in Resources */,
-				ACAA9A1017403B3400FC632D /* Icon in Resources */,
 				ACAA9A1117403B3400FC632D /* MIT_Seal.png in Resources */,
 				ACAA9A1217403B3400FC632D /* mit_u.png in Resources */,
 				ACAA9A1317403B3400FC632D /* mitclasssize.png in Resources */,
-				ACAA9A1417403B3400FC632D /* Thumbs.db in Resources */,
-				ACAA9A1517403B3400FC632D /* Icon in Resources */,
 				ACAA9A1617403B3400FC632D /* new_york_campus.jpeg in Resources */,
 				ACAA9A1717403B3400FC632D /* new_york_seal.png in Resources */,
 				ACAA9A1817403B3400FC632D /* college-photo_8852.jpg in Resources */,
-				ACAA9A1917403B3400FC632D /* Icon in Resources */,
 				ACAA9A1A17403B3400FC632D /* Northeastern-seal.svg.png in Resources */,
 				ACAA9A1B17403B3400FC632D /* college-photo_3270..jpg in Resources */,
-				ACAA9A1C17403B3400FC632D /* Icon in Resources */,
 				ACAA9A1D17403B3400FC632D /* northwesternclasssize.png in Resources */,
 				ACAA9A1E17403B3400FC632D /* viewer2.png in Resources */,
-				ACAA9A1F17403B3400FC632D /* Icon in Resources */,
 				ACAA9A2017403B3400FC632D /* NDCampus.jpeg in Resources */,
 				ACAA9A2117403B3400FC632D /* NDSeal.png in Resources */,
 				ACAA9A2217403B3400FC632D /* notredameclasssize.png in Resources */,
 				ACAA9A2317403B3400FC632D /* File:Seal_of_the_Ohio_State_University.png in Resources */,
-				ACAA9A2417403B3400FC632D /* Icon in Resources */,
 				ACAA9A2517403B3400FC632D /* photos.jpeg in Resources */,
 				ACAA9A2617403B3400FC632D /* college-photo_6492..jpg in Resources */,
-				ACAA9A2717403B3400FC632D /* Icon in Resources */,
 				ACAA9A2817403B3400FC632D /* Pennsylvania_State_University_seal.svg.png in Resources */,
 				ACAA9A2917403B3400FC632D /* File:Pepperdine_Official_Seal.jpg in Resources */,
-				ACAA9A2A17403B3400FC632D /* Icon in Resources */,
 				ACAA9A2B17403B3400FC632D /* pepperdine.jpeg in Resources */,
 				ACAA9A2C17403B3400FC632D /* 157px-Princeton_shield.png in Resources */,
 				ACAA9A2D17403B3400FC632D /* college-photo_6976..png in Resources */,
-				ACAA9A2E17403B3400FC632D /* Icon in Resources */,
 				ACAA9A2F17403B3400FC632D /* princetonclasssize.png in Resources */,
-				ACAA9A3017403B3400FC632D /* Icon in Resources */,
 				ACAA9A3117403B3400FC632D /* purdue_campus.jpeg in Resources */,
 				ACAA9A3217403B3400FC632D /* purdue_logo.png in Resources */,
-				ACAA9A3317403B3400FC632D /* Icon in Resources */,
 				ACAA9A3417403B3400FC632D /* rensselaer_campus.jpeg in Resources */,
 				ACAA9A3517403B3400FC632D /* rensselaer_logo.png in Resources */,
-				ACAA9A3617403B3400FC632D /* Icon in Resources */,
 				ACAA9A3717403B3400FC632D /* RiceCampus.jpeg in Resources */,
 				ACAA9A3817403B3400FC632D /* riceclasssize.png in Resources */,
 				ACAA9A3917403B3400FC632D /* RiceSeal.png in Resources */,
 				ACAA9A3A17403B3400FC632D /* File:Rutgers,_The_State_University_of_New_Jersey_logo.png in Resources */,
-				ACAA9A3B17403B3400FC632D /* Icon in Resources */,
 				ACAA9A3C17403B3400FC632D /* new_brunswick_campus.jpeg in Resources */,
 				ACAA9A3D17403B3400FC632D /* File:Southern_Methodist_University_Seal.gif in Resources */,
-				ACAA9A3E17403B3400FC632D /* Icon in Resources */,
 				ACAA9A3F17403B3400FC632D /* photos.jpeg in Resources */,
-				ACAA9A4017403B3400FC632D /* Icon in Resources */,
 				ACAA9A4117403B3400FC632D /* Stan-Shield.gif in Resources */,
 				ACAA9A4217403B3400FC632D /* stan_u.png in Resources */,
 				ACAA9A4317403B3400FC632D /* stanfordclasssize.png in Resources */,
-				ACAA9A4417403B3400FC632D /* Thumbs.db in Resources */,
 				ACAA9A4517403B3400FC632D /* File:ESF_logo.png in Resources */,
-				ACAA9A4617403B3400FC632D /* Icon in Resources */,
 				ACAA9A4717403B3400FC632D /* photos.jpeg in Resources */,
 				ACAA9A4817403B3400FC632D /* File:SIT_Seal.jpg in Resources */,
-				ACAA9A4917403B3400FC632D /* Icon in Resources */,
 				ACAA9A4A17403B3400FC632D /* SIT_campus.jpeg in Resources */,
-				ACAA9A4B17403B3400FC632D /* Icon in Resources */,
 				ACAA9A4C17403B3400FC632D /* syracuse_campus.jpeg in Resources */,
 				ACAA9A4D17403B3400FC632D /* Syracuse_University_Seal.svg.png in Resources */,
 				ACAA9A4E17403B3400FC632D /* File:Texas_A%26M_University_Seal.png in Resources */,
-				ACAA9A4F17403B3400FC632D /* Icon in Resources */,
 				ACAA9A5017403B3400FC632D /* texas_campus.jpeg in Resources */,
-				ACAA9A5117403B3400FC632D /* Icon in Resources */,
 				ACAA9A5217403B3400FC632D /* tuft_campus.jpeg in Resources */,
 				ACAA9A5317403B3400FC632D /* tuft_seal.png in Resources */,
 				ACAA9A5417403B3400FC632D /* tuftsclasssize.png in Resources */,
-				ACAA9A5517403B3400FC632D /* Icon in Resources */,
 				ACAA9A5617403B3400FC632D /* tulane_campus.jpeg in Resources */,
 				ACAA9A5717403B3400FC632D /* TulaneSealColor.png in Resources */,
 				ACAA9A5817403B3400FC632D /* File:Ucla_logo.png in Resources */,
-				ACAA9A5917403B3400FC632D /* Icon in Resources */,
 				ACAA9A5A17403B3400FC632D /* losangelescaliclasssize.png in Resources */,
 				ACAA9A5B17403B3400FC632D /* ucla_campus.jpeg in Resources */,
 				ACAA9A5C17403B3400FC632D /* berkleyclasssize.png in Resources */,
 				ACAA9A5D17403B3400FC632D /* California_Berkley_Seal.jpeg in Resources */,
-				ACAA9A5E17403B3400FC632D /* Icon in Resources */,
 				ACAA9A5F17403B3400FC632D /* University_of_California_Seal.svg.png in Resources */,
 				ACAA9A6017403B3400FC632D /* File:Ucsc_fiatslug.png in Resources */,
-				ACAA9A6117403B3400FC632D /* Icon in Resources */,
 				ACAA9A6217403B3400FC632D /* photos.jpeg in Resources */,
 				ACAA9A6317403B3400FC632D /* davis_campus.jpeg in Resources */,
 				ACAA9A6417403B3400FC632D /* davis_logo.png in Resources */,
-				ACAA9A6517403B3400FC632D /* Icon in Resources */,
 				ACAA9A6617403B3400FC632D /* File:UC_Irvine_Seal.png in Resources */,
-				ACAA9A6717403B3400FC632D /* Icon in Resources */,
 				ACAA9A6817403B3400FC632D /* irvine_campus.jpeg in Resources */,
-				ACAA9A6917403B3400FC632D /* Icon in Resources */,
 				ACAA9A6A17403B3400FC632D /* san_diego_campus.jpeg in Resources */,
 				ACAA9A6B17403B3400FC632D /* san_diego_logo.png in Resources */,
-				ACAA9A6C17403B3400FC632D /* Icon in Resources */,
+				1C2E47AE185568140020665E /* college-photo_7656..jpg in Resources */,
 				ACAA9A6D17403B3400FC632D /* santa_barbara_campus.jpeg in Resources */,
 				ACAA9A6E17403B3400FC632D /* Ucsb_seal.svg.png in Resources */,
 				ACAA9A6F17403B3400FC632D /* chicago_u.png in Resources */,
 				ACAA9A7017403B3400FC632D /* chicagoclasssize.png in Resources */,
-				ACAA9A7117403B3400FC632D /* Icon in Resources */,
-				ACAA9A7217403B3400FC632D /* Thumbs.db in Resources */,
 				ACAA9A7317403B3400FC632D /* University_of_Chicago_Modern_Etched_Seal_1.png in Resources */,
 				ACAA9A7417403B3400FC632D /* connecticut_campus.jpeg in Resources */,
 				ACAA9A7517403B3400FC632D /* connecticut_logo.png in Resources */,
-				ACAA9A7617403B3400FC632D /* Icon in Resources */,
 				ACAA9A7717403B3400FC632D /* delaware_campus.jpeg in Resources */,
 				ACAA9A7817403B3400FC632D /* delaware_logo.png in Resources */,
-				ACAA9A7917403B3400FC632D /* Icon in Resources */,
 				ACAA9A7A17403B3400FC632D /* File:University_of_Florida_seal.png in Resources */,
 				ACAA9A7B17403B3400FC632D /* florida_campus.jpeg in Resources */,
-				ACAA9A7C17403B3400FC632D /* Icon in Resources */,
 				ACAA9A7D17403B3400FC632D /* college-photo_144..jpg in Resources */,
 				ACAA9A7E17403B3400FC632D /* File:Seal_of_the_University_of_Georgia.png in Resources */,
-				ACAA9A7F17403B3400FC632D /* Icon in Resources */,
-				ACAA9A8017403B3400FC632D /* Icon in Resources */,
 				ACAA9A8117403B3400FC632D /* urbana_campus.jpeg in Resources */,
 				ACAA9A8217403B3400FC632D /* urbana_logo.png in Resources */,
 				ACAA9A8317403B3400FC632D /* File:UI-seal.png in Resources */,
-				ACAA9A8417403B3400FC632D /* Icon in Resources */,
 				ACAA9A8517403B3400FC632D /* iowa_campus.jpeg in Resources */,
-				ACAA9A8617403B3400FC632D /* Icon in Resources */,
 				ACAA9A8717403B3400FC632D /* maryland_campus.jpeg in Resources */,
 				ACAA9A8817403B3400FC632D /* University_of_Maryland_Seal.svg.png in Resources */,
-				ACAA9A8917403B3400FC632D /* Icon in Resources */,
 				ACAA9A8A17403B3400FC632D /* miami_campus.jpeg in Resources */,
+				1C2E47A7185567AA0020665E /* marquette campus.jpeg in Resources */,
 				ACAA9A8B17403B3400FC632D /* miami_logo.png in Resources */,
 				ACAA9A8C17403B3400FC632D /* File:Umichigan_color_seal.png in Resources */,
-				ACAA9A8D17403B3400FC632D /* Icon in Resources */,
 				ACAA9A8E17403B3400FC632D /* michigan_campus.jpeg in Resources */,
 				ACAA9A8F17403B3400FC632D /* michiganannarborclasssize.png in Resources */,
-				ACAA9A9017403B3400FC632D /* Icon in Resources */,
 				ACAA9A9117403B3400FC632D /* minnesota_campus.jpeg in Resources */,
 				ACAA9A9217403B3400FC632D /* Umnseal.png in Resources */,
-				ACAA9A9317403B3400FC632D /* Icon in Resources */,
 				ACAA9A9417403B3400FC632D /* nebraskacampus.jpg in Resources */,
 				ACAA9A9517403B3400FC632D /* nebraskaseal.jpeg in Resources */,
 				ACAA9A9617403B3400FC632D /* File:UNC_Chapel_Hill_seal.png in Resources */,
-				ACAA9A9717403B3400FC632D /* Icon in Resources */,
 				ACAA9A9817403B3400FC632D /* north_carolina_campus.jpeg in Resources */,
-				ACAA9A9917403B3400FC632D /* Icon in Resources */,
 				ACAA9A9A17403B3400FC632D /* pittsbrgh_campus.jpeg in Resources */,
 				ACAA9A9B17403B3400FC632D /* pittsburgh_logo.png in Resources */,
 				ACAA9A9C17403B3400FC632D /* college-photo_2965._445x280-zmm.jpg in Resources */,
-				ACAA9A9D17403B3400FC632D /* Icon in Resources */,
 				ACAA9A9E17403B3400FC632D /* University_of_Rochester_logo.svg.png in Resources */,
 				ACAA9A9F17403B3400FC632D /* college-photo_11609..jpg in Resources */,
-				ACAA9AA017403B3400FC632D /* Icon in Resources */,
 				ACAA9AA117403B3400FC632D /* southcaliclasssize.png in Resources */,
 				ACAA9AA217403B3400FC632D /* USC_Shield.svg.png in Resources */,
 				ACAA9AA317403B3400FC632D /* austin_campus.jpeg in Resources */,
 				ACAA9AA417403B3400FC632D /* File:Large_university-of-texas_seal_rgb(199-91-18).png in Resources */,
-				ACAA9AA517403B3400FC632D /* Icon in Resources */,
-				ACAA9AA617403B3400FC632D /* Icon in Resources */,
 				ACAA9AA717403B3400FC632D /* photos.jpeg in Resources */,
+				1C092AFB1869E5550040D1CF /* browncampus.jpeg in Resources */,
 				ACAA9AA817403B3400FC632D /* UVA_Rotunda_Logo.svg.png in Resources */,
 				ACAA9AA917403B3400FC632D /* virginiaclasssize.png in Resources */,
 				ACAA9AAA17403B3400FC632D /* File:University_of_Washington_Seal.png in Resources */,
-				ACAA9AAB17403B3400FC632D /* Icon in Resources */,
 				ACAA9AAC17403B3400FC632D /* washington_campus.jpeg in Resources */,
-				ACAA9AAD17403B3400FC632D /* Icon in Resources */,
 				ACAA9AAE17403B3400FC632D /* madison_campus.jpeg in Resources */,
 				ACAA9AAF17403B3400FC632D /* madison_logo.png in Resources */,
 				ACAA9AB017403B3400FC632D /* college-photo_2741..png in Resources */,
-				ACAA9AB117403B3400FC632D /* Icon in Resources */,
 				ACAA9AB217403B3400FC632D /* images.png in Resources */,
-				ACAA9AB317403B3400FC632D /* Thumbs.db in Resources */,
 				ACAA9AB417403B3400FC632D /* upennclasssize.png in Resources */,
-				ACAA9AB517403B3400FC632D /* Icon in Resources */,
 				ACAA9AB617403B3400FC632D /* VanderbiltCampus.jpeg in Resources */,
 				ACAA9AB717403B3400FC632D /* vanderbiltclasssize.png in Resources */,
 				ACAA9AB817403B3400FC632D /* VanderbiltSeal.jpeg in Resources */,
-				ACAA9AB917403B3400FC632D /* Icon in Resources */,
 				ACAA9ABA17403B3400FC632D /* virginia_campus.jpeg in Resources */,
 				ACAA9ABB17403B3400FC632D /* virginia_logo.png in Resources */,
-				ACAA9ABC17403B3400FC632D /* Icon in Resources */,
 				ACAA9ABD17403B3400FC632D /* wake_campus.jpeg in Resources */,
 				ACAA9ABE17403B3400FC632D /* wake_seal.png in Resources */,
 				ACAA9ABF17403B3400FC632D /* wakeforestclasssize.png in Resources */,
-				ACAA9AC017403B3400FC632D /* Icon in Resources */,
 				ACAA9AC117403B3400FC632D /* washigtonuclasssize.png in Resources */,
 				ACAA9AC217403B3400FC632D /* WashUCampus.jpeg in Resources */,
 				ACAA9AC317403B3400FC632D /* WashUShield.png in Resources */,
 				ACAA9AC417403B3400FC632D /* File:WPI_logo.png in Resources */,
-				ACAA9AC517403B3400FC632D /* Icon in Resources */,
 				ACAA9AC617403B3400FC632D /* WPI_campus.jpeg in Resources */,
 				ACAA9AC717403B3400FC632D /* college-photo_8737.png in Resources */,
-				ACAA9AC817403B3400FC632D /* Icon in Resources */,
-				ACAA9AC917403B3400FC632D /* Thumbs.db in Resources */,
 				ACAA9ACA17403B3400FC632D /* Yale_University_Shield_1.png in Resources */,
 				ACAA9ACB17403B3400FC632D /* yaleclasssize.png in Resources */,
-				ACAA9ACC17403B3400FC632D /* Icon in Resources */,
 				ACAA9ACD17403B3400FC632D /* yeshiva_campus.jpeg in Resources */,
 				ACAA9ACE17403B3400FC632D /* yeshiva_logo.jpeg in Resources */,
 				ACAA9ACF17403B3400FC632D /* community.png in Resources */,
@@ -4618,7 +4134,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCollege/UCollege-Prefix.pch";
 				INFOPLIST_FILE = "UCollege/UCollege-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "27DB784C-C23B-4651-86D6-CAE931C20662";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27DB784C-C23B-4651-86D6-CAE931C20662";
@@ -4638,7 +4154,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCollege/UCollege-Prefix.pch";
 				INFOPLIST_FILE = "UCollege/UCollege-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "36862DB9-57D8-45B1-A5CF-BC64CE6EC964";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36862DB9-57D8-45B1-A5CF-BC64CE6EC964";
