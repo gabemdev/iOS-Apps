@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC28D398186525C300BD12D9 /* DBQ.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D397186525C300BD12D9 /* DBQ.m */; };
+		AC28D39B18652B1000BD12D9 /* DBQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28D39A18652B1000BD12D9 /* DBQDetailViewController.m */; };
 		ACA20B4B183B081600477C72 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA20B4A183B081600477C72 /* SidebarViewController.m */; };
 		ACA9EAD9183C5F70006A5298 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA9EAD8183C5F70006A5298 /* iAd.framework */; };
 		ACA9EADB183C5F7A006A5298 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA9EADA183C5F7A006A5298 /* MessageUI.framework */; };
@@ -51,6 +53,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC28D396186525C300BD12D9 /* DBQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQ.h; sourceTree = "<group>"; };
+		AC28D397186525C300BD12D9 /* DBQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQ.m; sourceTree = "<group>"; };
+		AC28D39918652B1000BD12D9 /* DBQDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQDetailViewController.h; sourceTree = "<group>"; };
+		AC28D39A18652B1000BD12D9 /* DBQDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQDetailViewController.m; sourceTree = "<group>"; };
 		ACA20B41183AFA3A00477C72 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		ACA20B42183AFA3A00477C72 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		ACA20B49183B081600477C72 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
@@ -205,6 +211,8 @@
 				ACAE3CEC17E68F4C00A50746 /* DBQAppDelegate.m */,
 				ACAB0DF91851743200FC306D /* DBQExamplesViewController.h */,
 				ACAB0DFA1851743200FC306D /* DBQExamplesViewController.m */,
+				AC28D396186525C300BD12D9 /* DBQ.h */,
+				AC28D397186525C300BD12D9 /* DBQ.m */,
 				ACA20B41183AFA3A00477C72 /* SWRevealViewController.h */,
 				ACA20B42183AFA3A00477C72 /* SWRevealViewController.m */,
 				ACAC49FF17F48C3500A6C3CA /* WebViewController.h */,
@@ -212,6 +220,8 @@
 				ACA20B49183B081600477C72 /* SidebarViewController.h */,
 				ACA20B4A183B081600477C72 /* SidebarViewController.m */,
 				ACAE3CF417E68F4C00A50746 /* MainStoryboard.storyboard */,
+				AC28D39918652B1000BD12D9 /* DBQDetailViewController.h */,
+				AC28D39A18652B1000BD12D9 /* DBQDetailViewController.m */,
 				ACAE3CFA17E68F4C00A50746 /* first.png */,
 				ACAE3CFC17E68F4C00A50746 /* first@2x.png */,
 				ACAE3D0117E68F4C00A50746 /* second.png */,
@@ -267,7 +277,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = MoAppsCo;
 			};
-			buildConfigurationList = ACAE3CD417E68F4C00A50746 /* Build configuration list for PBXProject "How to crack the DBQ" */;
+			buildConfigurationList = ACAE3CD417E68F4C00A50746 /* Build configuration list for PBXProject "how to crack the dbq" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -334,7 +344,9 @@
 				ACAE3CED17E68F4C00A50746 /* DBQAppDelegate.m in Sources */,
 				ACAC4A0117F48C3500A6C3CA /* WebViewController.m in Sources */,
 				ACA20B4B183B081600477C72 /* SidebarViewController.m in Sources */,
+				AC28D39B18652B1000BD12D9 /* DBQDetailViewController.m in Sources */,
 				ACAB0DFB1851743200FC306D /* DBQExamplesViewController.m in Sources */,
+				AC28D398186525C300BD12D9 /* DBQ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +453,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACAE3CD417E68F4C00A50746 /* Build configuration list for PBXProject "How to crack the DBQ" */ = {
+		ACAE3CD417E68F4C00A50746 /* Build configuration list for PBXProject "how to crack the dbq" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACAE3D0517E68F4C00A50746 /* Debug */,

@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DBQExamplesViewController : UIViewController
+@interface DBQExamplesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
+
 
 @end
