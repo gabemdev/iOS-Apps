@@ -17,9 +17,13 @@
 
 @end
 
-NSArray *dbqs;
 
-@implementation DBQExamplesViewController
+
+@implementation DBQExamplesViewController {
+
+NSArray *dbqs;
+    
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,14 +38,11 @@ NSArray *dbqs;
 {
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"common_bg.png"]];
-    
     self.tableView.backgroundColor = [UIColor clearColor];
-    UIEdgeInsets inset = UIEdgeInsetsMake(0, 0, 0, 0);
-    self.tableView.contentInset = inset;
     [super viewDidLoad];
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);
-    _sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
+    _sidebarButton.tintColor = [UIColor colorWithWhite:0.5f alpha:0.2f];
     
     // Add pan gesture to hide the sidebar
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
@@ -68,6 +69,12 @@ NSArray *dbqs;
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    // Return the number of sections.
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

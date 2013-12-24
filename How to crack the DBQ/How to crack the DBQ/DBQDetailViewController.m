@@ -30,6 +30,7 @@
 {
     [super viewDidLoad];
     self.dbqimage.image = [UIImage imageNamed:dbq.DBQImage];
+    self.title = dbq.DBQNameCell;
     
 	// Do any additional setup after loading the view.
 }
