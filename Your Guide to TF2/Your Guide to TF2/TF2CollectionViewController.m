@@ -9,7 +9,9 @@
 #import "TF2CollectionViewController.h"
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
-@interface TF2CollectionViewController ()
+@interface TF2CollectionViewController () {
+    NSArray *tf2HomePhotos;
+}
 
 @end
 
@@ -29,12 +31,30 @@
     [super viewDidLoad];
 
 	// Do any additional setup after loading the view.
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tf2_logo.png"]];
+    tf2HomePhotos = [NSArray arrayWithObjects:@"tf2_logo.png", nil];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return tf2HomePhotos.count;
+}
+
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *identifier = @"Cell";
+    
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
+    
+    UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
+    recipeImageView.image = [UIImage imageNamed:[tf2HomePhotos objectAtIndex:indexPath.row]];
+    
+    return cell;
 }
 
 @end

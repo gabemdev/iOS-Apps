@@ -22,7 +22,7 @@
     //[[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
     // Uncomment to assign a custom backgroung image
-    // [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav_bg_ios7.png"] forBarMetrics:UIBarMetricsDefault];
+    //[[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"tf2_logo.png"] forBarMetrics:UIBarMetricsDefault];
     
     // Uncomment to change the back indicator image
     /*
