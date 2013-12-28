@@ -56,11 +56,16 @@ NSArray *dbqs;
     DBQ *dbq1 = [DBQ new];
     dbq1.DBQNameCell = @"2011 Green Revolution";
     dbq1.DBQDescriptionCell = @"Annotated";
-    dbq1.DBQImage = @"2011 DBQ Annotated.pdf";
+    dbq1.DBQPdf = @"2011 DBQ Annotated";
+    
+    DBQ *dbq2 = [DBQ new];
+    dbq2.DBQNameCell = @"2011 Green Revolution";
+    dbq2.DBQDescriptionCell = @"Prewrite";
+    dbq2.DBQPdf = @"2011 DBQ PreWrite";
     
     
     
-    dbqs = [NSArray arrayWithObjects: dbq1, Nil];
+    dbqs = [NSArray arrayWithObjects: dbq1, dbq2, Nil];
 
 	// Do any additional setup after loading the view.
 }

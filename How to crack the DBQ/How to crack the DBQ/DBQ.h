@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) NSString *DBQNameCell;
 @property (nonatomic, strong) NSString *DBQDescriptionCell;
-@property (nonatomic, strong) NSString *DBQImage;
+@property (nonatomic, strong) NSString *DBQPdf;
 
 
 

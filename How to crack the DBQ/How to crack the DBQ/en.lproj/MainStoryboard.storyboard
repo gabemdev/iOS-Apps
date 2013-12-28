@@ -81,12 +81,12 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="What is a DBQ?" id="9H7-h8-4Uv"/>
-                    <navigationItem key="navigationItem" title="What is a DBQ?" id="cDE-ce-zlg">
-                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="ydM-HD-EsF"/>
+                    <navigationItem key="navigationItem" title="What is a DBQ?" id="6GR-B7-ie2">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="Cye-y4-FHd"/>
                     </navigationItem>
                     <connections>
                         <outlet property="myWebView" destination="Duj-HV-d2X" id="7hF-4c-j6F"/>
-                        <outlet property="sidebarButton" destination="ydM-HD-EsF" id="gZ9-Av-RXH"/>
+                        <outlet property="sidebarButton" destination="Cye-y4-FHd" id="ftr-0j-96Z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CC9-DX-uTM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -105,21 +105,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cby-Id-uzE">
-                                <rect key="frame" x="0.0" y="65" width="320" height="503"/>
-                            </imageView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7sk-wf-YZn">
+                                <rect key="frame" x="0.0" y="-5" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="cby-Id-uzE" firstAttribute="leading" secondItem="NHa-s6-Ypg" secondAttribute="leading" id="EY4-DW-w6A"/>
-                            <constraint firstItem="cby-Id-uzE" firstAttribute="bottom" secondItem="NHa-s6-Ypg" secondAttribute="bottom" id="MMQ-Ab-WBK"/>
-                            <constraint firstItem="cby-Id-uzE" firstAttribute="top" secondItem="NHa-s6-Ypg" secondAttribute="top" id="Qy9-OZ-0oR"/>
-                            <constraint firstItem="cby-Id-uzE" firstAttribute="trailing" secondItem="NHa-s6-Ypg" secondAttribute="trailing" id="rtX-Wv-cMw"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="frj-uL-XOs"/>
                     <connections>
-                        <outlet property="dbqimage" destination="cby-Id-uzE" id="Lez-KX-SiH"/>
+                        <outlet property="myWebView" destination="7sk-wf-YZn" id="lNt-Ee-7Ry"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ufB-79-Nzd" userLabel="First Responder" sceneMemberID="firstResponder"/>

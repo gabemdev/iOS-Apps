@@ -14,7 +14,7 @@
 
 @implementation DBQDetailViewController
 
-
+@synthesize myWebView;
 @synthesize dbq;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -29,8 +29,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.dbqimage.image = [UIImage imageNamed:dbq.DBQImage];
+    NSString *path = [[NSBundle mainBundle] pathForResource:dbq.DBQPdf ofType:@"pdf"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [myWebView loadRequest:request];
     self.title = dbq.DBQNameCell;
+    
+    
     
 	// Do any additional setup after loading the view.
 }
@@ -38,7 +43,6 @@
 
 - (void)viewDidUnload
 {
-[self setDbqimage:nil];
     [super viewDidUnload];
 
 }

@@ -13,7 +13,7 @@
 
 @synthesize DBQNameCell;
 @synthesize DBQDescriptionCell;
-@synthesize DBQImage;
+@synthesize DBQPdf;
 
 
 @end

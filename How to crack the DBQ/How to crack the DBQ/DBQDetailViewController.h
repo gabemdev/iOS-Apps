@@ -11,6 +11,9 @@
 
 
 @interface DBQDetailViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIImageView *dbqimage;
+{
+    IBOutlet UIWebView *myWebView;
+}
+@property (nonatomic, retain) IBOutlet UIWebView *myWebView;
 @property (nonatomic, strong) DBQ *dbq;
 @end
