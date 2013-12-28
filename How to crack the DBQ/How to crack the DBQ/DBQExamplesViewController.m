@@ -42,7 +42,7 @@ NSArray *dbqs;
     [super viewDidLoad];
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);
-    _sidebarButton.tintColor = [UIColor colorWithWhite:0.5f alpha:0.2f];
+    _sidebarButton.tintColor = [UIColor colorWithWhite:0.1f alpha:0.7f];
     
     // Add pan gesture to hide the sidebar
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
