@@ -32,7 +32,8 @@
 
 	// Do any additional setup after loading the view.
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tf2_logo.png"]];
-    tf2HomePhotos = [NSArray arrayWithObjects:@"tf2_logo.png", nil];
+    
+    tf2HomePhotos = [NSArray arrayWithObjects:@"get_info.png", @"tf2_mechanics_rounded.png", @"tf2_weapons_rounded.png", @"tf2_hats_rounded.png", @"tf2_items_rounded.png", @"tf2_trade_rounded.png", nil];
 }
 
 - (void)didReceiveMemoryWarning

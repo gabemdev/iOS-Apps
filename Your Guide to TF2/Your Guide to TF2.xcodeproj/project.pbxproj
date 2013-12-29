@@ -23,6 +23,12 @@
 		5A99FAEB18689AF90019263C /* Your_Guide_to_TF2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99FAEA18689AF90019263C /* Your_Guide_to_TF2Tests.m */; };
 		5A99FAFA18689F5B0019263C /* basic-home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A99FAF918689F5B0019263C /* basic-home-icon.png */; };
 		5AAABE7B186AF46500158EF7 /* tf2_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAABE7A186AF46500158EF7 /* tf2_logo.png */; };
+		5AD08B5018703C0500C6626D /* tf2_mechanics_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD08B4F18703C0500C6626D /* tf2_mechanics_rounded.png */; };
+		5AD34C02186F00F00065484B /* tf2_hats_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD34BFE186F00F00065484B /* tf2_hats_rounded.png */; };
+		5AD34C03186F00F00065484B /* get_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD34BFF186F00F00065484B /* get_info.png */; };
+		5AD34C04186F00F00065484B /* tf2_weapons_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD34C00186F00F00065484B /* tf2_weapons_rounded.png */; };
+		5AD34C05186F00F00065484B /* tf2_trade_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD34C01186F00F00065484B /* tf2_trade_rounded.png */; };
+		5AD34C09186F04230065484B /* tf2_items_rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD34C07186F04230065484B /* tf2_items_rounded.png */; };
 		ACBDA8D5186AED3D00EBDB2F /* TF2CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA8D4186AED3D00EBDB2F /* TF2CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +63,12 @@
 		5A99FAEA18689AF90019263C /* Your_Guide_to_TF2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Your_Guide_to_TF2Tests.m; sourceTree = "<group>"; };
 		5A99FAF918689F5B0019263C /* basic-home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basic-home-icon.png"; sourceTree = "<group>"; };
 		5AAABE7A186AF46500158EF7 /* tf2_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_logo.png; sourceTree = "<group>"; };
+		5AD08B4F18703C0500C6626D /* tf2_mechanics_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_mechanics_rounded.png; sourceTree = "<group>"; };
+		5AD34BFE186F00F00065484B /* tf2_hats_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_hats_rounded.png; sourceTree = "<group>"; };
+		5AD34BFF186F00F00065484B /* get_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = get_info.png; sourceTree = "<group>"; };
+		5AD34C00186F00F00065484B /* tf2_weapons_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_weapons_rounded.png; sourceTree = "<group>"; };
+		5AD34C01186F00F00065484B /* tf2_trade_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_trade_rounded.png; sourceTree = "<group>"; };
+		5AD34C07186F04230065484B /* tf2_items_rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tf2_items_rounded.png; sourceTree = "<group>"; };
 		ACBDA8D3186AED3D00EBDB2F /* TF2CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF2CollectionViewController.h; sourceTree = "<group>"; };
 		ACBDA8D4186AED3D00EBDB2F /* TF2CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF2CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +175,12 @@
 		5A99FAF618689EAE0019263C /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				5AD08B4F18703C0500C6626D /* tf2_mechanics_rounded.png */,
+				5AD34C07186F04230065484B /* tf2_items_rounded.png */,
+				5AD34BFE186F00F00065484B /* tf2_hats_rounded.png */,
+				5AD34BFF186F00F00065484B /* get_info.png */,
+				5AD34C00186F00F00065484B /* tf2_weapons_rounded.png */,
+				5AD34C01186F00F00065484B /* tf2_trade_rounded.png */,
 				5AAABE7A186AF46500158EF7 /* tf2_logo.png */,
 				5A99FAF918689F5B0019263C /* basic-home-icon.png */,
 			);
@@ -246,11 +264,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A99FAD018689AF90019263C /* Main_iPad.storyboard in Resources */,
+				5AD34C02186F00F00065484B /* tf2_hats_rounded.png in Resources */,
+				5AD34C03186F00F00065484B /* get_info.png in Resources */,
 				5AAABE7B186AF46500158EF7 /* tf2_logo.png in Resources */,
+				5AD34C09186F04230065484B /* tf2_items_rounded.png in Resources */,
 				5A99FAD818689AF90019263C /* Images.xcassets in Resources */,
+				5AD08B5018703C0500C6626D /* tf2_mechanics_rounded.png in Resources */,
 				5A99FACD18689AF90019263C /* Main_iPhone.storyboard in Resources */,
 				5A99FAFA18689F5B0019263C /* basic-home-icon.png in Resources */,
 				5A99FAC418689AF90019263C /* InfoPlist.strings in Resources */,
+				5AD34C04186F00F00065484B /* tf2_weapons_rounded.png in Resources */,
+				5AD34C05186F00F00065484B /* tf2_trade_rounded.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
