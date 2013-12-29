@@ -54,18 +54,34 @@ NSArray *dbqs;
     
     
     DBQ *dbq1 = [DBQ new];
-    dbq1.DBQNameCell = @"2011 Green Revolution";
+    dbq1.DBQNameCell = @"2004 Buddhism in China";
     dbq1.DBQDescriptionCell = @"Annotated";
-    dbq1.DBQPdf = @"2011 DBQ Annotated";
+    dbq1.DBQPdf = @"2004 DBQ Annotated";
     
     DBQ *dbq2 = [DBQ new];
     dbq2.DBQNameCell = @"2011 Green Revolution";
-    dbq2.DBQDescriptionCell = @"Prewrite";
-    dbq2.DBQPdf = @"2011 DBQ PreWrite";
+    dbq2.DBQDescriptionCell = @"Annotated";
+    dbq2.DBQPdf = @"2011 DBQ Annotated";
+    
+    DBQ *dbq3 = [DBQ new];
+    dbq3.DBQNameCell = @"2011 Green Revolution";
+    dbq3.DBQDescriptionCell = @"Prewrite";
+    dbq3.DBQPdf = @"2011 DBQ PreWrite";
+    
+    DBQ *dbq4 = [DBQ new];
+    dbq4.DBQNameCell = @"2012 Cricket and Politics in India";
+    dbq4.DBQDescriptionCell = @"Annotated";
+    dbq4.DBQPdf = @"12 Cricket Annotated Docs";
+    
+    DBQ *dbq5 = [DBQ new];
+    dbq5.DBQNameCell = @"2012 Cricket and Politics in India";
+    dbq5.DBQDescriptionCell = @"Prewrite";
+    dbq5.DBQPdf = @"2012 DBQ PreWrite Cricket Annotation";
     
     
     
-    dbqs = [NSArray arrayWithObjects: dbq1, dbq2, Nil];
+    
+    dbqs = [NSArray arrayWithObjects: dbq1, dbq2, dbq3, dbq4, dbq5, Nil];
 
 	// Do any additional setup after loading the view.
 }
