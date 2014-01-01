@@ -1,22 +1,18 @@
 //
-//  DBQExtraDetailViewController.m
+//  PageContentViewController.m
 //  how to crack the dbq
 //
-//  Created by Varun Iyer on 12/29/13.
+//  Created by Varun Iyer on 12/31/13.
 //  Copyright (c) 2013 MoAppsCo. All rights reserved.
 //
 
-#import "DBQExtraDetailViewController.h"
+#import "PageContentViewController.h"
 
-@interface DBQExtraDetailViewController ()
+@interface PageContentViewController ()
 
 @end
 
-@implementation DBQExtraDetailViewController
-
-@synthesize myWebView2;
-@synthesize extra;
-
+@implementation PageContentViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,11 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *path = [[NSBundle mainBundle] pathForResource:extra.DBQPdf2 ofType:@"pdf"];
-    NSURL *url = [NSURL fileURLWithPath:path];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [myWebView2 loadRequest:request];
-    self.title = extra.DBQNameCell2;
+    self.backgroundImageView.image = [UIImage imageNamed:self.imageFile];
+    self.titleLabel.text = self.titleText;
 	// Do any additional setup after loading the view.
 }
 

@@ -50,12 +50,15 @@
 		ACAE3CFD17E68F4C00A50746 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3CFC17E68F4C00A50746 /* first@2x.png */; };
 		ACAE3D0217E68F4C00A50746 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3D0117E68F4C00A50746 /* second.png */; };
 		ACAE3D0417E68F4C00A50746 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAE3D0317E68F4C00A50746 /* second@2x.png */; };
+		ACC542A21873728600A58086 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC5429E1873728600A58086 /* page1.png */; };
+		ACC542A31873728600A58086 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC5429F1873728600A58086 /* page2.png */; };
+		ACC542A41873728600A58086 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC542A01873728600A58086 /* page3.png */; };
+		ACC542A51873728600A58086 /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC542A11873728600A58086 /* page4.png */; };
+		ACC542A8187372FE00A58086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC542A7187372FE00A58086 /* ViewController.m */; };
+		ACC542AB1873753400A58086 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC542AA1873753400A58086 /* PageContentViewController.m */; };
 		ACC803271870443A0074C09D /* DBQ1.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC803261870443A0074C09D /* DBQ1.m */; };
 		ACC8032A1870448D0074C09D /* DBQPrepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC803291870448D0074C09D /* DBQPrepViewController.m */; };
 		ACC8032D187046010074C09D /* DBQPrepDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC8032C187046010074C09D /* DBQPrepDetailViewController.m */; };
-		ACC80330187057E80074C09D /* DBQ2.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC8032F187057E80074C09D /* DBQ2.m */; };
-		ACC80333187058120074C09D /* DBQExtraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC80332187058120074C09D /* DBQExtraViewController.m */; };
-		ACC80336187058310074C09D /* DBQExtraDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC80335187058310074C09D /* DBQExtraDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,18 +115,20 @@
 		ACAE3CFC17E68F4C00A50746 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		ACAE3D0117E68F4C00A50746 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		ACAE3D0317E68F4C00A50746 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		ACC5429E1873728600A58086 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		ACC5429F1873728600A58086 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		ACC542A01873728600A58086 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		ACC542A11873728600A58086 /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
+		ACC542A6187372FE00A58086 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACC542A7187372FE00A58086 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACC542A91873753400A58086 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		ACC542AA1873753400A58086 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		ACC803251870443A0074C09D /* DBQ1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQ1.h; sourceTree = "<group>"; };
 		ACC803261870443A0074C09D /* DBQ1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQ1.m; sourceTree = "<group>"; };
 		ACC803281870448D0074C09D /* DBQPrepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQPrepViewController.h; sourceTree = "<group>"; };
 		ACC803291870448D0074C09D /* DBQPrepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQPrepViewController.m; sourceTree = "<group>"; };
 		ACC8032B187046010074C09D /* DBQPrepDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQPrepDetailViewController.h; sourceTree = "<group>"; };
 		ACC8032C187046010074C09D /* DBQPrepDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQPrepDetailViewController.m; sourceTree = "<group>"; };
-		ACC8032E187057E80074C09D /* DBQ2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQ2.h; sourceTree = "<group>"; };
-		ACC8032F187057E80074C09D /* DBQ2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQ2.m; sourceTree = "<group>"; };
-		ACC80331187058120074C09D /* DBQExtraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQExtraViewController.h; sourceTree = "<group>"; };
-		ACC80332187058120074C09D /* DBQExtraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQExtraViewController.m; sourceTree = "<group>"; };
-		ACC80334187058310074C09D /* DBQExtraDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQExtraDetailViewController.h; sourceTree = "<group>"; };
-		ACC80335187058310074C09D /* DBQExtraDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQExtraDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +186,10 @@
 				ACAC057A183C4D4500511BB7 /* bookmark.png */,
 				ACAC057B183C4D4500511BB7 /* calendar.png */,
 				ACAC057C183C4D4500511BB7 /* comments.png */,
+				ACC5429E1873728600A58086 /* page1.png */,
+				ACC5429F1873728600A58086 /* page2.png */,
+				ACC542A01873728600A58086 /* page3.png */,
+				ACC542A11873728600A58086 /* page4.png */,
 				ACAC057D183C4D4500511BB7 /* map.png */,
 				ACAC057E183C4D4500511BB7 /* menu.png */,
 				ACAC057F183C4D4500511BB7 /* menu@2x.png */,
@@ -243,14 +252,12 @@
 				ACC803291870448D0074C09D /* DBQPrepViewController.m */,
 				ACC8032B187046010074C09D /* DBQPrepDetailViewController.h */,
 				ACC8032C187046010074C09D /* DBQPrepDetailViewController.m */,
-				ACC8032E187057E80074C09D /* DBQ2.h */,
-				ACC8032F187057E80074C09D /* DBQ2.m */,
-				ACC80331187058120074C09D /* DBQExtraViewController.h */,
-				ACC80332187058120074C09D /* DBQExtraViewController.m */,
-				ACC80334187058310074C09D /* DBQExtraDetailViewController.h */,
-				ACC80335187058310074C09D /* DBQExtraDetailViewController.m */,
 				ACA20B41183AFA3A00477C72 /* SWRevealViewController.h */,
 				ACA20B42183AFA3A00477C72 /* SWRevealViewController.m */,
+				ACC542A6187372FE00A58086 /* ViewController.h */,
+				ACC542A7187372FE00A58086 /* ViewController.m */,
+				ACC542A91873753400A58086 /* PageContentViewController.h */,
+				ACC542AA1873753400A58086 /* PageContentViewController.m */,
 				ACAE3CF417E68F4C00A50746 /* MainStoryboard.storyboard */,
 				ACAE3CFA17E68F4C00A50746 /* first.png */,
 				ACAE3CFC17E68F4C00A50746 /* first@2x.png */,
@@ -337,8 +344,10 @@
 				ACAE3CFB17E68F4C00A50746 /* first.png in Resources */,
 				ACAE3CFD17E68F4C00A50746 /* first@2x.png in Resources */,
 				ACAE3D0217E68F4C00A50746 /* second.png in Resources */,
+				ACC542A21873728600A58086 /* page1.png in Resources */,
 				ACAE3D0417E68F4C00A50746 /* second@2x.png in Resources */,
 				ACAC0584183C4D4500511BB7 /* bookmark.png in Resources */,
+				ACC542A31873728600A58086 /* page2.png in Resources */,
 				ACAC0585183C4D4500511BB7 /* calendar.png in Resources */,
 				ACAC0586183C4D4500511BB7 /* comments.png in Resources */,
 				ACAC0587183C4D4500511BB7 /* map.png in Resources */,
@@ -346,10 +355,12 @@
 				ACAC0589183C4D4500511BB7 /* menu@2x.png in Resources */,
 				ACAC058A183C4D4500511BB7 /* news.png in Resources */,
 				ACAC058B183C4D4500511BB7 /* photo.png in Resources */,
+				ACC542A51873728600A58086 /* page4.png in Resources */,
 				ACAC058C183C4D4500511BB7 /* tag.png in Resources */,
 				ACAC058D183C4D4500511BB7 /* wishlist.png in Resources */,
 				ACAB0DF818516B6900FC306D /* nav_bg.png in Resources */,
 				ACABE6A41851F80900387F4A /* 2004 DBQ Annotated.pdf in Resources */,
+				ACC542A41873728600A58086 /* page3.png in Resources */,
 				ACABE6A51851F80900387F4A /* 2011 DBQ Annotated.pdf in Resources */,
 				ACABE6A61851F80900387F4A /* 2011 DBQ PreWrite.pdf in Resources */,
 				ACABE6A71851F80900387F4A /* 12 Cricket Annotated Docs.pdf in Resources */,
@@ -370,18 +381,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA9EADC183C6574006A5298 /* SWRevealViewController.m in Sources */,
-				ACC80333187058120074C09D /* DBQExtraViewController.m in Sources */,
 				ACAE3CE917E68F4C00A50746 /* main.m in Sources */,
 				ACC8032D187046010074C09D /* DBQPrepDetailViewController.m in Sources */,
 				ACAE3CED17E68F4C00A50746 /* DBQAppDelegate.m in Sources */,
 				ACAC4A0117F48C3500A6C3CA /* WebViewController.m in Sources */,
 				ACC803271870443A0074C09D /* DBQ1.m in Sources */,
-				ACC80330187057E80074C09D /* DBQ2.m in Sources */,
+				ACC542A8187372FE00A58086 /* ViewController.m in Sources */,
 				ACA20B4B183B081600477C72 /* SidebarViewController.m in Sources */,
+				ACC542AB1873753400A58086 /* PageContentViewController.m in Sources */,
 				AC28D39B18652B1000BD12D9 /* DBQDetailViewController.m in Sources */,
 				ACC8032A1870448D0074C09D /* DBQPrepViewController.m in Sources */,
 				ACAB0DFB1851743200FC306D /* DBQExamplesViewController.m in Sources */,
-				ACC80336187058310074C09D /* DBQExtraDetailViewController.m in Sources */,
 				AC28D398186525C300BD12D9 /* DBQ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

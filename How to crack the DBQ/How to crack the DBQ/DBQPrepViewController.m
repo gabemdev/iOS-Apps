@@ -59,10 +59,16 @@ NSArray *preps;
     prep3.DBQNameCell1 = @"Thesis Killer Words";
     prep3.DBQPdf1 = @"Thesis Killer Words (3)";
     
+    DBQ1 *prep4 = [DBQ1 new];
+    prep4.DBQNameCell1 = @"DBQ Progression Chart";
+    prep4.DBQPdf1 = @"DBQ Progression";
+    
+    DBQ1 *prep5 = [DBQ1 new];
+    prep5.DBQNameCell1 = @"AP World History Writing Packet";
+    prep5.DBQPdf1 = @"Writing Packet 2013";
     
     
-    
-    preps = [NSArray arrayWithObjects: prep1, prep2, prep3, Nil];
+    preps = [NSArray arrayWithObjects: prep1, prep2, prep3, prep4, prep5, Nil];
 
 	// Do any additional setup after loading the view.
 }

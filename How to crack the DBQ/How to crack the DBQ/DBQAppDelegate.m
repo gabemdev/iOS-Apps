@@ -24,6 +24,11 @@
                                                            UITextAttributeTextShadowOffset,
                                                            [UIFont fontWithName:@"Avenir Next" size:20.0], UITextAttributeFont, nil]];
     
+    UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+    pageControl.backgroundColor = [UIColor whiteColor];
+    
     return YES;
 }
 
