@@ -13,6 +13,8 @@
 		ACA9EAD9183C5F70006A5298 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA9EAD8183C5F70006A5298 /* iAd.framework */; };
 		ACA9EADB183C5F7A006A5298 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA9EADA183C5F7A006A5298 /* MessageUI.framework */; };
 		ACA9EADC183C6574006A5298 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA20B42183AFA3A00477C72 /* SWRevealViewController.m */; };
+		ACAA870B187CE029009336A2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAA870A187CE028009336A2 /* StoreKit.framework */; };
+		ACAA870E187CE0D4009336A2 /* PurchasedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAA870D187CE0D4009336A2 /* PurchasedViewController.m */; };
 		ACAB0DF818516B6900FC306D /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAB0DF718516B6900FC306D /* nav_bg.png */; };
 		ACAB0DFB1851743200FC306D /* DBQExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAB0DFA1851743200FC306D /* DBQExamplesViewController.m */; };
 		ACABE6A41851F80900387F4A /* 2004 DBQ Annotated.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ACABE6981851F80900387F4A /* 2004 DBQ Annotated.pdf */; };
@@ -59,6 +61,7 @@
 		ACC803271870443A0074C09D /* DBQ1.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC803261870443A0074C09D /* DBQ1.m */; };
 		ACC8032A1870448D0074C09D /* DBQPrepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC803291870448D0074C09D /* DBQPrepViewController.m */; };
 		ACC8032D187046010074C09D /* DBQPrepDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC8032C187046010074C09D /* DBQPrepDetailViewController.m */; };
+		ACD1C0D518758A3B0099F600 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD1C0D418758A3B0099F600 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,9 @@
 		ACA20B4A183B081600477C72 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		ACA9EAD8183C5F70006A5298 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		ACA9EADA183C5F7A006A5298 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		ACAA870A187CE028009336A2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ACAA870C187CE0D4009336A2 /* PurchasedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasedViewController.h; sourceTree = "<group>"; };
+		ACAA870D187CE0D4009336A2 /* PurchasedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasedViewController.m; sourceTree = "<group>"; };
 		ACAB0DF718516B6900FC306D /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
 		ACAB0DF91851743200FC306D /* DBQExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQExamplesViewController.h; sourceTree = "<group>"; };
 		ACAB0DFA1851743200FC306D /* DBQExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQExamplesViewController.m; sourceTree = "<group>"; };
@@ -129,6 +135,8 @@
 		ACC803291870448D0074C09D /* DBQPrepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQPrepViewController.m; sourceTree = "<group>"; };
 		ACC8032B187046010074C09D /* DBQPrepDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQPrepDetailViewController.h; sourceTree = "<group>"; };
 		ACC8032C187046010074C09D /* DBQPrepDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQPrepDetailViewController.m; sourceTree = "<group>"; };
+		ACD1C0D318758A3B0099F600 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		ACD1C0D418758A3B0099F600 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAA870B187CE029009336A2 /* StoreKit.framework in Frameworks */,
 				ACA9EADB183C5F7A006A5298 /* MessageUI.framework in Frameworks */,
 				ACA9EAD9183C5F70006A5298 /* iAd.framework in Frameworks */,
 				ACAE3CDD17E68F4C00A50746 /* UIKit.framework in Frameworks */,
@@ -222,6 +231,7 @@
 		ACAE3CDB17E68F4C00A50746 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACAA870A187CE028009336A2 /* StoreKit.framework */,
 				ACA9EADA183C5F7A006A5298 /* MessageUI.framework */,
 				ACA9EAD8183C5F70006A5298 /* iAd.framework */,
 				ACAE3CDC17E68F4C00A50746 /* UIKit.framework */,
@@ -258,6 +268,10 @@
 				ACC542A7187372FE00A58086 /* ViewController.m */,
 				ACC542A91873753400A58086 /* PageContentViewController.h */,
 				ACC542AA1873753400A58086 /* PageContentViewController.m */,
+				ACD1C0D318758A3B0099F600 /* SettingsViewController.h */,
+				ACD1C0D418758A3B0099F600 /* SettingsViewController.m */,
+				ACAA870C187CE0D4009336A2 /* PurchasedViewController.h */,
+				ACAA870D187CE0D4009336A2 /* PurchasedViewController.m */,
 				ACAE3CF417E68F4C00A50746 /* MainStoryboard.storyboard */,
 				ACAE3CFA17E68F4C00A50746 /* first.png */,
 				ACAE3CFC17E68F4C00A50746 /* first@2x.png */,
@@ -313,6 +327,11 @@
 				CLASSPREFIX = DBQ;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = MoAppsCo;
+				TargetAttributes = {
+					ACAE3CD817E68F4C00A50746 = {
+						DevelopmentTeam = K6LM2NL94U;
+					};
+				};
 			};
 			buildConfigurationList = ACAE3CD417E68F4C00A50746 /* Build configuration list for PBXProject "how to crack the dbq" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,6 +403,7 @@
 				ACAE3CE917E68F4C00A50746 /* main.m in Sources */,
 				ACC8032D187046010074C09D /* DBQPrepDetailViewController.m in Sources */,
 				ACAE3CED17E68F4C00A50746 /* DBQAppDelegate.m in Sources */,
+				ACAA870E187CE0D4009336A2 /* PurchasedViewController.m in Sources */,
 				ACAC4A0117F48C3500A6C3CA /* WebViewController.m in Sources */,
 				ACC803271870443A0074C09D /* DBQ1.m in Sources */,
 				ACC542A8187372FE00A58086 /* ViewController.m in Sources */,
@@ -393,6 +413,7 @@
 				ACC8032A1870448D0074C09D /* DBQPrepViewController.m in Sources */,
 				ACAB0DFB1851743200FC306D /* DBQExamplesViewController.m in Sources */,
 				AC28D398186525C300BD12D9 /* DBQ.m in Sources */,
+				ACD1C0D518758A3B0099F600 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,11 +499,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "How to crack the DBQ/How to crack the DBQ-Prefix.pch";
 				INFOPLIST_FILE = "How to crack the DBQ/How to crack the DBQ-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -492,11 +515,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "How to crack the DBQ/How to crack the DBQ-Prefix.pch";
 				INFOPLIST_FILE = "How to crack the DBQ/How to crack the DBQ-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

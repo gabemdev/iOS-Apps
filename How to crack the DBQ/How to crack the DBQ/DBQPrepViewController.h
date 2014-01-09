@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
 @interface DBQPrepViewController : UIViewController
-<UITableViewDataSource, UITableViewDelegate>
+<UITableViewDataSource, UITableViewDelegate, ADBannerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (nonatomic, strong) IBOutlet UITableView *tableView1;
