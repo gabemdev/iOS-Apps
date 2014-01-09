@@ -39,9 +39,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)Restore:(id)sender {
-    [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
-    [[SKPaymentQueue defaultQueue] restoreCompletedTransactions];
+- (IBAction)GoBack:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:NULL];
+    
 }
 
 - (IBAction)BuyProduct:(id)sender {
@@ -49,10 +49,11 @@
     [[SKPaymentQueue defaultQueue] addPayment:payment];
 }
 
-- (IBAction)GoBack:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:NULL];
-    
+- (IBAction)Restore:(id)sender {
+    [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
+    [[SKPaymentQueue defaultQueue] restoreCompletedTransactions];
 }
+
 -(void)paymentQueueRestoreCompletedTransactionsFinished:(SKPaymentQueue *)queue {
     [self UnlockPurchase];
 }
@@ -66,13 +67,13 @@
         [request start];
     } else
         _productDescription.text = @"Please enable in-app purchases in your settings.";
-}
 
+}
 
 #pragma mark _
 #pragma mark SKProductsRequestDelegate
 
--(void) productsRequest:(SKProductsRequest *)request didReceiveResponse:(SKProductsResponse *)response{
+-(void)productsRequest:(SKProductsRequest *)request didReceiveResponse:(SKProductsResponse *)response {
     NSArray *products = response.products;
     if (products.count != 0) {
         _product = products[0];
@@ -80,15 +81,12 @@
         _productTitle.text = _product.localizedTitle;
         _productDescription.text = _product.localizedDescription;
     } else {
-        _productTitle.text = @"Product not found.";
+        _productTitle.text = @"Product Not Found";
     }
     products = response.invalidProductIdentifiers;
-    
-    for(SKProduct *product in products) {
-        NSLog(@"Product not found: %@", product);
+    for (SKProduct *product in products) {
+        NSLog(@"Product not Found: %@", product);
     }
-    
-
 }
 -(void)paymentQueue:(SKPaymentQueue *)queue updatedTransactions:(NSArray *)transactions {
     for (SKPaymentTransaction *transaction in transactions) {

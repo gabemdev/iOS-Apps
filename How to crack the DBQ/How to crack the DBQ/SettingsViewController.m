@@ -8,18 +8,15 @@
 
 #import "SettingsViewController.h"
 #import "SWRevealViewController.h"
-#define k_Save @"Saveitem"
+#define k_Save @"Saveitem1"
 
 
 @interface SettingsViewController ()
-
-@property (nonatomic, strong) NSArray *menuItems;
 
 @end
 
 @implementation SettingsViewController
 
-@synthesize Label;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -42,12 +39,33 @@
     } else {
         ///saved code here
         Label.text = @"Item has been purchased.";
-    
+    }
     // Add pan gesture to hide the sidebar
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 	// Do any additional setup after loading the view.
+
 }
+
+-(void)bannerViewDidLoadAd:(ADBannerView *)banner {
+    NSUserDefaults *saveapp = [NSUserDefaults standardUserDefaults];
+    bool saved = [saveapp boolForKey:k_Save];
+    if (!saved) {
+        /// not save code here
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:1];
+        [banner setAlpha:1];
+        [UIView commitAnimations];
+    } else {
+        ///saved code here
+    }
 }
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:0];
+    [UIView commitAnimations];
+}
+
  
 
 
@@ -76,20 +94,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
--(void)Purchased {
-    Label.text = @"Item has been purchased.";
-    NSUserDefaults *saveapp = [NSUserDefaults standardUserDefaults];
-    [saveapp setBool:TRUE forKey:k_Save];
-    [saveapp synchronize];
-}
 - (IBAction)PurchaseItem:(id)sender {
     
-    _purchaseController = [[PurchasedViewController alloc] initWithNibName:nil bundle:nil];
+    _purchaseController = [self.storyboard instantiateViewControllerWithIdentifier:@"PurchaseViewController"];
     _purchaseController.productID = @"com.moappsco.crackingthedbq.dbq1";
     [[SKPaymentQueue defaultQueue] addTransactionObserver:_purchaseController];
     [self presentViewController:_purchaseController animated:YES completion:NULL];
     [_purchaseController getProductID:self];
 }
+
+-(void)Purchased {
+    Label.text = @"Item has been purchased.";
+    iadBanner.hidden = YES;
+    NSUserDefaults *saveapp = [NSUserDefaults standardUserDefaults];
+    [saveapp setBool:TRUE forKey:k_Save];
+    [saveapp synchronize];
+}
+
 @end

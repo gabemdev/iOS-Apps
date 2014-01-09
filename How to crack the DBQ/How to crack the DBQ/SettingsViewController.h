@@ -10,12 +10,14 @@
 #import <MessageUI/MessageUI.h>
 #import <StoreKit/StoreKit.h>
 #import "PurchasedViewController.h"
+#import <iAd/iAd.h>
 
-@interface SettingsViewController : UITableViewController < MFMailComposeViewControllerDelegate>
+@interface SettingsViewController : UITableViewController < MFMailComposeViewControllerDelegate, ADBannerViewDelegate> {
+    IBOutlet ADBannerView *iadBanner;
+    IBOutlet UILabel *Label;
+}
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
-
-@property (weak, nonatomic) IBOutlet UILabel *Label;
 - (IBAction)PurchaseItem:(id)sender;
 @property (strong, nonatomic) PurchasedViewController *purchaseController;
 -(void)Purchased;
