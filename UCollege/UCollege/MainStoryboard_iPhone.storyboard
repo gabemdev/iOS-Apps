@@ -224,41 +224,8 @@
                                     <segue destination="fgD-eH-ejx" kind="custom" customClass="SWRevealViewControllerSegue" id="X6U-BH-kL7"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="favorites" id="Qna-fA-OjW">
-                                <rect key="frame" x="0.0" y="154" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qna-fA-OjW" id="LoS-PF-JLe">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="IDK BRO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndK-oA-PRv">
-                                            <rect key="frame" x="75" y="11" width="139" height="21"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="Ay3-wr-0uD"/>
-                                                <constraint firstAttribute="width" constant="139" id="yYJ-kC-Zq2"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="19"/>
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bookmark.png" translatesAutoresizingMaskIntoConstraints="NO" id="PIW-8D-G9o">
-                                            <rect key="frame" x="20" y="2" width="38" height="38"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="38" id="4Xt-O0-rUg"/>
-                                                <constraint firstAttribute="width" constant="38" id="fhr-nM-LSg"/>
-                                            </constraints>
-                                        </imageView>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <constraints>
-                                    <constraint firstItem="PIW-8D-G9o" firstAttribute="leading" secondItem="Qna-fA-OjW" secondAttribute="leading" constant="20" id="MV1-6E-UHS"/>
-                                    <constraint firstItem="PIW-8D-G9o" firstAttribute="top" secondItem="Qna-fA-OjW" secondAttribute="top" constant="2" id="cSa-hF-eEB"/>
-                                    <constraint firstItem="ndK-oA-PRv" firstAttribute="leading" secondItem="Qna-fA-OjW" secondAttribute="leading" constant="75" id="ena-yT-dJ6"/>
-                                    <constraint firstItem="ndK-oA-PRv" firstAttribute="centerY" secondItem="Qna-fA-OjW" secondAttribute="centerY" id="jrT-uH-B9s"/>
-                                </constraints>
-                            </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="more" id="9jp-0g-yhf">
-                                <rect key="frame" x="0.0" y="198" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="154" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9jp-0g-yhf" id="iCm-Q8-ivb">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -592,7 +559,7 @@
                                     <outlet property="delegate" destination="fgD-eH-ejx" id="lL4-Sv-N2U"/>
                                 </connections>
                             </tableView>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ic-hQ-46g">
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="8ic-hQ-46g">
                                 <rect key="frame" x="0.0" y="51" width="320" height="50"/>
                             </adBannerView>
                         </subviews>
@@ -602,6 +569,7 @@
                             <constraint firstItem="8ic-hQ-46g" firstAttribute="leading" secondItem="tv3-nF-uMl" secondAttribute="leading" id="G3B-ER-QUG"/>
                             <constraint firstItem="j2G-rI-yHf" firstAttribute="trailing" secondItem="tv3-nF-uMl" secondAttribute="trailing" id="GhV-eV-tal"/>
                             <constraint firstItem="8ic-hQ-46g" firstAttribute="trailing" secondItem="tv3-nF-uMl" secondAttribute="trailing" id="Hun-u0-pYK"/>
+                            <constraint firstItem="j2G-rI-yHf" firstAttribute="top" secondItem="8ic-hQ-46g" secondAttribute="bottom" constant="3" id="KoZ-Vw-nci"/>
                             <constraint firstItem="j2G-rI-yHf" firstAttribute="top" secondItem="tv3-nF-uMl" secondAttribute="top" constant="104" id="nVd-7l-aUH"/>
                             <constraint firstItem="j2G-rI-yHf" firstAttribute="leading" secondItem="tv3-nF-uMl" secondAttribute="leading" id="nku-S7-DK1"/>
                         </constraints>
@@ -1022,7 +990,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bookmark.png" width="1024" height="1024"/>
         <image name="comments.png" width="1024" height="1024"/>
         <image name="community.png" width="200" height="200"/>
         <image name="custom_about_us_icon.png" width="128" height="128"/>
