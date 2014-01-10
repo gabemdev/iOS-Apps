@@ -517,7 +517,7 @@
                                     <constraint firstAttribute="height" constant="476" id="vY0-dJ-u3L"/>
                                 </constraints>
                                 <searchBar key="tableHeaderView" contentMode="redraw" id="Uz5-Xf-HFt">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <connections>
                                         <outlet property="delegate" destination="fgD-eH-ejx" id="AzW-8C-Ifi"/>
@@ -525,7 +525,7 @@
                                 </searchBar>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="69" id="51l-Mf-W3P">
-                                        <rect key="frame" x="0.0" y="99" width="320" height="69"/>
+                                        <rect key="frame" x="0.0" y="163" width="320" height="69"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="51l-Mf-W3P" id="zWR-mY-RQa">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="68"/>
@@ -1039,8 +1039,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="gjv-qa-rRD"/>
-        <segue reference="X6U-BH-kL7"/>
-        <segue reference="uzy-TX-QIh"/>
+        <segue reference="T2O-eM-Yp8"/>
+        <segue reference="4iP-4P-NqI"/>
+        <segue reference="cnU-5M-D7s"/>
     </inferredMetricsTieBreakers>
 </document>
