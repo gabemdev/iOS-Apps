@@ -213,14 +213,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <adBannerView key="tableHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="wgP-9Z-ogu">
-                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             <connections>
                                 <outlet property="delegate" destination="Qpk-hi-IgT" id="jY2-lb-6yU"/>
                             </connections>
                         </adBannerView>
                         <view key="tableFooterView" contentMode="scaleToFill" id="8s4-RO-mNN">
-                            <rect key="frame" x="0.0" y="422" width="320" height="195"/>
+                            <rect key="frame" x="0.0" y="358" width="320" height="195"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item has not been purchased" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igO-pG-tRH">
@@ -248,7 +248,7 @@
                             <tableViewSection headerTitle="Visit Us" id="603-mi-NrY">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="BOc-sY-nV0">
-                                        <rect key="frame" x="0.0" y="136" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="72" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BOc-sY-nV0" id="Zcw-iZ-Jd1">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -265,7 +265,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Hm5-8E-AcK">
-                                        <rect key="frame" x="0.0" y="180" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="116" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hm5-8E-AcK" id="pb1-Z8-dzR">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -281,7 +281,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="BLm-S5-ayS">
-                                        <rect key="frame" x="0.0" y="224" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="160" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BLm-S5-ayS" id="5eE-4j-z1e">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -301,7 +301,7 @@
                             <tableViewSection headerTitle="More" id="NS8-BX-Gd7">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="About Us" id="i9h-US-dJu">
-                                        <rect key="frame" x="0.0" y="290" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="226" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i9h-US-dJu" id="qp6-4m-pMU">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -320,7 +320,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="PPo-9U-LN3">
-                                        <rect key="frame" x="0.0" y="334" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="270" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PPo-9U-LN3" id="ohg-w5-54A">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -336,7 +336,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="LsR-hO-69N">
-                                        <rect key="frame" x="0.0" y="378" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="314" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LsR-hO-69N" id="sA0-jD-8Ke">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -417,12 +417,12 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <adBannerView key="tableHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ykM-bx-dWb">
-                                    <rect key="frame" x="0.0" y="64" width="320" height="36"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="36"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 </adBannerView>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell1" id="5Qg-i0-aMm">
-                                        <rect key="frame" x="0.0" y="136" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="72" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Qg-i0-aMm" id="SV0-3V-F0f">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -537,7 +537,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <adBannerView key="tableHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="SgN-CA-gnL">
-                                    <rect key="frame" x="0.0" y="64" width="320" height="35"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="35"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     <connections>
                                         <outlet property="delegate" destination="7df-8G-2dZ" id="8fS-xh-Jvo"/>
@@ -545,7 +545,7 @@
                                 </adBannerView>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="55" id="lai-zx-QUt">
-                                        <rect key="frame" x="0.0" y="136" width="320" height="55"/>
+                                        <rect key="frame" x="0.0" y="72" width="320" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lai-zx-QUt" id="E3V-q9-C2e">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="54"/>
@@ -860,9 +860,9 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="l6e-oW-yMe"/>
-        <segue reference="Ws2-Xg-u91"/>
-        <segue reference="hrC-Vh-NLh"/>
-        <segue reference="koq-2a-Qbq"/>
+        <segue reference="OZq-0S-KgX"/>
+        <segue reference="MYm-e5-pvt"/>
+        <segue reference="aOO-VQ-e9N"/>
+        <segue reference="YoD-S8-oXo"/>
     </inferredMetricsTieBreakers>
 </document>
