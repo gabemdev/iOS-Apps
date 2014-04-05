@@ -22,7 +22,7 @@
 		1C9B721D188060C90062EE89 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B721C188060C90062EE89 /* SidebarViewController.m */; };
 		1C9B7220188060D80062EE89 /* ShipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B721F188060D80062EE89 /* ShipViewController.m */; };
 		1C9B7222188060E50062EE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B7221188060E50062EE89 /* Main.storyboard */; };
-		1C9B722518806DAB0062EE89 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B722418806DAB0062EE89 /* SWRevealViewController.m */; };
+		1CC71EBF18817E8D007163F4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC71EBE18817E8D007163F4 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		1C9B721E188060D80062EE89 /* ShipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipViewController.h; sourceTree = "<group>"; };
 		1C9B721F188060D80062EE89 /* ShipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipViewController.m; sourceTree = "<group>"; };
 		1C9B7221188060E50062EE89 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		1C9B722318806DAB0062EE89 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../SWRevealViewController.h; sourceTree = "<group>"; };
-		1C9B722418806DAB0062EE89 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../SWRevealViewController.m; sourceTree = "<group>"; };
+		1CC71EBD18817E8D007163F4 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		1CC71EBE18817E8D007163F4 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 		1C9B71F21880603B0062EE89 /* FTL Survival Guide */ = {
 			isa = PBXGroup;
 			children = (
-				1C9B722318806DAB0062EE89 /* SWRevealViewController.h */,
-				1C9B722418806DAB0062EE89 /* SWRevealViewController.m */,
+				1CC71EBD18817E8D007163F4 /* SWRevealViewController.h */,
+				1CC71EBE18817E8D007163F4 /* SWRevealViewController.m */,
 				1C9B71FB1880603B0062EE89 /* AppDelegate.h */,
 				1C9B71FC1880603B0062EE89 /* AppDelegate.m */,
 				1C9B71FE1880603B0062EE89 /* Images.xcassets */,
@@ -260,7 +260,7 @@
 			files = (
 				1C9B721D188060C90062EE89 /* SidebarViewController.m in Sources */,
 				1C9B71FD1880603B0062EE89 /* AppDelegate.m in Sources */,
-				1C9B722518806DAB0062EE89 /* SWRevealViewController.m in Sources */,
+				1CC71EBF18817E8D007163F4 /* SWRevealViewController.m in Sources */,
 				1C9B7220188060D80062EE89 /* ShipViewController.m in Sources */,
 				1C9B71F91880603B0062EE89 /* main.m in Sources */,
 			);
@@ -463,6 +463,7 @@
 				1C9B72171880603B0062EE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C9B72181880603B0062EE89 /* Build configuration list for PBXNativeTarget "FTL Survival GuideTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +472,7 @@
 				1C9B721A1880603B0062EE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
