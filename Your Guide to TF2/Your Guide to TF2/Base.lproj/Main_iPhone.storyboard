@@ -45,7 +45,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="3Fi-jv-cds" kind="push" identifier="detail" id="vn8-LZ-UlU"/>
+                                            <segue destination="3Fi-jv-cds" kind="push" identifier="detail" id="QFq-f6-RKb"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

@@ -16,6 +16,7 @@
 @synthesize item;
 @synthesize itemSummary = _itemSummary;
 
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
